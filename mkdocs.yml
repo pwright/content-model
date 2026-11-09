@@ -1,0 +1,18 @@
+site_name: Content Provenance Model
+site_description: Schema documentation for content provenance tracking between Skupper and RHSI docs
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: blue grey
+  features:
+    - navigation.sections
+    - search.highlight
+docs_dir: docs
+site_dir: site
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
