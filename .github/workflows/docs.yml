@@ -6,6 +6,9 @@ on:
     paths:
       - schema.yaml
       - mkdocs.yml
+      - mappings.yaml
+      - load_db.py
+      - query-page.*
   workflow_dispatch:
 
 permissions:
@@ -28,7 +31,7 @@ jobs:
           python-version: "3.13"
 
       - name: Install dependencies
-        run: pip install linkml mkdocs mkdocs-material
+        run: pip install linkml mkdocs mkdocs-material pyyaml sqlalchemy
 
       - name: Generate docs from schema
         run: gen-doc schema.yaml --directory docs/
@@ -40,6 +43,16 @@ jobs:
             echo ""
             gen-erdiagram schema.yaml
           } > docs/er-diagram.md
+
+      - name: Generate provenance database
+        run: python load_db.py
+
+      - name: Stage query page assets
+        run: |
+          mkdir -p docs/assets
+          cp query-page.md docs/
+          cp query-page.js query-page.css docs/assets/
+          cp provenance.db docs/assets/
 
       - name: Build site
         run: mkdocs build

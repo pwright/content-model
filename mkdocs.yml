@@ -16,3 +16,7 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+extra_css:
+  - assets/query-page.css
+extra_javascript:
+  - assets/query-page.js

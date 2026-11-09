@@ -1,5 +1,7 @@
 """Load mappings.yaml into a SQLite database using the generated SQLAlchemy models."""
 
+import os
+
 import yaml
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
@@ -8,6 +10,8 @@ from models import Base, ContentMapping, ContentProvenanceDatabase, DownstreamTo
 
 
 def load(db_path: str = "provenance.db", data_path: str = "mappings.yaml") -> None:
+    if os.path.exists(db_path):
+        os.remove(db_path)
     engine = create_engine(f"sqlite:///{db_path}")
     Base.metadata.create_all(engine)
 
