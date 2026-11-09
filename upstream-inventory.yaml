@@ -1,0 +1,902 @@
+upstream_topics:
+- path: index.md
+  title: Skupper documentation
+  source_category: guide
+- path: console/configuration.md
+  anchor: observer-config
+  title: Look up Network Observer configuration options
+  source_category: guide
+  content_type: ASSEMBLY
+- path: console/configuration.md
+  anchor: observer-external-access
+  title: Console access parameters
+  source_category: guide
+  content_type: REFERENCE
+- path: console/configuration.md
+  anchor: observer-authentication
+  title: Authentication options
+  source_category: guide
+  content_type: REFERENCE
+- path: console/configuration.md
+  anchor: observer-tls
+  title: TLS certificate requirements
+  source_category: guide
+  content_type: REFERENCE
+- path: console/configuration.md
+  anchor: observer-router
+  title: Router connection settings
+  source_category: guide
+  content_type: REFERENCE
+- path: console/configuration.md
+  anchor: observer-tuning
+  title: Runtime behavior properties
+  source_category: guide
+  content_type: REFERENCE
+- path: console/configuration.md
+  anchor: observer-prometheus
+  title: Prometheus parameters
+  source_category: guide
+  content_type: REFERENCE
+- path: console/configuration.md
+  anchor: observer-persistence
+  title: Configure persistent storage
+  source_category: guide
+  content_type: PROCEDURE
+- path: console/configuration.md
+  anchor: observer-resources
+  title: Resource request and limit values
+  source_category: guide
+  content_type: REFERENCE
+- path: console/configuration.md
+  anchor: observer-images
+  title: Container image settings
+  source_category: guide
+  content_type: REFERENCE
+- path: console/configuration.md
+  anchor: observer-labels
+  title: Supported labels and annotations
+  source_category: guide
+  content_type: REFERENCE
+- path: console/configuration.md
+  anchor: observer-service
+  title: Service configuration parameters
+  source_category: guide
+  content_type: REFERENCE
+- path: console/configuration.md
+  anchor: observer-security
+  title: Security context constraints
+  source_category: guide
+  content_type: REFERENCE
+- path: console/configuration.md
+  anchor: observer-advanced
+  title: Resource naming conventions
+  source_category: guide
+  content_type: REFERENCE
+- path: console/configuration.md
+  anchor: observer-metrics
+  title: Metrics endpoint reference
+  source_category: guide
+  content_type: REFERENCE
+- path: console/configuration.md
+  anchor: observer-validation
+  title: Troubleshooting reference
+  source_category: guide
+  content_type: REFERENCE
+- path: console/index.md
+  anchor: console
+  title: Maintain network health and service reachability
+  source_category: guide
+  content_type: ASSEMBLY
+- path: console/index.md
+  anchor: console-quickstart
+  title: Get started with Skupper network console
+  source_category: guide
+  content_type: CONCEPT
+- path: console/index.md
+  anchor: console-advanced
+  title: Advanced Configuration
+  source_category: guide
+  content_type: CONCEPT
+- path: console/index.md
+  anchor: console-config-examples
+  title: Configuration Examples
+  source_category: guide
+  content_type: REFERENCE
+- path: console/index.md
+  anchor: console-validation
+  title: Validation and Troubleshooting
+  source_category: guide
+  content_type: REFERENCE
+- path: console/index.md
+  anchor: console-upgrade
+  title: Upgrade and Rollback
+  source_category: guide
+  content_type: PROCEDURE
+- path: console/index.md
+  anchor: console-uninstall
+  title: Uninstallation
+  source_category: guide
+  content_type: PROCEDURE
+- path: console/index.md
+  anchor: console-exploring
+  title: Explore the Network console
+  source_category: guide
+  content_type: REFERENCE
+- path: install/cli.md
+  title: Install the Skupper CLI
+  source_category: guide
+  anchor: installing-cli
+  content_type: PROCEDURE
+- path: install/index.md
+  anchor: kube-installing-controller
+  title: Install the Skupper controller
+  source_category: guide
+  content_type: ASSEMBLY
+- path: install/index.md
+  anchor: kube-installing-controller-yaml
+  title: Install the Skupper controller using YAML
+  source_category: guide
+  content_type: PROCEDURE
+- path: install/index.md
+  anchor: kube-installing-controller-helm
+  title: Install the Skupper controller using Helm charts
+  source_category: guide
+  content_type: PROCEDURE
+- path: install/upgrade.md
+  anchor: skupper-upgrading-sites
+  title: Upgrade sites
+  source_category: guide
+  content_type: PROCEDURE
+- path: install/upgrade.md
+  anchor: skupper-upgrading-local-sites
+  title: Upgrade local sites
+  source_category: guide
+  content_type: PROCEDURE
+- path: install/upgrade.md
+  anchor: skupper-upgrading-local-controller
+  title: Upgrade the Skupper controller
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-cli/index.md
+  title: Skupper CLI on Kubernetes
+  source_category: guide
+  anchor: kube-cli
+  content_type: REFERENCE
+- path: kube-cli/service-exposure.md
+  anchor: kube-exposing-services-cli
+  title: Expose services on the application network using the CLI on Kubernetes
+  source_category: guide
+  content_type: ASSEMBLY
+- path: kube-cli/service-exposure.md
+  anchor: kube-creating-connector-cli
+  title: Create a Kubernetes connector using the CLI
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-cli/service-exposure.md
+  anchor: kube-creating-listener-cli
+  title: Create a Kubernetes listener using the CLI
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-cli/site-configuration.md
+  anchor: kube-creating-site-cli
+  title: Create a site on Kubernetes using the CLI
+  source_category: guide
+  content_type: ASSEMBLY
+- path: kube-cli/site-configuration.md
+  anchor: kube-checking-cli
+  title: Check the Skupper CLI
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-cli/site-configuration.md
+  anchor: kube-creating-simple-site-cli
+  title: Create a simple site using the CLI on Kubernetes
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-cli/site-configuration.md
+  anchor: kube-ha-cli
+  title: Create a high availability site using the CLI on Kubernetes
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-cli/site-configuration.md
+  anchor: kube-deleting-site-cli
+  title: Delete a site using the CLI on Kubernetes
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-cli/site-linking.md
+  anchor: kube-linking-cli
+  title: Link sites on Kubernetes using the CLI
+  source_category: guide
+  content_type: ASSEMBLY
+- path: kube-cli/site-linking.md
+  anchor: kube-token-cli
+  title: Link sites using a token
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-cli/site-linking.md
+  anchor: kube-link-cli
+  title: Link sites using a `link` resource
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-cli/site-linking.md
+  anchor: kube-proxy-cli
+  title: Link sites through an HTTP proxy
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-cli/site-linking.md
+  anchor: kube-custom-certs-cli
+  title: Custom certificates and the Skupper CLI
+  source_category: guide
+  content_type: CONCEPT
+- path: kube-cli/site-linking.md
+  anchor: kube-link-cost-cli
+  title: Specify link cost using the CLI
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-yaml/custom-certs.md
+  anchor: kube-yaml-custom-certs
+  title: Secure inter-site communication with custom certificates
+  source_category: guide
+  content_type: ASSEMBLY
+- path: kube-yaml/custom-certs.md
+  anchor: kube-router-access-custom-certs-yaml
+  title: Link sites using a custom `RouterAccess`, and custom certificates
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-yaml/custom-certs.md
+  anchor: kube-link-custom-certs-yaml
+  title: Link sites using `Link` resources and custom certificates
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-yaml/custom-labels.md
+  anchor: kube-custom-labels
+  title: Propagate custom labels and annotations using YAML
+  source_category: guide
+  content_type: ASSEMBLY
+- path: kube-yaml/custom-labels.md
+  anchor: kube-creating-label-template
+  title: Create a label template using YAML
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-yaml/custom-labels.md
+  anchor: kube-label-template-scope
+  title: Control label template scope
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-yaml/custom-labels.md
+  anchor: kube-filtering-label-template
+  title: Filter label templates by resource type
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-yaml/custom-labels.md
+  anchor: kube-excluding-keys
+  title: Exclude specific keys from propagation
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-yaml/custom-labels.md
+  anchor: kube-multiple-label-templates
+  title: Use multiple label templates
+  source_category: guide
+  content_type: CONCEPT
+- path: kube-yaml/custom-labels.md
+  anchor: kube-label-template-lifecycle
+  title: Manage label template lifecycle
+  source_category: guide
+  content_type: CONCEPT
+- path: kube-yaml/custom-labels.md
+  anchor: kube-label-template-reference
+  title: Label template reference
+  source_category: guide
+  content_type: REFERENCE
+- path: kube-yaml/index.md
+  title: YAML on Kubernetes
+  source_category: guide
+  anchor: kube-yaml
+  content_type: REFERENCE
+- path: kube-yaml/service-exposure.md
+  anchor: kube-exposing-services-yaml
+  title: Expose services on the application network using YAML on Kubernetes
+  source_category: guide
+  content_type: ASSEMBLY
+- path: kube-yaml/service-exposure.md
+  anchor: kube-creating-connector-yaml
+  title: Create a Kubernetes connector using YAML
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-yaml/service-exposure.md
+  anchor: kube-creating-listener-yaml
+  title: Create a Kubernetes listener using YAML
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-yaml/service-exposure.md
+  anchor: kube-creating-multikeylistener-yaml
+  title: Create a Kubernetes multi-key listener using YAML
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-yaml/service-exposure.md
+  anchor: kube-creating-attachedconnector-yaml
+  title: Create a connector for a different namespace using YAML
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-yaml/site-configuration.md
+  anchor: kube-creating-site-yaml
+  title: Create a site on Kubernetes using YAML
+  source_category: guide
+  content_type: ASSEMBLY
+- path: kube-yaml/site-configuration.md
+  anchor: kube-creating-simple-site-yaml
+  title: Create a simple site on Kubernetes using YAML
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-yaml/site-configuration.md
+  anchor: kube-ha-yaml
+  title: Create a high availability site using YAML
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-yaml/site-configuration.md
+  anchor: kube-site-resources-yaml
+  title: Set site resources using YAML
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-yaml/site-linking.md
+  anchor: kube-yaml-site-linking
+  title: Link sites on Kubernetes using YAML
+  source_category: guide
+  content_type: ASSEMBLY
+- path: kube-yaml/site-linking.md
+  anchor: kube-access-yaml
+  title: Link sites using `AccessGrant` and `AccessToken` resources
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-yaml/site-linking.md
+  anchor: kube-link-cost-yaml
+  title: Specify link cost using YAML
+  source_category: guide
+  content_type: PROCEDURE
+- path: kube-yaml/site-linking.md
+  anchor: kube-yaml-custom-certs-info
+  title: Custom certificates and YAML
+  source_category: guide
+  content_type: CONCEPT
+- path: overview/connectivity.md
+  title: Establish system connectivity
+  source_category: guide
+  anchor: overview-connectivity
+  content_type: CONCEPT
+- path: overview/index.md
+  anchor: skupper-overview
+  title: What is Skupper?
+  source_category: guide
+  content_type: ASSEMBLY
+- path: overview/index.md
+  anchor: application-networks
+  title: Application networks
+  source_category: guide
+  content_type: CONCEPT
+- path: overview/index.md
+  anchor: skupper-routers
+  title: Skupper routers
+  source_category: guide
+  content_type: CONCEPT
+- path: overview/index.md
+  anchor: skupper
+  title: Skupper
+  source_category: guide
+  content_type: CONCEPT
+- path: overview/load-balancing.md
+  title: Ensure high availability and continuity
+  source_category: guide
+  anchor: overview-load-balancing
+  content_type: CONCEPT
+- path: overview/migrating.md
+  anchor: migrating
+  title: Migrate from Skupper v1
+  source_category: guide
+  content_type: REFERENCE
+- path: overview/migrating.md
+  anchor: migrating-sites
+  title: Create sites
+  source_category: guide
+  content_type: REFERENCE
+- path: overview/migrating.md
+  anchor: migrating-links
+  title: Link sites
+  source_category: guide
+  content_type: REFERENCE
+- path: overview/migrating.md
+  anchor: migrating-services
+  title: Expose services
+  source_category: guide
+  content_type: REFERENCE
+- path: overview/resources.md
+  title: Look up Custom Resource specifications and CLI commands
+  source_category: guide
+  anchor: kube-resources
+  content_type: REFERENCE
+- path: overview/routing.md
+  title: Directing network traffic
+  source_category: guide
+  anchor: skupper-routing
+  content_type: CONCEPT
+- path: overview/security.md
+  title: Secure systems and data
+  source_category: guide
+  anchor: skupper-security
+  content_type: CONCEPT
+- path: system-cli/index.md
+  title: Skupper CLI on local systems
+  source_category: guide
+  anchor: system-cli
+  content_type: REFERENCE
+- path: system-cli/service-exposure.md
+  anchor: system-exposing-services-cli
+  title: Expose services on the application network using the CLI on local systems
+  source_category: guide
+  content_type: ASSEMBLY
+- path: system-cli/service-exposure.md
+  anchor: system-creating-connector-cli
+  title: Create a local system connector using the CLI
+  source_category: guide
+  content_type: PROCEDURE
+- path: system-cli/service-exposure.md
+  anchor: system-creating-listener-cli
+  title: Create a local system listener using the CLI
+  source_category: guide
+  content_type: PROCEDURE
+- path: system-cli/site-configuration.md
+  anchor: system-creating-site-cli
+  title: Create a site on a local system using the CLI
+  source_category: guide
+  content_type: ASSEMBLY
+- path: system-cli/site-configuration.md
+  anchor: system-checking-cli
+  title: Check the Skupper CLI and environment
+  source_category: guide
+  content_type: PROCEDURE
+- path: system-cli/site-configuration.md
+  anchor: system-creating-simple-site-cli
+  title: Create a simple site using the CLI on local systems
+  source_category: guide
+  content_type: PROCEDURE
+- path: system-cli/site-configuration.md
+  anchor: system-deleting-site-cli
+  title: Delete a site using the CLI on local systems
+  source_category: guide
+  content_type: PROCEDURE
+- path: system-cli/site-configuration.md
+  anchor: system-creating-site-bundle
+  title: Provision and deploy site bundles
+  source_category: guide
+  content_type: PROCEDURE
+- path: system-cli/site-linking.md
+  anchor: system-linking-cli
+  title: Link sites on local systems using the CLI
+  source_category: guide
+  content_type: ASSEMBLY
+- path: system-cli/site-linking.md
+  anchor: system-token-cli
+  title: Link to Kubernetes sites using a token
+  source_category: guide
+  content_type: PROCEDURE
+- path: system-cli/site-linking.md
+  anchor: system-link-cli
+  title: Link sites using a `link` resource and the CLI
+  source_category: guide
+  content_type: PROCEDURE
+- path: system-yaml/index.md
+  title: YAML on local systems
+  source_category: guide
+  anchor: system-yaml
+  content_type: REFERENCE
+- path: system-yaml/service-exposure.md
+  anchor: system-yaml-service-exposure
+  title: Expose services on the application network using YAML on local systems
+  source_category: guide
+  content_type: ASSEMBLY
+- path: system-yaml/service-exposure.md
+  anchor: system-creating-connector-yaml
+  title: Create a local system connector using YAML
+  source_category: guide
+  content_type: PROCEDURE
+- path: system-yaml/service-exposure.md
+  anchor: system-creating-listener-yaml
+  title: Create a local system listener using YAML
+  source_category: guide
+  content_type: PROCEDURE
+- path: system-yaml/service-exposure.md
+  anchor: system-creating-multikeylistener-yaml
+  title: Create a local system multi-key listener using YAML
+  source_category: guide
+  content_type: PROCEDURE
+- path: system-yaml/site-configuration.md
+  anchor: system-yaml-site-configuration
+  title: Create a site on local systems using YAML
+  source_category: guide
+  content_type: ASSEMBLY
+- path: system-yaml/site-configuration.md
+  anchor: system-creating-simple-site-yaml
+  title: Create a simple site on local systems using YAML
+  source_category: guide
+  content_type: PROCEDURE
+- path: system-yaml/site-linking.md
+  anchor: system-yaml-site-linking
+  title: Link sites on local systems using YAML
+  source_category: guide
+  content_type: ASSEMBLY
+- path: system-yaml/site-linking.md
+  anchor: system-link-yaml
+  title: Link sites using a `link` resource and YAML
+  source_category: guide
+  content_type: PROCEDURE
+- path: troubleshooting/index.md
+  anchor: troubleshooting
+  title: Troubleshoot link failures and resolve routing issues
+  source_category: guide
+  content_type: ASSEMBLY
+- path: troubleshooting/index.md
+  anchor: checking-sites
+  title: Check sites
+  source_category: guide
+  content_type: PROCEDURE
+- path: troubleshooting/index.md
+  anchor: checking-links
+  title: Check links
+  source_category: guide
+  content_type: PROCEDURE
+- path: troubleshooting/index.md
+  anchor: debug-dump
+  title: Create a Skupper debug tar file
+  source_category: guide
+  content_type: PROCEDURE
+- path: troubleshooting/index.md
+  anchor: dynamic-system-controller
+  title: Troubleshoot the Dynamic System Controller
+  source_category: guide
+  content_type: PROCEDURE
+- path: refdog/index.md
+  title: Refdog
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/index.md
+  title: Skupper CLI commands
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/version.md
+  title: Version command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/connector/create.md
+  title: Connector create command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/connector/delete.md
+  title: Connector delete command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/connector/generate.md
+  title: Connector generate command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/connector/index.md
+  title: Connector command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/connector/status.md
+  title: Connector status command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/connector/update.md
+  title: Connector update command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/debug/check.md
+  title: Debug check command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/debug/dump.md
+  title: Debug dump command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/debug/index.md
+  title: Debug command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/link/delete.md
+  title: Link delete command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/link/generate.md
+  title: Link generate command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/link/index.md
+  title: Link command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/link/status.md
+  title: Link status command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/link/update.md
+  title: Link update command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/listener/create.md
+  title: Listener create command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/listener/delete.md
+  title: Listener delete command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/listener/generate.md
+  title: Listener generate command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/listener/index.md
+  title: Listener command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/listener/status.md
+  title: Listener status command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/listener/update.md
+  title: Listener update command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/site/create.md
+  title: Site create command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/site/delete.md
+  title: Site delete command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/site/generate.md
+  title: Site generate command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/site/index.md
+  title: Site command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/site/reload.md
+  title: Site reload command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/site/start.md
+  title: Site start command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/site/status.md
+  title: Site status command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/site/stop.md
+  title: Site stop command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/site/update.md
+  title: Site update command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/system/apply.md
+  title: System apply command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/system/delete.md
+  title: System delete command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/system/generate-bundle.md
+  title: System generate-bundle command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/system/index.md
+  title: System command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/system/install.md
+  title: System install command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/system/reload.md
+  title: System reload command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/system/start.md
+  title: System start command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/system/stop.md
+  title: System stop command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/system/uninstall.md
+  title: System uninstall command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/token/index.md
+  title: Token command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/token/issue.md
+  title: Token issue command
+  source_category: reference
+  status: needs_work
+- path: refdog/commands/token/redeem.md
+  title: Token redeem command
+  source_category: reference
+  status: needs_work
+- path: refdog/concepts/access-token.md
+  title: Access token concept
+  source_category: reference
+  status: needs_work
+- path: refdog/concepts/application.md
+  title: Application concept
+  source_category: reference
+  status: needs_work
+- path: refdog/concepts/component.md
+  title: Component concept
+  source_category: reference
+  status: needs_work
+- path: refdog/concepts/connector.md
+  title: Connector concept
+  source_category: reference
+  status: needs_work
+- path: refdog/concepts/index.md
+  title: Skupper concepts
+  source_category: reference
+  status: needs_work
+- path: refdog/concepts/link.md
+  title: Link concept
+  source_category: reference
+  status: needs_work
+- path: refdog/concepts/listener.md
+  title: Listener concept
+  source_category: reference
+  status: needs_work
+- path: refdog/concepts/multi-key-listener.md
+  title: Multi-key-listener concept
+  source_category: reference
+  status: needs_work
+- path: refdog/concepts/network.md
+  title: Network concept
+  source_category: reference
+  status: needs_work
+- path: refdog/concepts/platform.md
+  title: Platform concept
+  source_category: reference
+  status: needs_work
+- path: refdog/concepts/routing-key.md
+  title: Routing key concept
+  source_category: reference
+  status: needs_work
+- path: refdog/concepts/site.md
+  title: Site concept
+  source_category: reference
+  status: needs_work
+- path: refdog/concepts/workload.md
+  title: Workload concept
+  source_category: reference
+  status: needs_work
+- path: refdog/resources/access-grant.md
+  title: AccessGrant resource
+  source_category: reference
+  status: needs_work
+- path: refdog/resources/access-token.md
+  title: AccessToken resource
+  source_category: reference
+  status: needs_work
+- path: refdog/resources/attached-connector-binding.md
+  title: AttachedConnectorBinding resource
+  source_category: reference
+  status: needs_work
+- path: refdog/resources/attached-connector.md
+  title: AttachedConnector resource
+  source_category: reference
+  status: needs_work
+- path: refdog/resources/connector.md
+  title: Connector resource
+  source_category: reference
+  status: needs_work
+- path: refdog/resources/index.md
+  title: Skupper API resources
+  source_category: reference
+  status: needs_work
+- path: refdog/resources/link.md
+  title: Link resource
+  source_category: reference
+  status: needs_work
+- path: refdog/resources/listener.md
+  title: Listener resource
+  source_category: reference
+  status: needs_work
+- path: refdog/resources/multi-key-listener.md
+  title: MultiKeyListener resource
+  source_category: reference
+  status: needs_work
+- path: refdog/resources/router-access.md
+  title: RouterAccess resource
+  source_category: reference
+  status: needs_work
+- path: refdog/resources/site.md
+  title: Site resource
+  source_category: reference
+  status: needs_work
+- path: refdog/topics/application-tls.md
+  title: Application TLS
+  source_category: reference
+  status: needs_work
+- path: refdog/topics/attached-connectors.md
+  title: Attached connectors
+  source_category: reference
+  status: needs_work
+- path: refdog/topics/components.md
+  title: Components
+  source_category: reference
+  status: needs_work
+- path: refdog/topics/controller-configuration.md
+  title: Controller configuration
+  source_category: reference
+  status: needs_work
+- path: refdog/topics/debug-dumps.md
+  title: Debug dumps
+  source_category: reference
+  status: needs_work
+- path: refdog/topics/high-availability.md
+  title: High availability
+  source_category: reference
+  status: needs_work
+- path: refdog/topics/index.md
+  title: Topics
+  source_category: reference
+  status: needs_work
+- path: refdog/topics/individual-pod-services.md
+  title: Individual pod services
+  source_category: reference
+  status: needs_work
+- path: refdog/topics/large-networks.md
+  title: Large networks
+  source_category: reference
+  status: needs_work
+- path: refdog/topics/load-balancing.md
+  title: Load balancing
+  source_category: reference
+  status: needs_work
+- path: refdog/topics/resource-settings.md
+  title: Resource settings
+  source_category: reference
+  status: needs_work
+- path: refdog/topics/resource-status.md
+  title: Resource status
+  source_category: reference
+  status: needs_work
+- path: refdog/topics/router-tls.md
+  title: Router TLS
+  source_category: reference
+  status: needs_work
+- path: refdog/topics/service-exposure.md
+  title: Service exposure
+  source_category: reference
+  status: needs_work
+- path: refdog/topics/site-configuration.md
+  title: Site configuration
+  source_category: reference
+  status: needs_work
+- path: refdog/topics/site-linking.md
+  title: Site linking
+  source_category: reference
+  status: needs_work
+- path: refdog/topics/skupper-overview.md
+  title: Skupper overview
+  source_category: reference
+  status: needs_work
+- path: refdog/topics/system-namespaces.md
+  title: System namespaces
+  source_category: reference
+  status: needs_work
+- path: refdog/topics/system-tls-credentials.md
+  title: System TLS credentials
+  source_category: reference
+  status: needs_work

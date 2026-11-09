@@ -1,0 +1,204 @@
+id: https://example.org/content-provenance
+name: content_provenance
+title: Content Provenance Model
+description: >-
+  Tracks provenance relationships between upstream Skupper community docs
+  (Markdown) and downstream Red Hat Service Interconnect DITA docs (AEM).
+prefixes:
+  linkml: https://w3id.org/linkml/
+  cp: https://example.org/content-provenance/
+
+default_range: string
+
+imports:
+  - linkml:types
+
+classes:
+
+  ContentProvenanceDatabase:
+    description: Root container for all content provenance data.
+    tree_root: true
+    attributes:
+      upstream_topics:
+        range: UpstreamTopic
+        multivalued: true
+        inlined_as_list: true
+      downstream_topics:
+        range: DownstreamTopic
+        multivalued: true
+        inlined_as_list: true
+      mappings:
+        range: ContentMapping
+        multivalued: true
+        inlined_as_list: true
+
+  UpstreamTopic:
+    description: >-
+      A content unit in the upstream Skupper community docs. May represent
+      a whole Markdown file or a section within one, identified by anchor.
+    attributes:
+      id:
+        identifier: true
+        description: >-
+          Stable identifier: file path for whole-file units, or
+          path#anchor for section-level units.
+        examples:
+          - value: "overview/index.md"
+          - value: "overview/index.md#application-networks"
+      path:
+        required: true
+        description: Relative file path within skupper-docs/input/.
+      anchor:
+        description: >-
+          Optional anchor ID for section-level units. When present,
+          the id is path#anchor.
+      title:
+        description: Topic or section title.
+      content_type:
+        range: UpstreamContentType
+        description: Content type from inline HTML comment annotations.
+      source_category:
+        range: SourceCategory
+        required: true
+        description: Whether this is guide content or reference (refdog) content.
+      status:
+        range: ContentStatus
+        description: Editorial readiness of the upstream content.
+
+  DownstreamTopic:
+    description: >-
+      A DITA topic in the downstream RHSI docs (AEM). Identified by
+      its stable GUID; the DAM path is a human-readable label.
+    attributes:
+      id:
+        identifier: true
+        description: AEM GUID, stable across exports and reorganizations.
+        pattern: "^GUID-[0-9a-f-]+$"
+        examples:
+          - value: "GUID-34baeb84-9557-47d7-b6c6-f8ff25db99b1"
+      dam_path:
+        description: >-
+          AEM DAM path. Human-readable but may change if content
+          is moved in AEM.
+        examples:
+          - value: "/content/dam/ccs-docs/service-interconnect/2/2-2/discover/overview-application-networks.dita"
+      title:
+        description: Topic title from the DITA title element.
+      dita_type:
+        range: DitaTopicType
+        description: DITA topic specialization.
+      nav_section:
+        range: NavSection
+        description: >-
+          Top-level navigation section, derived from DAM path structure.
+
+  ContentMapping:
+    description: >-
+      A provenance relationship between one upstream content unit and
+      one downstream topic. Always 1:1; fan-out and fan-in are expressed
+      as multiple mapping records.
+    attributes:
+      upstream:
+        range: UpstreamTopic
+        description: The upstream content unit this mapping originates from.
+      downstream:
+        range: DownstreamTopic
+        description: The downstream topic this mapping points to.
+      derivation_type:
+        range: DerivationType
+        required: true
+        description: How the downstream content relates to the upstream source.
+
+enums:
+
+  UpstreamContentType:
+    permissible_values:
+      ASSEMBLY:
+        description: An assembly topic that composes other content units.
+      CONCEPT:
+        description: Conceptual or explanatory content.
+      TASK:
+        description: Procedural step-by-step content.
+      REFERENCE:
+        description: Reference material (tables, parameters, specifications).
+
+  SourceCategory:
+    permissible_values:
+      guide:
+        description: >-
+          How-to, conceptual, and procedural content from the main
+          skupper-docs directories.
+      reference:
+        description: >-
+          API reference, CLI reference, and concept definitions
+          from the refdog section.
+
+  ContentStatus:
+    permissible_values:
+      draft:
+        description: Content is in early draft form.
+      stable:
+        description: Content is complete and maintained.
+      needs_work:
+        description: Content exists but requires significant revision.
+
+  DerivationType:
+    permissible_values:
+      direct_port:
+        description: >-
+          Content moved across with minimal changes (branding,
+          template substitution).
+      rewritten:
+        description: >-
+          Same topic, substantially rewritten for the downstream audience.
+      restructured:
+        description: >-
+          Content from this upstream unit was broken apart or merged
+          with other material downstream.
+      downstream_only:
+        description: >-
+          No upstream source; exists only in downstream (e.g. release
+          notes, supported configs, subscription topics).
+      upstream_only:
+        description: >-
+          Exists upstream but has no downstream counterpart.
+      shared_source:
+        description: >-
+          Both derive from a common source that is neither doc set
+          (e.g. generated from code or API specs).
+
+  DitaTopicType:
+    permissible_values:
+      concept:
+        description: DITA concept topic.
+      task:
+        description: DITA task topic.
+      reference:
+        description: DITA reference topic.
+
+  NavSection:
+    permissible_values:
+      discover:
+        description: Evaluate platform compatibility and use cases.
+      plan:
+        description: Deployment planning.
+      install:
+        description: Install components.
+      deploy:
+        description: Create sites.
+      configure:
+        description: Link sites, expose workloads, configure routing.
+      secure:
+        description: Custom certificates and security configuration.
+      observe:
+        description: Console, network observer, monitoring.
+      troubleshoot:
+        description: Troubleshoot links, sites, and routing.
+      upgrade:
+        description: Upgrade and migrate components.
+      reference:
+        description: API and CLI reference material.
+      whats-new:
+        description: Release notes, known issues, tech preview features.
+      pdfs:
+        description: PDF download references.

@@ -1,0 +1,2671 @@
+auto_accept_threshold: 0.15
+tier1_auto_accepted_count: 88
+tier2_candidates:
+- upstream: install/upgrade.md#skupper-upgrading-sites
+  downstream: GUID-9d00e970-52a4-463e-bb7f-f50199c4a57d
+  score: 0.333
+  tier: 2
+  note: title similarity
+  upstream_title: Upgrade sites
+  downstream_title: Create sites
+- upstream: install/upgrade.md#skupper-upgrading-local-sites
+  downstream: GUID-9d00e970-52a4-463e-bb7f-f50199c4a57d
+  score: 0.25
+  tier: 2
+  note: title similarity
+  upstream_title: Upgrade local sites
+  downstream_title: Create sites
+- upstream: refdog/commands/connector/create.md
+  downstream: GUID-9d00e970-52a4-463e-bb7f-f50199c4a57d
+  score: 0.25
+  tier: 2
+  note: title similarity
+  upstream_title: Connector create command
+  downstream_title: Create sites
+- upstream: refdog/commands/site/index.md
+  downstream: GUID-4ce860a1-eff2-4ad4-bd23-7e0b4e235f76
+  score: 0.2
+  tier: 2
+  note: title similarity
+  upstream_title: Site command
+  downstream_title: Provision and deploy site bundles
+- upstream: refdog/concepts/site.md
+  downstream: GUID-4ce860a1-eff2-4ad4-bd23-7e0b4e235f76
+  score: 0.2
+  tier: 2
+  note: title similarity
+  upstream_title: Site concept
+  downstream_title: Provision and deploy site bundles
+- upstream: refdog/resources/site.md
+  downstream: GUID-4ce860a1-eff2-4ad4-bd23-7e0b4e235f76
+  score: 0.2
+  tier: 2
+  note: title similarity
+  upstream_title: Site resource
+  downstream_title: Provision and deploy site bundles
+- upstream: refdog/topics/service-exposure.md
+  downstream: GUID-0bf8d494-79a6-4f50-9639-315d73057b3d
+  score: 0.333
+  tier: 2
+  note: title similarity
+  upstream_title: Service exposure
+  downstream_title: Service Interconnect
+- upstream: console/index.md#console
+  downstream: GUID-0bf8d494-79a6-4f50-9639-315d73057b3d
+  score: 0.167
+  tier: 2
+  note: title similarity
+  upstream_title: Maintain network health and service reachability
+  downstream_title: Service Interconnect
+- upstream: refdog/concepts/access-token.md
+  downstream: GUID-53ccd47a-bf59-47e2-a557-bef40a2685bc
+  score: 0.167
+  tier: 2
+  note: title similarity
+  upstream_title: Access token concept
+  downstream_title: Access your Red Hat account
+- upstream: refdog/concepts/network.md
+  downstream: GUID-e6077f01-4967-41f1-9245-2b8c9b1e8051
+  score: 0.25
+  tier: 2
+  note: title similarity
+  upstream_title: Network concept
+  downstream_title: Install the Network Observer
+- upstream: console/index.md#console-exploring
+  downstream: GUID-e6077f01-4967-41f1-9245-2b8c9b1e8051
+  score: 0.2
+  tier: 2
+  note: title similarity
+  upstream_title: Explore the Network console
+  downstream_title: Install the Network Observer
+- upstream: install/cli.md#installing-cli
+  downstream: GUID-e6077f01-4967-41f1-9245-2b8c9b1e8051
+  score: 0.2
+  tier: 2
+  note: title similarity
+  upstream_title: Install the Skupper CLI
+  downstream_title: Install the Network Observer
+- upstream: install/cli.md#installing-cli
+  downstream: GUID-26b25200-c087-4cd6-9501-9345a072d4d5
+  score: 0.167
+  tier: 2
+  note: title similarity
+  upstream_title: Install the Skupper CLI
+  downstream_title: Install the Red Hat Service Interconnect Network Observer Operator for all namespaces by using the CLI
+- upstream: console/index.md#console
+  downstream: GUID-26b25200-c087-4cd6-9501-9345a072d4d5
+  score: 0.143
+  tier: 2
+  note: title similarity
+  upstream_title: Maintain network health and service reachability
+  downstream_title: Install the Red Hat Service Interconnect Network Observer Operator for all namespaces by using the CLI
+- upstream: refdog/concepts/network.md
+  downstream: GUID-26b25200-c087-4cd6-9501-9345a072d4d5
+  score: 0.083
+  tier: 2
+  note: title similarity
+  upstream_title: Network concept
+  downstream_title: Install the Red Hat Service Interconnect Network Observer Operator for all namespaces by using the CLI
+- upstream: console/index.md#console-exploring
+  downstream: GUID-aa5ed8e2-4a2d-440b-91cb-c1ffca303441
+  score: 0.167
+  tier: 2
+  note: title similarity
+  upstream_title: Explore the Network console
+  downstream_title: Install the Red Hat Service Interconnect Network Observer Operator by using the OpenShift web console
+- upstream: console/index.md#console
+  downstream: GUID-aa5ed8e2-4a2d-440b-91cb-c1ffca303441
+  score: 0.143
+  tier: 2
+  note: title similarity
+  upstream_title: Maintain network health and service reachability
+  downstream_title: Install the Red Hat Service Interconnect Network Observer Operator by using the OpenShift web console
+- upstream: refdog/concepts/network.md
+  downstream: GUID-aa5ed8e2-4a2d-440b-91cb-c1ffca303441
+  score: 0.083
+  tier: 2
+  note: title similarity
+  upstream_title: Network concept
+  downstream_title: Install the Red Hat Service Interconnect Network Observer Operator by using the OpenShift web console
+- upstream: install/cli.md#installing-cli
+  downstream: GUID-a38da9da-c70d-45f3-b6f7-4a83e3b55c82
+  score: 0.4
+  tier: 2
+  note: title similarity
+  upstream_title: Install the Skupper CLI
+  downstream_title: Install the CLI from an RPM package
+- upstream: install/index.md#kube-installing-controller
+  downstream: GUID-a38da9da-c70d-45f3-b6f7-4a83e3b55c82
+  score: 0.167
+  tier: 2
+  note: title similarity
+  upstream_title: Install the Skupper controller
+  downstream_title: Install the CLI from an RPM package
+- upstream: kube-cli/index.md#kube-cli
+  downstream: GUID-a38da9da-c70d-45f3-b6f7-4a83e3b55c82
+  score: 0.167
+  tier: 2
+  note: title similarity
+  upstream_title: Skupper CLI on Kubernetes
+  downstream_title: Install the CLI from an RPM package
+- upstream: install/cli.md#installing-cli
+  downstream: GUID-0cf80b23-b143-4e24-9776-6fb218ee3ee5
+  score: 0.2
+  tier: 2
+  note: title similarity
+  upstream_title: Install the Skupper CLI
+  downstream_title: Install the Red Hat Service Interconnect Operator for all namespaces by using the CLI
+- upstream: refdog/topics/service-exposure.md
+  downstream: GUID-0cf80b23-b143-4e24-9776-6fb218ee3ee5
+  score: 0.1
+  tier: 2
+  note: title similarity
+  upstream_title: Service exposure
+  downstream_title: Install the Red Hat Service Interconnect Operator for all namespaces by using the CLI
+- upstream: refdog/topics/system-namespaces.md
+  downstream: GUID-0cf80b23-b143-4e24-9776-6fb218ee3ee5
+  score: 0.1
+  tier: 2
+  note: title similarity
+  upstream_title: System namespaces
+  downstream_title: Install the Red Hat Service Interconnect Operator for all namespaces by using the CLI
+- upstream: refdog/topics/service-exposure.md
+  downstream: GUID-04f23280-4518-481e-b44d-1405cbd039f1
+  score: 0.1
+  tier: 2
+  note: title similarity
+  upstream_title: Service exposure
+  downstream_title: Install the Red Hat Service Interconnect Operator by using the OpenShift web console
+- upstream: console/index.md#console-exploring
+  downstream: GUID-04f23280-4518-481e-b44d-1405cbd039f1
+  score: 0.091
+  tier: 2
+  note: title similarity
+  upstream_title: Explore the Network console
+  downstream_title: Install the Red Hat Service Interconnect Operator by using the OpenShift web console
+- upstream: install/cli.md#installing-cli
+  downstream: GUID-04f23280-4518-481e-b44d-1405cbd039f1
+  score: 0.091
+  tier: 2
+  note: title similarity
+  upstream_title: Install the Skupper CLI
+  downstream_title: Install the Red Hat Service Interconnect Operator by using the OpenShift web console
+- upstream: install/index.md#kube-installing-controller
+  downstream: GUID-bc6a1e3f-0416-4756-8778-1cd8ad74beb5
+  score: 0.4
+  tier: 2
+  note: title similarity
+  upstream_title: Install the Skupper controller
+  downstream_title: Install the CRDs and controller by using YAML
+- upstream: install/index.md#kube-installing-controller-helm
+  downstream: GUID-bc6a1e3f-0416-4756-8778-1cd8ad74beb5
+  score: 0.286
+  tier: 2
+  note: title similarity
+  upstream_title: Install the Skupper controller using Helm charts
+  downstream_title: Install the CRDs and controller by using YAML
+- upstream: kube-yaml/index.md#kube-yaml
+  downstream: GUID-b069d3e4-f7d6-4410-9c06-e63cef65270d
+  score: 0.25
+  tier: 2
+  note: title similarity
+  upstream_title: YAML on Kubernetes
+  downstream_title: Kubernetes installation options
+- upstream: kube-cli/index.md#kube-cli
+  downstream: GUID-b069d3e4-f7d6-4410-9c06-e63cef65270d
+  score: 0.2
+  tier: 2
+  note: title similarity
+  upstream_title: Skupper CLI on Kubernetes
+  downstream_title: Kubernetes installation options
+- upstream: refdog/commands/system/index.md
+  downstream: GUID-c482d0cb-1647-4f34-a383-457bb27d2ee2
+  score: 0.2
+  tier: 2
+  note: title similarity
+  upstream_title: System command
+  downstream_title: Local system installation options
+- upstream: refdog/topics/system-namespaces.md
+  downstream: GUID-c482d0cb-1647-4f34-a383-457bb27d2ee2
+  score: 0.2
+  tier: 2
+  note: title similarity
+  upstream_title: System namespaces
+  downstream_title: Local system installation options
+- upstream: install/upgrade.md#skupper-upgrading-local-sites
+  downstream: GUID-c482d0cb-1647-4f34-a383-457bb27d2ee2
+  score: 0.167
+  tier: 2
+  note: title similarity
+  upstream_title: Upgrade local sites
+  downstream_title: Local system installation options
+- upstream: install/index.md#kube-installing-controller
+  downstream: GUID-57f56da4-4ea8-4757-b4c9-b51d50bc95df
+  score: 0.25
+  tier: 2
+  note: title similarity
+  upstream_title: Install the Skupper controller
+  downstream_title: Install the CLI
+- upstream: kube-cli/index.md#kube-cli
+  downstream: GUID-57f56da4-4ea8-4757-b4c9-b51d50bc95df
+  score: 0.25
+  tier: 2
+  note: title similarity
+  upstream_title: Skupper CLI on Kubernetes
+  downstream_title: Install the CLI
+- upstream: install/upgrade.md#skupper-upgrading-local-sites
+  downstream: GUID-4233ad1f-8acc-4105-9d9e-9c90d8f1b748
+  score: 0.333
+  tier: 2
+  note: title similarity
+  upstream_title: Upgrade local sites
+  downstream_title: Installing the controller on local system sites
+- upstream: install/upgrade.md#skupper-upgrading-sites
+  downstream: GUID-4233ad1f-8acc-4105-9d9e-9c90d8f1b748
+  score: 0.167
+  tier: 2
+  note: title similarity
+  upstream_title: Upgrade sites
+  downstream_title: Installing the controller on local system sites
+- upstream: refdog/commands/system/index.md
+  downstream: GUID-4233ad1f-8acc-4105-9d9e-9c90d8f1b748
+  score: 0.167
+  tier: 2
+  note: title similarity
+  upstream_title: System command
+  downstream_title: Installing the controller on local system sites
+- upstream: refdog/commands/system/index.md
+  downstream: GUID-8ec873f9-70dd-4481-9b64-845e3d800ee4
+  score: 0.2
+  tier: 2
+  note: title similarity
+  upstream_title: System command
+  downstream_title: Register your system for package access
+- upstream: refdog/topics/system-namespaces.md
+  downstream: GUID-8ec873f9-70dd-4481-9b64-845e3d800ee4
+  score: 0.2
+  tier: 2
+  note: title similarity
+  upstream_title: System namespaces
+  downstream_title: Register your system for package access
+- upstream: refdog/commands/system/apply.md
+  downstream: GUID-8ec873f9-70dd-4481-9b64-845e3d800ee4
+  score: 0.167
+  tier: 2
+  note: title similarity
+  upstream_title: System apply command
+  downstream_title: Register your system for package access
+- upstream: refdog/concepts/network.md
+  downstream: GUID-7b3d0a7d-aeb7-4b9d-8bfb-c61b256235ce
+  score: 0.167
+  tier: 2
+  note: title similarity
+  upstream_title: Network concept
+  downstream_title: Maintain network health and service reachability
+- upstream: refdog/topics/service-exposure.md
+  downstream: GUID-7b3d0a7d-aeb7-4b9d-8bfb-c61b256235ce
+  score: 0.167
+  tier: 2
+  note: title similarity
+  upstream_title: Service exposure
+  downstream_title: Maintain network health and service reachability
+- upstream: console/index.md#console-exploring
+  downstream: GUID-74cd63b4-6dcd-4469-afef-099a40a22e77
+  score: 0.25
+  tier: 2
+  note: title similarity
+  upstream_title: Explore the Network console
+  downstream_title: Use Service Interconnect console to monitor application network
+- upstream: console/index.md#console
+  downstream: GUID-74cd63b4-6dcd-4469-afef-099a40a22e77
+  score: 0.2
+  tier: 2
+  note: title similarity
+  upstream_title: Maintain network health and service reachability
+  downstream_title: Use Service Interconnect console to monitor application network
+- upstream: refdog/concepts/application.md
+  downstream: GUID-74cd63b4-6dcd-4469-afef-099a40a22e77
+  score: 0.125
+  tier: 2
+  note: title similarity
+  upstream_title: Application concept
+  downstream_title: Use Service Interconnect console to monitor application network
+- upstream: kube-yaml/custom-certs.md#kube-yaml-custom-certs
+  downstream: GUID-07c261ef-153b-4396-ba46-7e309d92f5cc
+  score: 0.333
+  tier: 2
+  note: title similarity
+  upstream_title: Secure inter-site communication with custom certificates
+  downstream_title: Custom certificates
+- upstream: kube-yaml/custom-labels.md#kube-custom-labels
+  downstream: GUID-07c261ef-153b-4396-ba46-7e309d92f5cc
+  score: 0.167
+  tier: 2
+  note: title similarity
+  upstream_title: Propagate custom labels and annotations using YAML
+  downstream_title: Custom certificates
+- upstream: overview/resources.md#kube-resources
+  downstream: GUID-07c261ef-153b-4396-ba46-7e309d92f5cc
+  score: 0.125
+  tier: 2
+  note: title similarity
+  upstream_title: Look up Custom Resource specifications and CLI commands
+  downstream_title: Custom certificates
+- upstream: refdog/topics/service-exposure.md
+  downstream: GUID-c2a6127e-73c3-49f0-946e-e70cbe63748f
+  score: 0.143
+  tier: 2
+  note: title similarity
+  upstream_title: Service exposure
+  downstream_title: Red Hat Service Interconnect deployment planning
+- upstream: console/index.md#console
+  downstream: GUID-c2a6127e-73c3-49f0-946e-e70cbe63748f
+  score: 0.1
+  tier: 2
+  note: title similarity
+  upstream_title: Maintain network health and service reachability
+  downstream_title: Red Hat Service Interconnect deployment planning
+- upstream: refdog/concepts/platform.md
+  downstream: GUID-df90e85e-bc1b-4c0c-8aa4-f2562469a2ac
+  score: 0.25
+  tier: 2
+  note: title similarity
+  upstream_title: Platform concept
+  downstream_title: Feature support by platform
+- upstream: refdog/topics/site-linking.md
+  downstream: GUID-e1de80d6-afdd-4b47-b5a2-ef191a216383
+  score: 0.333
+  tier: 2
+  note: title similarity
+  upstream_title: Site linking
+  downstream_title: Linking approaches
+- upstream: kube-yaml/index.md#kube-yaml
+  downstream: GUID-96159b59-c8ca-44f1-b135-f9f0fa5febb8
+  score: 0.2
+  tier: 2
+  note: title similarity
+  upstream_title: YAML on Kubernetes
+  downstream_title: YAML and CLI management methods
+- upstream: install/cli.md#installing-cli
+  downstream: GUID-96159b59-c8ca-44f1-b135-f9f0fa5febb8
+  score: 0.167
+  tier: 2
+  note: title similarity
+  upstream_title: Install the Skupper CLI
+  downstream_title: YAML and CLI management methods
+- upstream: kube-cli/index.md#kube-cli
+  downstream: GUID-96159b59-c8ca-44f1-b135-f9f0fa5febb8
+  score: 0.167
+  tier: 2
+  note: title similarity
+  upstream_title: Skupper CLI on Kubernetes
+  downstream_title: YAML and CLI management methods
+- upstream: refdog/concepts/platform.md
+  downstream: GUID-a07af37a-5a70-423b-8987-3ea78badb3e8
+  score: 0.333
+  tier: 2
+  note: title similarity
+  upstream_title: Platform concept
+  downstream_title: Platform options
+- upstream: refdog/commands/index.md
+  downstream: GUID-925affc8-e4c1-4aed-9dce-14aad17e61af
+  score: 0.25
+  tier: 2
+  note: title similarity
+  upstream_title: Skupper CLI commands
+  downstream_title: Look up Custom Resource specifications and CLI commands
+- upstream: refdog/resources/access-grant.md
+  downstream: GUID-925affc8-e4c1-4aed-9dce-14aad17e61af
+  score: 0.125
+  tier: 2
+  note: title similarity
+  upstream_title: AccessGrant resource
+  downstream_title: Look up Custom Resource specifications and CLI commands
+- upstream: refdog/commands/site/index.md
+  downstream: GUID-31012bda-4a82-491d-9db5-9f28f0eb4934
+  score: 0.143
+  tier: 2
+  note: title similarity
+  upstream_title: Site command
+  downstream_title: Secure inter-site communication with custom certificates
+- upstream: refdog/concepts/site.md
+  downstream: GUID-31012bda-4a82-491d-9db5-9f28f0eb4934
+  score: 0.143
+  tier: 2
+  note: title similarity
+  upstream_title: Site concept
+  downstream_title: Secure inter-site communication with custom certificates
+- upstream: refdog/commands/link/index.md
+  downstream: GUID-0f18f77d-d4bf-4c46-bb52-599ff8460bd9
+  score: 0.143
+  tier: 2
+  note: title similarity
+  upstream_title: Link command
+  downstream_title: Troubleshoot link failures and resolve routing issues
+- upstream: refdog/concepts/link.md
+  downstream: GUID-0f18f77d-d4bf-4c46-bb52-599ff8460bd9
+  score: 0.143
+  tier: 2
+  note: title similarity
+  upstream_title: Link concept
+  downstream_title: Troubleshoot link failures and resolve routing issues
+- upstream: install/upgrade.md#skupper-upgrading-sites
+  downstream: GUID-d6e215b9-8526-4272-bd30-25ee9d8fe784
+  score: 0.4
+  tier: 2
+  note: title similarity
+  upstream_title: Upgrade sites
+  downstream_title: Upgrade the CLI and local system sites
+- upstream: system-cli/index.md#system-cli
+  downstream: GUID-d6e215b9-8526-4272-bd30-25ee9d8fe784
+  score: 0.286
+  tier: 2
+  note: title similarity
+  upstream_title: Skupper CLI on local systems
+  downstream_title: Upgrade the CLI and local system sites
+- upstream: install/upgrade.md#skupper-upgrading-sites
+  downstream: GUID-94de5db7-3042-4179-bf6c-c1b328a62459
+  score: 0.25
+  tier: 2
+  note: title similarity
+  upstream_title: Upgrade sites
+  downstream_title: Upgrade the Red Hat Service Interconnect Operator and Kubernetes sites
+- upstream: install/upgrade.md#skupper-upgrading-local-sites
+  downstream: GUID-94de5db7-3042-4179-bf6c-c1b328a62459
+  score: 0.222
+  tier: 2
+  note: title similarity
+  upstream_title: Upgrade local sites
+  downstream_title: Upgrade the Red Hat Service Interconnect Operator and Kubernetes sites
+- upstream: console/index.md#console-upgrade
+  downstream: GUID-94de5db7-3042-4179-bf6c-c1b328a62459
+  score: 0.111
+  tier: 2
+  note: title similarity
+  upstream_title: Upgrade and Rollback
+  downstream_title: Upgrade the Red Hat Service Interconnect Operator and Kubernetes sites
+- upstream: install/upgrade.md#skupper-upgrading-sites
+  downstream: GUID-e4a94578-0664-40ef-a53b-f4fa3566c8c1
+  score: 0.333
+  tier: 2
+  note: title similarity
+  upstream_title: Upgrade sites
+  downstream_title: Upgrade Red Hat Service Interconnect sites
+- upstream: install/upgrade.md#skupper-upgrading-local-sites
+  downstream: GUID-e4a94578-0664-40ef-a53b-f4fa3566c8c1
+  score: 0.286
+  tier: 2
+  note: title similarity
+  upstream_title: Upgrade local sites
+  downstream_title: Upgrade Red Hat Service Interconnect sites
+- upstream: console/index.md#console-upgrade
+  downstream: GUID-e4a94578-0664-40ef-a53b-f4fa3566c8c1
+  score: 0.143
+  tier: 2
+  note: title similarity
+  upstream_title: Upgrade and Rollback
+  downstream_title: Upgrade Red Hat Service Interconnect sites
+tier1_review:
+- upstream: kube-cli/index.md#kube-cli
+  downstream: GUID-53a3af4d-a81a-4bcf-893a-a7ab968fb67f
+  score: 0.286
+  tier: 1
+  note: runner-up match
+  upstream_title: Skupper CLI on Kubernetes
+  downstream_title: Expose services on the application network using the CLI on Kubernetes
+- upstream: kube-cli/service-exposure.md#kube-creating-connector-cli
+  downstream: GUID-53a3af4d-a81a-4bcf-893a-a7ab968fb67f
+  score: 0.25
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a Kubernetes connector using the CLI
+  downstream_title: Expose services on the application network using the CLI on Kubernetes
+- upstream: kube-cli/index.md#kube-cli
+  downstream: GUID-78ed7994-0388-4d17-a3e7-bad83d8c404b
+  score: 0.4
+  tier: 1
+  note: runner-up match
+  upstream_title: Skupper CLI on Kubernetes
+  downstream_title: Link sites on Kubernetes using the CLI
+- upstream: kube-cli/site-linking.md#kube-token-cli
+  downstream: GUID-78ed7994-0388-4d17-a3e7-bad83d8c404b
+  score: 0.4
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites using a token
+  downstream_title: Link sites on Kubernetes using the CLI
+- upstream: kube-cli/service-exposure.md#kube-creating-listener-cli
+  downstream: GUID-3e008924-e0a3-4c7d-b492-d123fcd9b5ab
+  score: 0.6
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a Kubernetes listener using the CLI
+  downstream_title: Create a Kubernetes connector using the CLI
+- upstream: kube-cli/site-configuration.md#kube-creating-site-cli
+  downstream: GUID-3e008924-e0a3-4c7d-b492-d123fcd9b5ab
+  score: 0.6
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a site on Kubernetes using the CLI
+  downstream_title: Create a Kubernetes connector using the CLI
+- upstream: kube-cli/service-exposure.md#kube-creating-connector-cli
+  downstream: GUID-071e60de-72ba-45d1-959e-b6c90af39c4e
+  score: 0.6
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a Kubernetes connector using the CLI
+  downstream_title: Create a Kubernetes listener using the CLI
+- upstream: kube-cli/site-configuration.md#kube-creating-site-cli
+  downstream: GUID-071e60de-72ba-45d1-959e-b6c90af39c4e
+  score: 0.6
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a site on Kubernetes using the CLI
+  downstream_title: Create a Kubernetes listener using the CLI
+- upstream: kube-cli/index.md#kube-cli
+  downstream: GUID-23d1e94b-59ab-4237-8e43-886d4f5d8860
+  score: 0.4
+  tier: 1
+  note: runner-up match
+  upstream_title: Skupper CLI on Kubernetes
+  downstream_title: Custom certificates and the Skupper CLI
+- upstream: kube-cli/site-configuration.md#kube-checking-cli
+  downstream: GUID-23d1e94b-59ab-4237-8e43-886d4f5d8860
+  score: 0.4
+  tier: 1
+  note: runner-up match
+  upstream_title: Check the Skupper CLI
+  downstream_title: Custom certificates and the Skupper CLI
+- upstream: kube-cli/site-linking.md#kube-token-cli
+  downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+  score: 0.5
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites using a token
+  downstream_title: Link sites using a link resource
+- upstream: kube-cli/site-linking.md#kube-linking-cli
+  downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+  score: 0.4
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites on Kubernetes using the CLI
+  downstream_title: Link sites using a link resource
+- upstream: kube-cli/site-linking.md#kube-linking-cli
+  downstream: GUID-e2393ed2-0aca-43de-a555-4968ea008ad7
+  score: 0.333
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites on Kubernetes using the CLI
+  downstream_title: Specify link cost using the CLI
+- upstream: kube-cli/index.md#kube-cli
+  downstream: GUID-e2393ed2-0aca-43de-a555-4968ea008ad7
+  score: 0.167
+  tier: 1
+  note: runner-up match
+  upstream_title: Skupper CLI on Kubernetes
+  downstream_title: Specify link cost using the CLI
+- upstream: kube-cli/site-linking.md#kube-token-cli
+  downstream: GUID-0263b8ee-6d1f-40ee-bb28-4adf1361d591
+  score: 0.333
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites using a token
+  downstream_title: Link sites through an HTTP proxy
+- upstream: kube-cli/site-linking.md#kube-link-cli
+  downstream: GUID-0263b8ee-6d1f-40ee-bb28-4adf1361d591
+  score: 0.333
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites using a `link` resource
+  downstream_title: Link sites through an HTTP proxy
+- upstream: kube-cli/site-linking.md#kube-link-cli
+  downstream: GUID-975da09c-2f9f-4eff-8951-c8c9e92a6462
+  score: 0.5
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites using a `link` resource
+  downstream_title: Link sites using a token
+- upstream: kube-cli/site-linking.md#kube-linking-cli
+  downstream: GUID-975da09c-2f9f-4eff-8951-c8c9e92a6462
+  score: 0.4
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites on Kubernetes using the CLI
+  downstream_title: Link sites using a token
+- upstream: kube-yaml/index.md#kube-yaml
+  downstream: GUID-d5d2ff74-ae8f-4ddc-a1dc-0142e1492667
+  score: 0.333
+  tier: 1
+  note: runner-up match
+  upstream_title: YAML on Kubernetes
+  downstream_title: Expose services on the application network using YAML on Kubernetes
+- upstream: kube-yaml/service-exposure.md#kube-creating-connector-yaml
+  downstream: GUID-d5d2ff74-ae8f-4ddc-a1dc-0142e1492667
+  score: 0.25
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a Kubernetes connector using YAML
+  downstream_title: Expose services on the application network using YAML on Kubernetes
+- upstream: kube-yaml/index.md#kube-yaml
+  downstream: GUID-604a6416-adf3-499e-aa3c-5df21df7e71b
+  score: 0.5
+  tier: 1
+  note: runner-up match
+  upstream_title: YAML on Kubernetes
+  downstream_title: Link sites on Kubernetes using YAML
+- upstream: kube-yaml/service-exposure.md#kube-creating-connector-yaml
+  downstream: GUID-604a6416-adf3-499e-aa3c-5df21df7e71b
+  score: 0.333
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a Kubernetes connector using YAML
+  downstream_title: Link sites on Kubernetes using YAML
+- upstream: kube-yaml/custom-certs.md#kube-link-custom-certs-yaml
+  downstream: GUID-2844dfd2-f273-41e5-bcc5-431e96844bc3
+  score: 0.429
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites using `Link` resources and custom certificates
+  downstream_title: Link sites using AccessGrant and AccessToken resources
+- upstream: kube-yaml/site-linking.md#kube-yaml-site-linking
+  downstream: GUID-2844dfd2-f273-41e5-bcc5-431e96844bc3
+  score: 0.286
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites on Kubernetes using YAML
+  downstream_title: Link sites using AccessGrant and AccessToken resources
+- upstream: kube-yaml/service-exposure.md#kube-creating-connector-yaml
+  downstream: GUID-ad768ddd-de9a-464e-9cb9-05e6d9c49b42
+  score: 0.5
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a Kubernetes connector using YAML
+  downstream_title: Create a connector for a different namespace using YAML
+- upstream: kube-yaml/custom-labels.md#kube-creating-label-template
+  downstream: GUID-ad768ddd-de9a-464e-9cb9-05e6d9c49b42
+  score: 0.286
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a label template using YAML
+  downstream_title: Create a connector for a different namespace using YAML
+- upstream: kube-yaml/service-exposure.md#kube-creating-listener-yaml
+  downstream: GUID-4cf143f6-6ca7-4f68-84b8-1828f4920026
+  score: 0.6
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a Kubernetes listener using YAML
+  downstream_title: Create a Kubernetes connector using YAML
+- upstream: kube-yaml/site-configuration.md#kube-creating-site-yaml
+  downstream: GUID-4cf143f6-6ca7-4f68-84b8-1828f4920026
+  score: 0.6
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a site on Kubernetes using YAML
+  downstream_title: Create a Kubernetes connector using YAML
+- upstream: kube-yaml/service-exposure.md#kube-creating-multikeylistener-yaml
+  downstream: GUID-441972f6-1877-4764-8cbb-81f0ea36e0a4
+  score: 0.667
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a Kubernetes multi-key listener using YAML
+  downstream_title: Create a Kubernetes listener using YAML
+- upstream: kube-yaml/service-exposure.md#kube-creating-connector-yaml
+  downstream: GUID-441972f6-1877-4764-8cbb-81f0ea36e0a4
+  score: 0.6
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a Kubernetes connector using YAML
+  downstream_title: Create a Kubernetes listener using YAML
+- upstream: kube-yaml/service-exposure.md#kube-creating-listener-yaml
+  downstream: GUID-cffc467c-6c48-4a23-9e0c-7239c7bad6df
+  score: 0.667
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a Kubernetes listener using YAML
+  downstream_title: Create a Kubernetes multi-key listener using YAML
+- upstream: kube-yaml/service-exposure.md#kube-creating-connector-yaml
+  downstream: GUID-cffc467c-6c48-4a23-9e0c-7239c7bad6df
+  score: 0.429
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a Kubernetes connector using YAML
+  downstream_title: Create a Kubernetes multi-key listener using YAML
+- upstream: kube-yaml/site-linking.md#kube-yaml-site-linking
+  downstream: GUID-bb85f960-fab0-4c7a-bf00-177d4e13f9e0
+  score: 0.333
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites on Kubernetes using YAML
+  downstream_title: Specify link cost using YAML
+- upstream: kube-yaml/index.md#kube-yaml
+  downstream: GUID-bb85f960-fab0-4c7a-bf00-177d4e13f9e0
+  score: 0.2
+  tier: 1
+  note: runner-up match
+  upstream_title: YAML on Kubernetes
+  downstream_title: Specify link cost using YAML
+- upstream: kube-yaml/custom-certs.md#kube-router-access-custom-certs-yaml
+  downstream: GUID-f33ff515-89f0-4abe-8bf7-5820f35119b7
+  score: 0.333
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites using a custom `RouterAccess`, and custom certificates
+  downstream_title: Custom certificates and YAML
+- upstream: kube-yaml/custom-certs.md#kube-link-custom-certs-yaml
+  downstream: GUID-f33ff515-89f0-4abe-8bf7-5820f35119b7
+  score: 0.333
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites using `Link` resources and custom certificates
+  downstream_title: Custom certificates and YAML
+- upstream: system-cli/index.md#system-cli
+  downstream: GUID-0c463f15-8d68-4c5f-8562-89d22523f765
+  score: 0.375
+  tier: 1
+  note: runner-up match
+  upstream_title: Skupper CLI on local systems
+  downstream_title: Expose services on the application network using the CLI on local systems
+- upstream: system-cli/site-configuration.md#system-deleting-site-cli
+  downstream: GUID-0c463f15-8d68-4c5f-8562-89d22523f765
+  score: 0.333
+  tier: 1
+  note: runner-up match
+  upstream_title: Delete a site using the CLI on local systems
+  downstream_title: Expose services on the application network using the CLI on local systems
+- upstream: system-cli/index.md#system-cli
+  downstream: GUID-9740c6b3-d876-4a3c-911a-ddc73f7728d6
+  score: 0.5
+  tier: 1
+  note: runner-up match
+  upstream_title: Skupper CLI on local systems
+  downstream_title: Link sites on local systems using the CLI
+- upstream: system-cli/site-linking.md#system-link-cli
+  downstream: GUID-9740c6b3-d876-4a3c-911a-ddc73f7728d6
+  score: 0.5
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites using a `link` resource and the CLI
+  downstream_title: Link sites on local systems using the CLI
+- upstream: system-cli/service-exposure.md#system-creating-listener-cli
+  downstream: GUID-61f9dff6-507e-46cc-b0e7-c976264f86ad
+  score: 0.667
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a local system listener using the CLI
+  downstream_title: Create a local system connector using the CLI
+- upstream: system-cli/site-configuration.md#system-creating-site-cli
+  downstream: GUID-61f9dff6-507e-46cc-b0e7-c976264f86ad
+  score: 0.667
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a site on a local system using the CLI
+  downstream_title: Create a local system connector using the CLI
+- upstream: system-cli/service-exposure.md#system-creating-connector-cli
+  downstream: GUID-cfc17d3c-af0c-4cc3-8575-894ad480a3d4
+  score: 0.667
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a local system connector using the CLI
+  downstream_title: Create a local system listener using the CLI
+- upstream: system-cli/site-configuration.md#system-creating-site-cli
+  downstream: GUID-cfc17d3c-af0c-4cc3-8575-894ad480a3d4
+  score: 0.667
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a site on a local system using the CLI
+  downstream_title: Create a local system listener using the CLI
+- upstream: system-cli/site-linking.md#system-linking-cli
+  downstream: GUID-0ebf06b2-8a24-48d2-935e-3b2d24b35421
+  score: 0.5
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites on local systems using the CLI
+  downstream_title: Link sites using a link resource and the CLI
+- upstream: system-cli/site-linking.md#system-token-cli
+  downstream: GUID-0ebf06b2-8a24-48d2-935e-3b2d24b35421
+  score: 0.333
+  tier: 1
+  note: runner-up match
+  upstream_title: Link to Kubernetes sites using a token
+  downstream_title: Link sites using a link resource and the CLI
+- upstream: system-cli/site-linking.md#system-link-cli
+  downstream: GUID-2200f574-97e9-4d92-8b14-4e8a450b6f50
+  score: 0.333
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites using a `link` resource and the CLI
+  downstream_title: Link to Kubernetes sites using a token
+- upstream: system-cli/site-linking.md#system-linking-cli
+  downstream: GUID-2200f574-97e9-4d92-8b14-4e8a450b6f50
+  score: 0.286
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites on local systems using the CLI
+  downstream_title: Link to Kubernetes sites using a token
+- upstream: system-yaml/index.md#system-yaml
+  downstream: GUID-0c6efe7a-ea13-4504-859a-07fb67fcf508
+  score: 0.429
+  tier: 1
+  note: runner-up match
+  upstream_title: YAML on local systems
+  downstream_title: Expose services on the application network using YAML on local systems
+- upstream: system-yaml/site-configuration.md#system-yaml-site-configuration
+  downstream: GUID-0c6efe7a-ea13-4504-859a-07fb67fcf508
+  score: 0.333
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a site on local systems using YAML
+  downstream_title: Expose services on the application network using YAML on local systems
+- upstream: system-yaml/index.md#system-yaml
+  downstream: GUID-c1766ac9-fff8-434b-9cec-cc4d4b69c809
+  score: 0.6
+  tier: 1
+  note: runner-up match
+  upstream_title: YAML on local systems
+  downstream_title: Link sites on local systems using YAML
+- upstream: system-yaml/site-linking.md#system-link-yaml
+  downstream: GUID-c1766ac9-fff8-434b-9cec-cc4d4b69c809
+  score: 0.5
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites using a `link` resource and YAML
+  downstream_title: Link sites on local systems using YAML
+- upstream: system-yaml/service-exposure.md#system-creating-listener-yaml
+  downstream: GUID-05149fa1-cdf4-4463-b277-4ca3816d53d1
+  score: 0.667
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a local system listener using YAML
+  downstream_title: Create a local system connector using YAML
+- upstream: system-yaml/service-exposure.md#system-creating-multikeylistener-yaml
+  downstream: GUID-05149fa1-cdf4-4463-b277-4ca3816d53d1
+  score: 0.5
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a local system multi-key listener using YAML
+  downstream_title: Create a local system connector using YAML
+- upstream: system-yaml/service-exposure.md#system-creating-multikeylistener-yaml
+  downstream: GUID-018c55d7-7083-4b3b-ae63-4c65c0ad2f17
+  score: 0.714
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a local system multi-key listener using YAML
+  downstream_title: Create a local system listener using YAML
+- upstream: system-yaml/service-exposure.md#system-creating-connector-yaml
+  downstream: GUID-018c55d7-7083-4b3b-ae63-4c65c0ad2f17
+  score: 0.667
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a local system connector using YAML
+  downstream_title: Create a local system listener using YAML
+- upstream: system-yaml/service-exposure.md#system-creating-listener-yaml
+  downstream: GUID-0764b9a9-146c-4c95-a2ae-9c01bf5d8e2a
+  score: 0.714
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a local system listener using YAML
+  downstream_title: Create a local system multi-key listener using YAML
+- upstream: system-yaml/service-exposure.md#system-creating-connector-yaml
+  downstream: GUID-0764b9a9-146c-4c95-a2ae-9c01bf5d8e2a
+  score: 0.5
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a local system connector using YAML
+  downstream_title: Create a local system multi-key listener using YAML
+- upstream: system-yaml/site-linking.md#system-yaml-site-linking
+  downstream: GUID-33db902e-8f2a-4084-b4a7-4f8848eb6f00
+  score: 0.5
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites on local systems using YAML
+  downstream_title: Link sites using a link resource and YAML
+- upstream: system-yaml/index.md#system-yaml
+  downstream: GUID-33db902e-8f2a-4084-b4a7-4f8848eb6f00
+  score: 0.167
+  tier: 1
+  note: runner-up match
+  upstream_title: YAML on local systems
+  downstream_title: Link sites using a link resource and YAML
+- upstream: kube-cli/site-configuration.md#kube-creating-simple-site-cli
+  downstream: GUID-ed4b59e9-27a3-4ff6-bcb4-2944e1c0f303
+  score: 0.8
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a simple site using the CLI on Kubernetes
+  downstream_title: Create a site on Kubernetes using the CLI
+- upstream: kube-cli/site-configuration.md#kube-ha-cli
+  downstream: GUID-ed4b59e9-27a3-4ff6-bcb4-2944e1c0f303
+  score: 0.667
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a high availability site using the CLI on Kubernetes
+  downstream_title: Create a site on Kubernetes using the CLI
+- upstream: kube-cli/index.md#kube-cli
+  downstream: GUID-8784b06c-6030-4774-8173-feb608d8314f
+  score: 0.5
+  tier: 1
+  note: runner-up match
+  upstream_title: Skupper CLI on Kubernetes
+  downstream_title: Check the Skupper CLI
+- upstream: kube-cli/site-linking.md#kube-custom-certs-cli
+  downstream: GUID-8784b06c-6030-4774-8173-feb608d8314f
+  score: 0.4
+  tier: 1
+  note: runner-up match
+  upstream_title: Custom certificates and the Skupper CLI
+  downstream_title: Check the Skupper CLI
+- upstream: kube-cli/site-configuration.md#kube-creating-site-cli
+  downstream: GUID-285fdcbd-65af-4327-b9d1-8c5430dd30db
+  score: 0.8
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a site on Kubernetes using the CLI
+  downstream_title: Create a simple site using the CLI on Kubernetes
+- upstream: kube-cli/site-configuration.md#kube-ha-cli
+  downstream: GUID-285fdcbd-65af-4327-b9d1-8c5430dd30db
+  score: 0.571
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a high availability site using the CLI on Kubernetes
+  downstream_title: Create a simple site using the CLI on Kubernetes
+- upstream: kube-cli/site-configuration.md#kube-creating-site-cli
+  downstream: GUID-73ef287e-c27d-49b0-943c-02dfabea27cd
+  score: 0.6
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a site on Kubernetes using the CLI
+  downstream_title: Delete a site using the CLI on Kubernetes
+- upstream: kube-cli/site-configuration.md#kube-creating-simple-site-cli
+  downstream: GUID-73ef287e-c27d-49b0-943c-02dfabea27cd
+  score: 0.5
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a simple site using the CLI on Kubernetes
+  downstream_title: Delete a site using the CLI on Kubernetes
+- upstream: kube-cli/site-configuration.md#kube-creating-site-cli
+  downstream: GUID-4c2ade08-9b92-4fa2-86f3-cc35af655ccf
+  score: 0.667
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a site on Kubernetes using the CLI
+  downstream_title: Create a high availability site using the CLI on Kubernetes
+- upstream: kube-cli/site-configuration.md#kube-creating-simple-site-cli
+  downstream: GUID-4c2ade08-9b92-4fa2-86f3-cc35af655ccf
+  score: 0.571
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a simple site using the CLI on Kubernetes
+  downstream_title: Create a high availability site using the CLI on Kubernetes
+- upstream: kube-yaml/site-configuration.md#kube-creating-simple-site-yaml
+  downstream: GUID-b41834cd-1594-4c66-bf38-345aac402c42
+  score: 0.8
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a simple site on Kubernetes using YAML
+  downstream_title: Create a site on Kubernetes using YAML
+- upstream: kube-yaml/service-exposure.md#kube-creating-connector-yaml
+  downstream: GUID-b41834cd-1594-4c66-bf38-345aac402c42
+  score: 0.6
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a Kubernetes connector using YAML
+  downstream_title: Create a site on Kubernetes using YAML
+- upstream: kube-yaml/site-configuration.md#kube-creating-site-yaml
+  downstream: GUID-2993f3ac-0972-41e6-824b-99f1b19178a4
+  score: 0.8
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a site on Kubernetes using YAML
+  downstream_title: Create a simple site on Kubernetes using YAML
+- upstream: kube-yaml/service-exposure.md#kube-creating-connector-yaml
+  downstream: GUID-2993f3ac-0972-41e6-824b-99f1b19178a4
+  score: 0.5
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a Kubernetes connector using YAML
+  downstream_title: Create a simple site on Kubernetes using YAML
+- upstream: kube-yaml/site-configuration.md#kube-creating-site-yaml
+  downstream: GUID-9d92e00c-4314-40da-a7bb-1bae6875f963
+  score: 0.5
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a site on Kubernetes using YAML
+  downstream_title: Create a high availability site using YAML
+- upstream: kube-yaml/site-configuration.md#kube-creating-simple-site-yaml
+  downstream: GUID-9d92e00c-4314-40da-a7bb-1bae6875f963
+  score: 0.429
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a simple site on Kubernetes using YAML
+  downstream_title: Create a high availability site using YAML
+- upstream: kube-yaml/site-configuration.md#kube-creating-site-yaml
+  downstream: GUID-1a7656fd-0b39-460f-a9fe-7cca28a5c5eb
+  score: 0.333
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a site on Kubernetes using YAML
+  downstream_title: Set site resources using YAML
+- upstream: kube-yaml/site-configuration.md#kube-creating-simple-site-yaml
+  downstream: GUID-1a7656fd-0b39-460f-a9fe-7cca28a5c5eb
+  score: 0.286
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a simple site on Kubernetes using YAML
+  downstream_title: Set site resources using YAML
+- upstream: system-cli/service-exposure.md#system-creating-connector-cli
+  downstream: GUID-979ae33c-e9c4-4360-960a-9268a2f6aaf7
+  score: 0.667
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a local system connector using the CLI
+  downstream_title: Create a site on a local system using the CLI
+- upstream: system-cli/service-exposure.md#system-creating-listener-cli
+  downstream: GUID-979ae33c-e9c4-4360-960a-9268a2f6aaf7
+  score: 0.667
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a local system listener using the CLI
+  downstream_title: Create a site on a local system using the CLI
+- upstream: system-cli/index.md#system-cli
+  downstream: GUID-7fc37113-c3a3-42e8-ae80-27e5e1767604
+  score: 0.333
+  tier: 1
+  note: runner-up match
+  upstream_title: Skupper CLI on local systems
+  downstream_title: Check the Skupper CLI and environment
+- upstream: system-cli/site-configuration.md#system-creating-site-cli
+  downstream: GUID-6518c893-3a21-4e2a-a808-a3b193fcc12e
+  score: 0.571
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a site on a local system using the CLI
+  downstream_title: Create a simple site using the CLI on local systems
+- upstream: system-cli/site-configuration.md#system-deleting-site-cli
+  downstream: GUID-6518c893-3a21-4e2a-a808-a3b193fcc12e
+  score: 0.571
+  tier: 1
+  note: runner-up match
+  upstream_title: Delete a site using the CLI on local systems
+  downstream_title: Create a simple site using the CLI on local systems
+- upstream: system-cli/site-configuration.md#system-creating-simple-site-cli
+  downstream: GUID-5a943426-a22a-4077-ad09-e9eb0660e95b
+  score: 0.571
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a simple site using the CLI on local systems
+  downstream_title: Delete a site using the CLI on local systems
+- upstream: system-cli/index.md#system-cli
+  downstream: GUID-5a943426-a22a-4077-ad09-e9eb0660e95b
+  score: 0.5
+  tier: 1
+  note: runner-up match
+  upstream_title: Skupper CLI on local systems
+  downstream_title: Delete a site using the CLI on local systems
+- upstream: system-yaml/site-configuration.md#system-creating-simple-site-yaml
+  downstream: GUID-95e81c14-c89e-4268-a064-4b56adf29845
+  score: 0.833
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a simple site on local systems using YAML
+  downstream_title: Create a site on local systems using YAML
+- upstream: system-yaml/index.md#system-yaml
+  downstream: GUID-95e81c14-c89e-4268-a064-4b56adf29845
+  score: 0.6
+  tier: 1
+  note: runner-up match
+  upstream_title: YAML on local systems
+  downstream_title: Create a site on local systems using YAML
+- upstream: system-yaml/site-configuration.md#system-yaml-site-configuration
+  downstream: GUID-b317233a-f0c8-4194-b941-39dcba2eeeac
+  score: 0.833
+  tier: 1
+  note: runner-up match
+  upstream_title: Create a site on local systems using YAML
+  downstream_title: Create a simple site on local systems using YAML
+- upstream: system-yaml/index.md#system-yaml
+  downstream: GUID-b317233a-f0c8-4194-b941-39dcba2eeeac
+  score: 0.5
+  tier: 1
+  note: runner-up match
+  upstream_title: YAML on local systems
+  downstream_title: Create a simple site on local systems using YAML
+- upstream: console/index.md#console-exploring
+  downstream: GUID-5234e3a0-7605-4026-9a92-b6caf0de0269
+  score: 0.2
+  tier: 1
+  note: runner-up match
+  upstream_title: Explore the Network console
+  downstream_title: Configuring the Network observer
+- upstream: console/configuration.md#observer-resources
+  downstream: GUID-546ba121-9848-4dc6-a191-92fae410ef1a
+  score: 0.167
+  tier: 1
+  note: runner-up match
+  upstream_title: Resource request and limit values
+  downstream_title: Resource naming conventions
+- upstream: console/configuration.md#observer-prometheus
+  downstream: GUID-a3aa44f1-a785-4ac2-a07a-e0d3fcec8946
+  score: 0.25
+  tier: 1
+  note: runner-up match
+  upstream_title: Prometheus parameters
+  downstream_title: Console access parameters
+- upstream: console/configuration.md#observer-service
+  downstream: GUID-a3aa44f1-a785-4ac2-a07a-e0d3fcec8946
+  score: 0.2
+  tier: 1
+  note: runner-up match
+  upstream_title: Service configuration parameters
+  downstream_title: Console access parameters
+- upstream: console/configuration.md#observer-router
+  downstream: GUID-8e1d69e0-b12e-4e7e-b1c8-55dc644303c3
+  score: 0.2
+  tier: 1
+  note: runner-up match
+  upstream_title: Router connection settings
+  downstream_title: Container image settings
+- upstream: console/configuration.md#observer-validation
+  downstream: GUID-b6ec038f-e96e-4537-8f81-540c2f4de72b
+  score: 0.25
+  tier: 1
+  note: runner-up match
+  upstream_title: Troubleshooting reference
+  downstream_title: Metrics endpoint reference
+- upstream: console/configuration.md#observer-external-access
+  downstream: GUID-2d30e64d-1cbc-4c69-8721-07529138ac0d
+  score: 0.25
+  tier: 1
+  note: runner-up match
+  upstream_title: Console access parameters
+  downstream_title: Prometheus parameters
+- upstream: console/configuration.md#observer-service
+  downstream: GUID-2d30e64d-1cbc-4c69-8721-07529138ac0d
+  score: 0.25
+  tier: 1
+  note: runner-up match
+  upstream_title: Service configuration parameters
+  downstream_title: Prometheus parameters
+- upstream: console/configuration.md#observer-advanced
+  downstream: GUID-e88033a6-b2f4-4431-8ede-d7d50fac86ea
+  score: 0.167
+  tier: 1
+  note: runner-up match
+  upstream_title: Resource naming conventions
+  downstream_title: Resource request and limit values
+- upstream: console/configuration.md#observer-images
+  downstream: GUID-5acc26fd-ee9d-4e1a-8d2a-eca3aa417765
+  score: 0.2
+  tier: 1
+  note: runner-up match
+  upstream_title: Container image settings
+  downstream_title: Router connection settings
+- upstream: console/configuration.md#observer-prometheus
+  downstream: GUID-b33508be-66ab-4bd3-acd6-d299c1240ab4
+  score: 0.25
+  tier: 1
+  note: runner-up match
+  upstream_title: Prometheus parameters
+  downstream_title: Service configuration parameters
+- upstream: console/index.md#console-advanced
+  downstream: GUID-b33508be-66ab-4bd3-acd6-d299c1240ab4
+  score: 0.25
+  tier: 1
+  note: runner-up match
+  upstream_title: Advanced Configuration
+  downstream_title: Service configuration parameters
+- upstream: console/index.md#console-validation
+  downstream: GUID-bb960625-b272-4ffd-9311-f7181c52bb22
+  score: 0.333
+  tier: 1
+  note: runner-up match
+  upstream_title: Validation and Troubleshooting
+  downstream_title: Troubleshooting reference
+- upstream: console/configuration.md#observer-metrics
+  downstream: GUID-bb960625-b272-4ffd-9311-f7181c52bb22
+  score: 0.25
+  tier: 1
+  note: runner-up match
+  upstream_title: Metrics endpoint reference
+  downstream_title: Troubleshooting reference
+- upstream: console/configuration.md#observer-external-access
+  downstream: GUID-8245adc6-2ed1-4a0e-a89e-f415dce4c680
+  score: 0.25
+  tier: 1
+  note: runner-up match
+  upstream_title: Console access parameters
+  downstream_title: Using the Skupper console
+- upstream: console/index.md#console-exploring
+  downstream: GUID-8245adc6-2ed1-4a0e-a89e-f415dce4c680
+  score: 0.25
+  tier: 1
+  note: runner-up match
+  upstream_title: Explore the Network console
+  downstream_title: Using the Skupper console
+- upstream: kube-yaml/custom-certs.md#kube-router-access-custom-certs-yaml
+  downstream: GUID-b4ce7a86-1343-4d04-8012-cd416274b96e
+  score: 0.667
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites using a custom `RouterAccess`, and custom certificates
+  downstream_title: Link sites using Link resources and custom certificates
+- upstream: kube-yaml/site-linking.md#kube-access-yaml
+  downstream: GUID-b4ce7a86-1343-4d04-8012-cd416274b96e
+  score: 0.429
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites using `AccessGrant` and `AccessToken` resources
+  downstream_title: Link sites using Link resources and custom certificates
+- upstream: kube-yaml/custom-certs.md#kube-link-custom-certs-yaml
+  downstream: GUID-5211a63b-25f6-4f72-b9d6-874c6fa67b1b
+  score: 0.667
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites using `Link` resources and custom certificates
+  downstream_title: Link sites using a custom RouterAccess, and custom certificates
+- upstream: kube-yaml/site-linking.md#kube-yaml-custom-certs-info
+  downstream: GUID-5211a63b-25f6-4f72-b9d6-874c6fa67b1b
+  score: 0.333
+  tier: 1
+  note: runner-up match
+  upstream_title: Custom certificates and YAML
+  downstream_title: Link sites using a custom RouterAccess, and custom certificates
+- upstream: troubleshooting/index.md#checking-sites
+  downstream: GUID-ebdf9ff1-b113-4ee4-bcc5-982015c84662
+  score: 0.333
+  tier: 1
+  note: runner-up match
+  upstream_title: Check sites
+  downstream_title: Check links
+- upstream: troubleshooting/index.md#checking-links
+  downstream: GUID-ec9b250c-639c-489f-8aec-788b5f68d836
+  score: 0.333
+  tier: 1
+  note: runner-up match
+  upstream_title: Check links
+  downstream_title: Check sites
+- upstream: overview/migrating.md#migrating-sites
+  downstream: GUID-6e892524-12eb-44db-9366-77ae828936ad
+  score: 0.333
+  tier: 1
+  note: runner-up match
+  upstream_title: Create sites
+  downstream_title: Link sites
+- upstream: overview/migrating.md#migrating-links
+  downstream: GUID-71b6009d-a407-44cb-91c4-893da82ebb62
+  score: 0.333
+  tier: 1
+  note: runner-up match
+  upstream_title: Link sites
+  downstream_title: Create sites
+tier3_unmatched_upstream:
+- upstream: index.md
+  upstream_title: Skupper documentation
+  source_category: guide
+  near_misses:
+  - downstream: GUID-8245adc6-2ed1-4a0e-a89e-f415dce4c680
+    downstream_title: Using the Skupper console
+    score: 0.333
+  - downstream: GUID-8784b06c-6030-4774-8173-feb608d8314f
+    downstream_title: Check the Skupper CLI
+    score: 0.25
+  - downstream: GUID-23d1e94b-59ab-4237-8e43-886d4f5d8860
+    downstream_title: Custom certificates and the Skupper CLI
+    score: 0.2
+- upstream: console/index.md#console-advanced
+  upstream_title: Advanced Configuration
+  source_category: guide
+  near_misses:
+  - downstream: GUID-b33508be-66ab-4bd3-acd6-d299c1240ab4
+    downstream_title: Service configuration parameters
+    score: 0.25
+  - downstream: GUID-d0281735-5965-4262-8f78-7c920299ff85
+    downstream_title: Look up Network Observer configuration options
+    score: 0.143
+- upstream: console/index.md#console-config-examples
+  upstream_title: Configuration Examples
+  source_category: guide
+  near_misses:
+  - downstream: GUID-b33508be-66ab-4bd3-acd6-d299c1240ab4
+    downstream_title: Service configuration parameters
+    score: 0.25
+  - downstream: GUID-d0281735-5965-4262-8f78-7c920299ff85
+    downstream_title: Look up Network Observer configuration options
+    score: 0.143
+- upstream: console/index.md#console-validation
+  upstream_title: Validation and Troubleshooting
+  source_category: guide
+  near_misses:
+  - downstream: GUID-bb960625-b272-4ffd-9311-f7181c52bb22
+    downstream_title: Troubleshooting reference
+    score: 0.333
+- upstream: console/index.md#console-upgrade
+  upstream_title: Upgrade and Rollback
+  source_category: guide
+  near_misses:
+  - downstream: GUID-d6e215b9-8526-4272-bd30-25ee9d8fe784
+    downstream_title: Upgrade the CLI and local system sites
+    score: 0.167
+  - downstream: GUID-40890b8f-66ec-448e-b6b1-07a2843441a3
+    downstream_title: Upgrade Red Hat Service Interconnect components
+    score: 0.143
+  - downstream: GUID-e4a94578-0664-40ef-a53b-f4fa3566c8c1
+    downstream_title: Upgrade Red Hat Service Interconnect sites
+    score: 0.143
+- upstream: console/index.md#console-uninstall
+  upstream_title: Uninstallation
+  source_category: guide
+  near_misses: []
+- upstream: console/index.md#console-exploring
+  upstream_title: Explore the Network console
+  source_category: guide
+  near_misses:
+  - downstream: GUID-8245adc6-2ed1-4a0e-a89e-f415dce4c680
+    downstream_title: Using the Skupper console
+    score: 0.25
+  - downstream: GUID-74cd63b4-6dcd-4469-afef-099a40a22e77
+    downstream_title: Use Service Interconnect console to monitor application network
+    score: 0.25
+  - downstream: GUID-2ed5d995-f83a-497f-8c91-ec9227757465
+    downstream_title: Directing network traffic
+    score: 0.2
+- upstream: install/index.md#kube-installing-controller
+  upstream_title: Install the Skupper controller
+  source_category: guide
+  near_misses:
+  - downstream: GUID-bc6a1e3f-0416-4756-8778-1cd8ad74beb5
+    downstream_title: Install the CRDs and controller by using YAML
+    score: 0.4
+  - downstream: GUID-a7f6b273-ad9b-43cb-983f-19379a38d6d3
+    downstream_title: Install the controller and CLI on Kubernetes or Linux hosts
+    score: 0.286
+  - downstream: GUID-57f56da4-4ea8-4757-b4c9-b51d50bc95df
+    downstream_title: Install the CLI
+    score: 0.25
+- upstream: install/index.md#kube-installing-controller-helm
+  upstream_title: Install the Skupper controller using Helm charts
+  source_category: guide
+  near_misses:
+  - downstream: GUID-bc6a1e3f-0416-4756-8778-1cd8ad74beb5
+    downstream_title: Install the CRDs and controller by using YAML
+    score: 0.286
+  - downstream: GUID-a7f6b273-ad9b-43cb-983f-19379a38d6d3
+    downstream_title: Install the controller and CLI on Kubernetes or Linux hosts
+    score: 0.222
+  - downstream: GUID-57f56da4-4ea8-4757-b4c9-b51d50bc95df
+    downstream_title: Install the CLI
+    score: 0.167
+- upstream: install/upgrade.md#skupper-upgrading-sites
+  upstream_title: Upgrade sites
+  source_category: guide
+  near_misses:
+  - downstream: GUID-d6e215b9-8526-4272-bd30-25ee9d8fe784
+    downstream_title: Upgrade the CLI and local system sites
+    score: 0.4
+  - downstream: GUID-9d00e970-52a4-463e-bb7f-f50199c4a57d
+    downstream_title: Create sites
+    score: 0.333
+  - downstream: GUID-ec9b250c-639c-489f-8aec-788b5f68d836
+    downstream_title: Check sites
+    score: 0.333
+- upstream: install/upgrade.md#skupper-upgrading-local-controller
+  upstream_title: Upgrade the Skupper controller
+  source_category: guide
+  near_misses:
+  - downstream: GUID-8245adc6-2ed1-4a0e-a89e-f415dce4c680
+    downstream_title: Using the Skupper console
+    score: 0.25
+  - downstream: GUID-8784b06c-6030-4774-8173-feb608d8314f
+    downstream_title: Check the Skupper CLI
+    score: 0.2
+  - downstream: GUID-23d1e94b-59ab-4237-8e43-886d4f5d8860
+    downstream_title: Custom certificates and the Skupper CLI
+    score: 0.167
+- upstream: kube-cli/index.md#kube-cli
+  upstream_title: Skupper CLI on Kubernetes
+  source_category: guide
+  near_misses:
+  - downstream: GUID-8784b06c-6030-4774-8173-feb608d8314f
+    downstream_title: Check the Skupper CLI
+    score: 0.5
+  - downstream: GUID-78ed7994-0388-4d17-a3e7-bad83d8c404b
+    downstream_title: Link sites on Kubernetes using the CLI
+    score: 0.4
+  - downstream: GUID-3e008924-e0a3-4c7d-b492-d123fcd9b5ab
+    downstream_title: Create a Kubernetes connector using the CLI
+    score: 0.4
+- upstream: kube-yaml/custom-labels.md#kube-custom-labels
+  upstream_title: Propagate custom labels and annotations using YAML
+  source_category: guide
+  near_misses:
+  - downstream: GUID-f33ff515-89f0-4abe-8bf7-5820f35119b7
+    downstream_title: Custom certificates and YAML
+    score: 0.333
+  - downstream: GUID-76eb1c93-6ab8-4f3e-ab73-6b2c5cfc647b
+    downstream_title: Supported labels and annotations
+    score: 0.333
+  - downstream: GUID-07c261ef-153b-4396-ba46-7e309d92f5cc
+    downstream_title: Custom certificates
+    score: 0.167
+- upstream: kube-yaml/custom-labels.md#kube-creating-label-template
+  upstream_title: Create a label template using YAML
+  source_category: guide
+  near_misses:
+  - downstream: GUID-4cf143f6-6ca7-4f68-84b8-1828f4920026
+    downstream_title: Create a Kubernetes connector using YAML
+    score: 0.333
+  - downstream: GUID-441972f6-1877-4764-8cbb-81f0ea36e0a4
+    downstream_title: Create a Kubernetes listener using YAML
+    score: 0.333
+  - downstream: GUID-b41834cd-1594-4c66-bf38-345aac402c42
+    downstream_title: Create a site on Kubernetes using YAML
+    score: 0.333
+- upstream: kube-yaml/custom-labels.md#kube-label-template-scope
+  upstream_title: Control label template scope
+  source_category: guide
+  near_misses: []
+- upstream: kube-yaml/custom-labels.md#kube-filtering-label-template
+  upstream_title: Filter label templates by resource type
+  source_category: guide
+  near_misses:
+  - downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+    downstream_title: Link sites using a link resource
+    score: 0.143
+  - downstream: GUID-546ba121-9848-4dc6-a191-92fae410ef1a
+    downstream_title: Resource naming conventions
+    score: 0.143
+  - downstream: GUID-0ebf06b2-8a24-48d2-935e-3b2d24b35421
+    downstream_title: Link sites using a link resource and the CLI
+    score: 0.125
+- upstream: kube-yaml/custom-labels.md#kube-excluding-keys
+  upstream_title: Exclude specific keys from propagation
+  source_category: guide
+  near_misses: []
+- upstream: kube-yaml/custom-labels.md#kube-multiple-label-templates
+  upstream_title: Use multiple label templates
+  source_category: guide
+  near_misses:
+  - downstream: GUID-71744477-9da4-4e0c-b73a-865d34d6b813
+    downstream_title: Evaluate platform compatibility and use cases
+    score: 0.125
+  - downstream: GUID-74cd63b4-6dcd-4469-afef-099a40a22e77
+    downstream_title: Use Service Interconnect console to monitor application network
+    score: 0.1
+- upstream: kube-yaml/custom-labels.md#kube-label-template-lifecycle
+  upstream_title: Manage label template lifecycle
+  source_category: guide
+  near_misses: []
+- upstream: kube-yaml/custom-labels.md#kube-label-template-reference
+  upstream_title: Label template reference
+  source_category: guide
+  near_misses:
+  - downstream: GUID-bb960625-b272-4ffd-9311-f7181c52bb22
+    downstream_title: Troubleshooting reference
+    score: 0.25
+  - downstream: GUID-b6ec038f-e96e-4537-8f81-540c2f4de72b
+    downstream_title: Metrics endpoint reference
+    score: 0.2
+  - downstream: GUID-5ab1423c-eb4b-4229-99ab-a3324df1721b
+    downstream_title: Red Hat Service Interconnect PDF Reference
+    score: 0.125
+- upstream: kube-yaml/index.md#kube-yaml
+  upstream_title: YAML on Kubernetes
+  source_category: guide
+  near_misses:
+  - downstream: GUID-604a6416-adf3-499e-aa3c-5df21df7e71b
+    downstream_title: Link sites on Kubernetes using YAML
+    score: 0.5
+  - downstream: GUID-4cf143f6-6ca7-4f68-84b8-1828f4920026
+    downstream_title: Create a Kubernetes connector using YAML
+    score: 0.5
+  - downstream: GUID-441972f6-1877-4764-8cbb-81f0ea36e0a4
+    downstream_title: Create a Kubernetes listener using YAML
+    score: 0.5
+- upstream: overview/index.md#skupper
+  upstream_title: Skupper
+  source_category: guide
+  near_misses:
+  - downstream: GUID-8245adc6-2ed1-4a0e-a89e-f415dce4c680
+    downstream_title: Using the Skupper console
+    score: 0.5
+  - downstream: GUID-8784b06c-6030-4774-8173-feb608d8314f
+    downstream_title: Check the Skupper CLI
+    score: 0.333
+  - downstream: GUID-23d1e94b-59ab-4237-8e43-886d4f5d8860
+    downstream_title: Custom certificates and the Skupper CLI
+    score: 0.25
+- upstream: system-cli/index.md#system-cli
+  upstream_title: Skupper CLI on local systems
+  source_category: guide
+  near_misses:
+  - downstream: GUID-9740c6b3-d876-4a3c-911a-ddc73f7728d6
+    downstream_title: Link sites on local systems using the CLI
+    score: 0.5
+  - downstream: GUID-5a943426-a22a-4077-ad09-e9eb0660e95b
+    downstream_title: Delete a site using the CLI on local systems
+    score: 0.5
+  - downstream: GUID-6518c893-3a21-4e2a-a808-a3b193fcc12e
+    downstream_title: Create a simple site using the CLI on local systems
+    score: 0.429
+- upstream: system-yaml/index.md#system-yaml
+  upstream_title: YAML on local systems
+  source_category: guide
+  near_misses:
+  - downstream: GUID-c1766ac9-fff8-434b-9cec-cc4d4b69c809
+    downstream_title: Link sites on local systems using YAML
+    score: 0.6
+  - downstream: GUID-95e81c14-c89e-4268-a064-4b56adf29845
+    downstream_title: Create a site on local systems using YAML
+    score: 0.6
+  - downstream: GUID-b317233a-f0c8-4194-b941-39dcba2eeeac
+    downstream_title: Create a simple site on local systems using YAML
+    score: 0.5
+- upstream: refdog/index.md
+  upstream_title: Refdog
+  source_category: reference
+  near_misses: []
+- upstream: refdog/commands/index.md
+  upstream_title: Skupper CLI commands
+  source_category: reference
+  near_misses:
+  - downstream: GUID-8784b06c-6030-4774-8173-feb608d8314f
+    downstream_title: Check the Skupper CLI
+    score: 0.5
+  - downstream: GUID-23d1e94b-59ab-4237-8e43-886d4f5d8860
+    downstream_title: Custom certificates and the Skupper CLI
+    score: 0.4
+  - downstream: GUID-7fc37113-c3a3-42e8-ae80-27e5e1767604
+    downstream_title: Check the Skupper CLI and environment
+    score: 0.4
+- upstream: refdog/commands/version.md
+  upstream_title: Version command
+  source_category: reference
+  near_misses: []
+- upstream: refdog/commands/connector/create.md
+  upstream_title: Connector create command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-3e008924-e0a3-4c7d-b492-d123fcd9b5ab
+    downstream_title: Create a Kubernetes connector using the CLI
+    score: 0.4
+  - downstream: GUID-4cf143f6-6ca7-4f68-84b8-1828f4920026
+    downstream_title: Create a Kubernetes connector using YAML
+    score: 0.4
+  - downstream: GUID-ad768ddd-de9a-464e-9cb9-05e6d9c49b42
+    downstream_title: Create a connector for a different namespace using YAML
+    score: 0.333
+- upstream: refdog/commands/connector/delete.md
+  upstream_title: Connector delete command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-3e008924-e0a3-4c7d-b492-d123fcd9b5ab
+    downstream_title: Create a Kubernetes connector using the CLI
+    score: 0.167
+  - downstream: GUID-4cf143f6-6ca7-4f68-84b8-1828f4920026
+    downstream_title: Create a Kubernetes connector using YAML
+    score: 0.167
+  - downstream: GUID-73ef287e-c27d-49b0-943c-02dfabea27cd
+    downstream_title: Delete a site using the CLI on Kubernetes
+    score: 0.167
+- upstream: refdog/commands/connector/generate.md
+  upstream_title: Connector generate command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-3e008924-e0a3-4c7d-b492-d123fcd9b5ab
+    downstream_title: Create a Kubernetes connector using the CLI
+    score: 0.167
+  - downstream: GUID-4cf143f6-6ca7-4f68-84b8-1828f4920026
+    downstream_title: Create a Kubernetes connector using YAML
+    score: 0.167
+  - downstream: GUID-d436d396-c93e-4b07-91cd-cbfe2eda3034
+    downstream_title: Generate access tokens or link resources
+    score: 0.143
+- upstream: refdog/commands/connector/index.md
+  upstream_title: Connector command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-3e008924-e0a3-4c7d-b492-d123fcd9b5ab
+    downstream_title: Create a Kubernetes connector using the CLI
+    score: 0.2
+  - downstream: GUID-4cf143f6-6ca7-4f68-84b8-1828f4920026
+    downstream_title: Create a Kubernetes connector using YAML
+    score: 0.2
+  - downstream: GUID-ad768ddd-de9a-464e-9cb9-05e6d9c49b42
+    downstream_title: Create a connector for a different namespace using YAML
+    score: 0.167
+- upstream: refdog/commands/connector/status.md
+  upstream_title: Connector status command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-3e008924-e0a3-4c7d-b492-d123fcd9b5ab
+    downstream_title: Create a Kubernetes connector using the CLI
+    score: 0.167
+  - downstream: GUID-4cf143f6-6ca7-4f68-84b8-1828f4920026
+    downstream_title: Create a Kubernetes connector using YAML
+    score: 0.167
+  - downstream: GUID-ad768ddd-de9a-464e-9cb9-05e6d9c49b42
+    downstream_title: Create a connector for a different namespace using YAML
+    score: 0.143
+- upstream: refdog/commands/connector/update.md
+  upstream_title: Connector update command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-3e008924-e0a3-4c7d-b492-d123fcd9b5ab
+    downstream_title: Create a Kubernetes connector using the CLI
+    score: 0.167
+  - downstream: GUID-4cf143f6-6ca7-4f68-84b8-1828f4920026
+    downstream_title: Create a Kubernetes connector using YAML
+    score: 0.167
+  - downstream: GUID-ad768ddd-de9a-464e-9cb9-05e6d9c49b42
+    downstream_title: Create a connector for a different namespace using YAML
+    score: 0.143
+- upstream: refdog/commands/debug/check.md
+  upstream_title: Debug check command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-ebdf9ff1-b113-4ee4-bcc5-982015c84662
+    downstream_title: Check links
+    score: 0.25
+  - downstream: GUID-ec9b250c-639c-489f-8aec-788b5f68d836
+    downstream_title: Check sites
+    score: 0.25
+  - downstream: GUID-8784b06c-6030-4774-8173-feb608d8314f
+    downstream_title: Check the Skupper CLI
+    score: 0.2
+- upstream: refdog/commands/debug/dump.md
+  upstream_title: Debug dump command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-25b2b2e2-43f9-4506-b53b-b41d48fd575b
+    downstream_title: Create a Skupper debug tar file
+    score: 0.143
+- upstream: refdog/commands/debug/index.md
+  upstream_title: Debug command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-25b2b2e2-43f9-4506-b53b-b41d48fd575b
+    downstream_title: Create a Skupper debug tar file
+    score: 0.167
+- upstream: refdog/commands/link/delete.md
+  upstream_title: Link delete command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-6e892524-12eb-44db-9366-77ae828936ad
+    downstream_title: Link sites
+    score: 0.25
+  - downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+    downstream_title: Link sites using a link resource
+    score: 0.2
+  - downstream: GUID-975da09c-2f9f-4eff-8951-c8c9e92a6462
+    downstream_title: Link sites using a token
+    score: 0.2
+- upstream: refdog/commands/link/generate.md
+  upstream_title: Link generate command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-d436d396-c93e-4b07-91cd-cbfe2eda3034
+    downstream_title: Generate access tokens or link resources
+    score: 0.333
+  - downstream: GUID-6e892524-12eb-44db-9366-77ae828936ad
+    downstream_title: Link sites
+    score: 0.25
+  - downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+    downstream_title: Link sites using a link resource
+    score: 0.2
+- upstream: refdog/commands/link/index.md
+  upstream_title: Link command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-6e892524-12eb-44db-9366-77ae828936ad
+    downstream_title: Link sites
+    score: 0.333
+  - downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+    downstream_title: Link sites using a link resource
+    score: 0.25
+  - downstream: GUID-975da09c-2f9f-4eff-8951-c8c9e92a6462
+    downstream_title: Link sites using a token
+    score: 0.25
+- upstream: refdog/commands/link/status.md
+  upstream_title: Link status command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-6e892524-12eb-44db-9366-77ae828936ad
+    downstream_title: Link sites
+    score: 0.25
+  - downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+    downstream_title: Link sites using a link resource
+    score: 0.2
+  - downstream: GUID-975da09c-2f9f-4eff-8951-c8c9e92a6462
+    downstream_title: Link sites using a token
+    score: 0.2
+- upstream: refdog/commands/link/update.md
+  upstream_title: Link update command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-6e892524-12eb-44db-9366-77ae828936ad
+    downstream_title: Link sites
+    score: 0.25
+  - downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+    downstream_title: Link sites using a link resource
+    score: 0.2
+  - downstream: GUID-975da09c-2f9f-4eff-8951-c8c9e92a6462
+    downstream_title: Link sites using a token
+    score: 0.2
+- upstream: refdog/commands/listener/create.md
+  upstream_title: Listener create command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-071e60de-72ba-45d1-959e-b6c90af39c4e
+    downstream_title: Create a Kubernetes listener using the CLI
+    score: 0.4
+  - downstream: GUID-441972f6-1877-4764-8cbb-81f0ea36e0a4
+    downstream_title: Create a Kubernetes listener using YAML
+    score: 0.4
+  - downstream: GUID-cfc17d3c-af0c-4cc3-8575-894ad480a3d4
+    downstream_title: Create a local system listener using the CLI
+    score: 0.333
+- upstream: refdog/commands/listener/delete.md
+  upstream_title: Listener delete command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-071e60de-72ba-45d1-959e-b6c90af39c4e
+    downstream_title: Create a Kubernetes listener using the CLI
+    score: 0.167
+  - downstream: GUID-441972f6-1877-4764-8cbb-81f0ea36e0a4
+    downstream_title: Create a Kubernetes listener using YAML
+    score: 0.167
+  - downstream: GUID-73ef287e-c27d-49b0-943c-02dfabea27cd
+    downstream_title: Delete a site using the CLI on Kubernetes
+    score: 0.167
+- upstream: refdog/commands/listener/generate.md
+  upstream_title: Listener generate command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-071e60de-72ba-45d1-959e-b6c90af39c4e
+    downstream_title: Create a Kubernetes listener using the CLI
+    score: 0.167
+  - downstream: GUID-441972f6-1877-4764-8cbb-81f0ea36e0a4
+    downstream_title: Create a Kubernetes listener using YAML
+    score: 0.167
+  - downstream: GUID-d436d396-c93e-4b07-91cd-cbfe2eda3034
+    downstream_title: Generate access tokens or link resources
+    score: 0.143
+- upstream: refdog/commands/listener/index.md
+  upstream_title: Listener command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-071e60de-72ba-45d1-959e-b6c90af39c4e
+    downstream_title: Create a Kubernetes listener using the CLI
+    score: 0.2
+  - downstream: GUID-441972f6-1877-4764-8cbb-81f0ea36e0a4
+    downstream_title: Create a Kubernetes listener using YAML
+    score: 0.2
+  - downstream: GUID-cfc17d3c-af0c-4cc3-8575-894ad480a3d4
+    downstream_title: Create a local system listener using the CLI
+    score: 0.167
+- upstream: refdog/commands/listener/status.md
+  upstream_title: Listener status command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-071e60de-72ba-45d1-959e-b6c90af39c4e
+    downstream_title: Create a Kubernetes listener using the CLI
+    score: 0.167
+  - downstream: GUID-441972f6-1877-4764-8cbb-81f0ea36e0a4
+    downstream_title: Create a Kubernetes listener using YAML
+    score: 0.167
+  - downstream: GUID-cfc17d3c-af0c-4cc3-8575-894ad480a3d4
+    downstream_title: Create a local system listener using the CLI
+    score: 0.143
+- upstream: refdog/commands/listener/update.md
+  upstream_title: Listener update command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-071e60de-72ba-45d1-959e-b6c90af39c4e
+    downstream_title: Create a Kubernetes listener using the CLI
+    score: 0.167
+  - downstream: GUID-441972f6-1877-4764-8cbb-81f0ea36e0a4
+    downstream_title: Create a Kubernetes listener using YAML
+    score: 0.167
+  - downstream: GUID-cfc17d3c-af0c-4cc3-8575-894ad480a3d4
+    downstream_title: Create a local system listener using the CLI
+    score: 0.143
+- upstream: refdog/commands/site/create.md
+  upstream_title: Site create command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4fdd2743-d935-4cca-b836-cafdfde9de88
+    downstream_title: Create a link to a listening site
+    score: 0.4
+  - downstream: GUID-ed4b59e9-27a3-4ff6-bcb4-2944e1c0f303
+    downstream_title: Create a site on Kubernetes using the CLI
+    score: 0.4
+  - downstream: GUID-b41834cd-1594-4c66-bf38-345aac402c42
+    downstream_title: Create a site on Kubernetes using YAML
+    score: 0.4
+- upstream: refdog/commands/site/delete.md
+  upstream_title: Site delete command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-73ef287e-c27d-49b0-943c-02dfabea27cd
+    downstream_title: Delete a site using the CLI on Kubernetes
+    score: 0.4
+  - downstream: GUID-5a943426-a22a-4077-ad09-e9eb0660e95b
+    downstream_title: Delete a site using the CLI on local systems
+    score: 0.333
+  - downstream: GUID-4fdd2743-d935-4cca-b836-cafdfde9de88
+    downstream_title: Create a link to a listening site
+    score: 0.167
+- upstream: refdog/commands/site/generate.md
+  upstream_title: Site generate command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4fdd2743-d935-4cca-b836-cafdfde9de88
+    downstream_title: Create a link to a listening site
+    score: 0.167
+  - downstream: GUID-4ce860a1-eff2-4ad4-bd23-7e0b4e235f76
+    downstream_title: Provision and deploy site bundles
+    score: 0.167
+  - downstream: GUID-ed4b59e9-27a3-4ff6-bcb4-2944e1c0f303
+    downstream_title: Create a site on Kubernetes using the CLI
+    score: 0.167
+- upstream: refdog/commands/site/index.md
+  upstream_title: Site command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4fdd2743-d935-4cca-b836-cafdfde9de88
+    downstream_title: Create a link to a listening site
+    score: 0.2
+  - downstream: GUID-4ce860a1-eff2-4ad4-bd23-7e0b4e235f76
+    downstream_title: Provision and deploy site bundles
+    score: 0.2
+  - downstream: GUID-ed4b59e9-27a3-4ff6-bcb4-2944e1c0f303
+    downstream_title: Create a site on Kubernetes using the CLI
+    score: 0.2
+- upstream: refdog/commands/site/reload.md
+  upstream_title: Site reload command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4fdd2743-d935-4cca-b836-cafdfde9de88
+    downstream_title: Create a link to a listening site
+    score: 0.167
+  - downstream: GUID-4ce860a1-eff2-4ad4-bd23-7e0b4e235f76
+    downstream_title: Provision and deploy site bundles
+    score: 0.167
+  - downstream: GUID-ed4b59e9-27a3-4ff6-bcb4-2944e1c0f303
+    downstream_title: Create a site on Kubernetes using the CLI
+    score: 0.167
+- upstream: refdog/commands/site/start.md
+  upstream_title: Site start command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4fdd2743-d935-4cca-b836-cafdfde9de88
+    downstream_title: Create a link to a listening site
+    score: 0.167
+  - downstream: GUID-4ce860a1-eff2-4ad4-bd23-7e0b4e235f76
+    downstream_title: Provision and deploy site bundles
+    score: 0.167
+  - downstream: GUID-ed4b59e9-27a3-4ff6-bcb4-2944e1c0f303
+    downstream_title: Create a site on Kubernetes using the CLI
+    score: 0.167
+- upstream: refdog/commands/site/status.md
+  upstream_title: Site status command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4fdd2743-d935-4cca-b836-cafdfde9de88
+    downstream_title: Create a link to a listening site
+    score: 0.167
+  - downstream: GUID-4ce860a1-eff2-4ad4-bd23-7e0b4e235f76
+    downstream_title: Provision and deploy site bundles
+    score: 0.167
+  - downstream: GUID-ed4b59e9-27a3-4ff6-bcb4-2944e1c0f303
+    downstream_title: Create a site on Kubernetes using the CLI
+    score: 0.167
+- upstream: refdog/commands/site/stop.md
+  upstream_title: Site stop command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4fdd2743-d935-4cca-b836-cafdfde9de88
+    downstream_title: Create a link to a listening site
+    score: 0.167
+  - downstream: GUID-4ce860a1-eff2-4ad4-bd23-7e0b4e235f76
+    downstream_title: Provision and deploy site bundles
+    score: 0.167
+  - downstream: GUID-ed4b59e9-27a3-4ff6-bcb4-2944e1c0f303
+    downstream_title: Create a site on Kubernetes using the CLI
+    score: 0.167
+- upstream: refdog/commands/site/update.md
+  upstream_title: Site update command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4fdd2743-d935-4cca-b836-cafdfde9de88
+    downstream_title: Create a link to a listening site
+    score: 0.167
+  - downstream: GUID-4ce860a1-eff2-4ad4-bd23-7e0b4e235f76
+    downstream_title: Provision and deploy site bundles
+    score: 0.167
+  - downstream: GUID-ed4b59e9-27a3-4ff6-bcb4-2944e1c0f303
+    downstream_title: Create a site on Kubernetes using the CLI
+    score: 0.167
+- upstream: refdog/commands/system/apply.md
+  upstream_title: System apply command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-0c069875-10ca-4181-92fa-2d67c21d4914
+    downstream_title: Establish system connectivity
+    score: 0.2
+  - downstream: GUID-c482d0cb-1647-4f34-a383-457bb27d2ee2
+    downstream_title: Local system installation options
+    score: 0.167
+  - downstream: GUID-8ec873f9-70dd-4481-9b64-845e3d800ee4
+    downstream_title: Register your system for package access
+    score: 0.167
+- upstream: refdog/commands/system/delete.md
+  upstream_title: System delete command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-0c069875-10ca-4181-92fa-2d67c21d4914
+    downstream_title: Establish system connectivity
+    score: 0.2
+  - downstream: GUID-73ef287e-c27d-49b0-943c-02dfabea27cd
+    downstream_title: Delete a site using the CLI on Kubernetes
+    score: 0.167
+  - downstream: GUID-c482d0cb-1647-4f34-a383-457bb27d2ee2
+    downstream_title: Local system installation options
+    score: 0.167
+- upstream: refdog/commands/system/generate-bundle.md
+  upstream_title: System generate-bundle command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-0c069875-10ca-4181-92fa-2d67c21d4914
+    downstream_title: Establish system connectivity
+    score: 0.167
+  - downstream: GUID-c482d0cb-1647-4f34-a383-457bb27d2ee2
+    downstream_title: Local system installation options
+    score: 0.143
+  - downstream: GUID-8ec873f9-70dd-4481-9b64-845e3d800ee4
+    downstream_title: Register your system for package access
+    score: 0.143
+- upstream: refdog/commands/system/index.md
+  upstream_title: System command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-0c069875-10ca-4181-92fa-2d67c21d4914
+    downstream_title: Establish system connectivity
+    score: 0.25
+  - downstream: GUID-c482d0cb-1647-4f34-a383-457bb27d2ee2
+    downstream_title: Local system installation options
+    score: 0.2
+  - downstream: GUID-8ec873f9-70dd-4481-9b64-845e3d800ee4
+    downstream_title: Register your system for package access
+    score: 0.2
+- upstream: refdog/commands/system/install.md
+  upstream_title: System install command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-57f56da4-4ea8-4757-b4c9-b51d50bc95df
+    downstream_title: Install the CLI
+    score: 0.25
+  - downstream: GUID-0c069875-10ca-4181-92fa-2d67c21d4914
+    downstream_title: Establish system connectivity
+    score: 0.2
+  - downstream: GUID-e6077f01-4967-41f1-9245-2b8c9b1e8051
+    downstream_title: Install the Network Observer
+    score: 0.2
+- upstream: refdog/commands/system/reload.md
+  upstream_title: System reload command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-0c069875-10ca-4181-92fa-2d67c21d4914
+    downstream_title: Establish system connectivity
+    score: 0.2
+  - downstream: GUID-c482d0cb-1647-4f34-a383-457bb27d2ee2
+    downstream_title: Local system installation options
+    score: 0.167
+  - downstream: GUID-8ec873f9-70dd-4481-9b64-845e3d800ee4
+    downstream_title: Register your system for package access
+    score: 0.167
+- upstream: refdog/commands/system/start.md
+  upstream_title: System start command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-0c069875-10ca-4181-92fa-2d67c21d4914
+    downstream_title: Establish system connectivity
+    score: 0.2
+  - downstream: GUID-c482d0cb-1647-4f34-a383-457bb27d2ee2
+    downstream_title: Local system installation options
+    score: 0.167
+  - downstream: GUID-8ec873f9-70dd-4481-9b64-845e3d800ee4
+    downstream_title: Register your system for package access
+    score: 0.167
+- upstream: refdog/commands/system/stop.md
+  upstream_title: System stop command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-0c069875-10ca-4181-92fa-2d67c21d4914
+    downstream_title: Establish system connectivity
+    score: 0.2
+  - downstream: GUID-c482d0cb-1647-4f34-a383-457bb27d2ee2
+    downstream_title: Local system installation options
+    score: 0.167
+  - downstream: GUID-8ec873f9-70dd-4481-9b64-845e3d800ee4
+    downstream_title: Register your system for package access
+    score: 0.167
+- upstream: refdog/commands/system/uninstall.md
+  upstream_title: System uninstall command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-0c069875-10ca-4181-92fa-2d67c21d4914
+    downstream_title: Establish system connectivity
+    score: 0.2
+  - downstream: GUID-c482d0cb-1647-4f34-a383-457bb27d2ee2
+    downstream_title: Local system installation options
+    score: 0.167
+  - downstream: GUID-8ec873f9-70dd-4481-9b64-845e3d800ee4
+    downstream_title: Register your system for package access
+    score: 0.167
+- upstream: refdog/commands/token/index.md
+  upstream_title: Token command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-975da09c-2f9f-4eff-8951-c8c9e92a6462
+    downstream_title: Link sites using a token
+    score: 0.25
+  - downstream: GUID-2200f574-97e9-4d92-8b14-4e8a450b6f50
+    downstream_title: Link to Kubernetes sites using a token
+    score: 0.2
+- upstream: refdog/commands/token/issue.md
+  upstream_title: Token issue command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-975da09c-2f9f-4eff-8951-c8c9e92a6462
+    downstream_title: Link sites using a token
+    score: 0.2
+  - downstream: GUID-2200f574-97e9-4d92-8b14-4e8a450b6f50
+    downstream_title: Link to Kubernetes sites using a token
+    score: 0.167
+- upstream: refdog/commands/token/redeem.md
+  upstream_title: Token redeem command
+  source_category: reference
+  near_misses:
+  - downstream: GUID-975da09c-2f9f-4eff-8951-c8c9e92a6462
+    downstream_title: Link sites using a token
+    score: 0.2
+  - downstream: GUID-2200f574-97e9-4d92-8b14-4e8a450b6f50
+    downstream_title: Link to Kubernetes sites using a token
+    score: 0.167
+- upstream: refdog/concepts/access-token.md
+  upstream_title: Access token concept
+  source_category: reference
+  near_misses:
+  - downstream: GUID-975da09c-2f9f-4eff-8951-c8c9e92a6462
+    downstream_title: Link sites using a token
+    score: 0.2
+  - downstream: GUID-a3aa44f1-a785-4ac2-a07a-e0d3fcec8946
+    downstream_title: Console access parameters
+    score: 0.2
+  - downstream: GUID-2200f574-97e9-4d92-8b14-4e8a450b6f50
+    downstream_title: Link to Kubernetes sites using a token
+    score: 0.167
+- upstream: refdog/concepts/application.md
+  upstream_title: Application concept
+  source_category: reference
+  near_misses:
+  - downstream: GUID-34baeb84-9557-47d7-b6c6-f8ff25db99b1
+    downstream_title: Application networks
+    score: 0.333
+  - downstream: GUID-51a0d3e6-d65c-4ac4-bed2-537c79409eca
+    downstream_title: Expose workloads to the application network
+    score: 0.2
+  - downstream: GUID-53a3af4d-a81a-4bcf-893a-a7ab968fb67f
+    downstream_title: Expose services on the application network using the CLI on Kubernetes
+    score: 0.143
+- upstream: refdog/concepts/component.md
+  upstream_title: Component concept
+  source_category: reference
+  near_misses: []
+- upstream: refdog/concepts/connector.md
+  upstream_title: Connector concept
+  source_category: reference
+  near_misses:
+  - downstream: GUID-3e008924-e0a3-4c7d-b492-d123fcd9b5ab
+    downstream_title: Create a Kubernetes connector using the CLI
+    score: 0.2
+  - downstream: GUID-4cf143f6-6ca7-4f68-84b8-1828f4920026
+    downstream_title: Create a Kubernetes connector using YAML
+    score: 0.2
+  - downstream: GUID-ad768ddd-de9a-464e-9cb9-05e6d9c49b42
+    downstream_title: Create a connector for a different namespace using YAML
+    score: 0.167
+- upstream: refdog/concepts/index.md
+  upstream_title: Skupper concepts
+  source_category: reference
+  near_misses:
+  - downstream: GUID-8245adc6-2ed1-4a0e-a89e-f415dce4c680
+    downstream_title: Using the Skupper console
+    score: 0.333
+  - downstream: GUID-8784b06c-6030-4774-8173-feb608d8314f
+    downstream_title: Check the Skupper CLI
+    score: 0.25
+  - downstream: GUID-23d1e94b-59ab-4237-8e43-886d4f5d8860
+    downstream_title: Custom certificates and the Skupper CLI
+    score: 0.2
+- upstream: refdog/concepts/link.md
+  upstream_title: Link concept
+  source_category: reference
+  near_misses:
+  - downstream: GUID-6e892524-12eb-44db-9366-77ae828936ad
+    downstream_title: Link sites
+    score: 0.333
+  - downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+    downstream_title: Link sites using a link resource
+    score: 0.25
+  - downstream: GUID-975da09c-2f9f-4eff-8951-c8c9e92a6462
+    downstream_title: Link sites using a token
+    score: 0.25
+- upstream: refdog/concepts/listener.md
+  upstream_title: Listener concept
+  source_category: reference
+  near_misses:
+  - downstream: GUID-071e60de-72ba-45d1-959e-b6c90af39c4e
+    downstream_title: Create a Kubernetes listener using the CLI
+    score: 0.2
+  - downstream: GUID-441972f6-1877-4764-8cbb-81f0ea36e0a4
+    downstream_title: Create a Kubernetes listener using YAML
+    score: 0.2
+  - downstream: GUID-cfc17d3c-af0c-4cc3-8575-894ad480a3d4
+    downstream_title: Create a local system listener using the CLI
+    score: 0.167
+- upstream: refdog/concepts/multi-key-listener.md
+  upstream_title: Multi-key-listener concept
+  source_category: reference
+  near_misses:
+  - downstream: GUID-cffc467c-6c48-4a23-9e0c-7239c7bad6df
+    downstream_title: Create a Kubernetes multi-key listener using YAML
+    score: 0.429
+  - downstream: GUID-0764b9a9-146c-4c95-a2ae-9c01bf5d8e2a
+    downstream_title: Create a local system multi-key listener using YAML
+    score: 0.375
+  - downstream: GUID-071e60de-72ba-45d1-959e-b6c90af39c4e
+    downstream_title: Create a Kubernetes listener using the CLI
+    score: 0.143
+- upstream: refdog/concepts/network.md
+  upstream_title: Network concept
+  source_category: reference
+  near_misses:
+  - downstream: GUID-2ed5d995-f83a-497f-8c91-ec9227757465
+    downstream_title: Directing network traffic
+    score: 0.25
+  - downstream: GUID-e6077f01-4967-41f1-9245-2b8c9b1e8051
+    downstream_title: Install the Network Observer
+    score: 0.25
+  - downstream: GUID-d5fabdc8-d4ae-4052-9656-bb4292458bda
+    downstream_title: Install the Network Observer
+    score: 0.25
+- upstream: refdog/concepts/platform.md
+  upstream_title: Platform concept
+  source_category: reference
+  near_misses:
+  - downstream: GUID-a07af37a-5a70-423b-8987-3ea78badb3e8
+    downstream_title: Platform options
+    score: 0.333
+  - downstream: GUID-df90e85e-bc1b-4c0c-8aa4-f2562469a2ac
+    downstream_title: Feature support by platform
+    score: 0.25
+  - downstream: GUID-71744477-9da4-4e0c-b73a-865d34d6b813
+    downstream_title: Evaluate platform compatibility and use cases
+    score: 0.167
+- upstream: refdog/concepts/routing-key.md
+  upstream_title: Routing key concept
+  source_category: reference
+  near_misses:
+  - downstream: GUID-275d0146-6bf4-4705-a50a-8fa51c9c2582
+    downstream_title: Configure traffic routing and load balancing
+    score: 0.143
+  - downstream: GUID-cffc467c-6c48-4a23-9e0c-7239c7bad6df
+    downstream_title: Create a Kubernetes multi-key listener using YAML
+    score: 0.125
+  - downstream: GUID-0f18f77d-d4bf-4c46-bb52-599ff8460bd9
+    downstream_title: Troubleshoot link failures and resolve routing issues
+    score: 0.125
+- upstream: refdog/concepts/site.md
+  upstream_title: Site concept
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4fdd2743-d935-4cca-b836-cafdfde9de88
+    downstream_title: Create a link to a listening site
+    score: 0.2
+  - downstream: GUID-4ce860a1-eff2-4ad4-bd23-7e0b4e235f76
+    downstream_title: Provision and deploy site bundles
+    score: 0.2
+  - downstream: GUID-ed4b59e9-27a3-4ff6-bcb4-2944e1c0f303
+    downstream_title: Create a site on Kubernetes using the CLI
+    score: 0.2
+- upstream: refdog/concepts/workload.md
+  upstream_title: Workload concept
+  source_category: reference
+  near_misses: []
+- upstream: refdog/resources/access-grant.md
+  upstream_title: AccessGrant resource
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+    downstream_title: Link sites using a link resource
+    score: 0.25
+  - downstream: GUID-546ba121-9848-4dc6-a191-92fae410ef1a
+    downstream_title: Resource naming conventions
+    score: 0.25
+  - downstream: GUID-0ebf06b2-8a24-48d2-935e-3b2d24b35421
+    downstream_title: Link sites using a link resource and the CLI
+    score: 0.2
+- upstream: refdog/resources/access-token.md
+  upstream_title: AccessToken resource
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+    downstream_title: Link sites using a link resource
+    score: 0.25
+  - downstream: GUID-546ba121-9848-4dc6-a191-92fae410ef1a
+    downstream_title: Resource naming conventions
+    score: 0.25
+  - downstream: GUID-0ebf06b2-8a24-48d2-935e-3b2d24b35421
+    downstream_title: Link sites using a link resource and the CLI
+    score: 0.2
+- upstream: refdog/resources/attached-connector-binding.md
+  upstream_title: AttachedConnectorBinding resource
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+    downstream_title: Link sites using a link resource
+    score: 0.25
+  - downstream: GUID-546ba121-9848-4dc6-a191-92fae410ef1a
+    downstream_title: Resource naming conventions
+    score: 0.25
+  - downstream: GUID-0ebf06b2-8a24-48d2-935e-3b2d24b35421
+    downstream_title: Link sites using a link resource and the CLI
+    score: 0.2
+- upstream: refdog/resources/attached-connector.md
+  upstream_title: AttachedConnector resource
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+    downstream_title: Link sites using a link resource
+    score: 0.25
+  - downstream: GUID-546ba121-9848-4dc6-a191-92fae410ef1a
+    downstream_title: Resource naming conventions
+    score: 0.25
+  - downstream: GUID-0ebf06b2-8a24-48d2-935e-3b2d24b35421
+    downstream_title: Link sites using a link resource and the CLI
+    score: 0.2
+- upstream: refdog/resources/connector.md
+  upstream_title: Connector resource
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+    downstream_title: Link sites using a link resource
+    score: 0.25
+  - downstream: GUID-546ba121-9848-4dc6-a191-92fae410ef1a
+    downstream_title: Resource naming conventions
+    score: 0.25
+  - downstream: GUID-3e008924-e0a3-4c7d-b492-d123fcd9b5ab
+    downstream_title: Create a Kubernetes connector using the CLI
+    score: 0.2
+- upstream: refdog/resources/index.md
+  upstream_title: Skupper API resources
+  source_category: reference
+  near_misses:
+  - downstream: GUID-8245adc6-2ed1-4a0e-a89e-f415dce4c680
+    downstream_title: Using the Skupper console
+    score: 0.25
+  - downstream: GUID-8784b06c-6030-4774-8173-feb608d8314f
+    downstream_title: Check the Skupper CLI
+    score: 0.2
+  - downstream: GUID-23d1e94b-59ab-4237-8e43-886d4f5d8860
+    downstream_title: Custom certificates and the Skupper CLI
+    score: 0.167
+- upstream: refdog/resources/link.md
+  upstream_title: Link resource
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+    downstream_title: Link sites using a link resource
+    score: 0.667
+  - downstream: GUID-0ebf06b2-8a24-48d2-935e-3b2d24b35421
+    downstream_title: Link sites using a link resource and the CLI
+    score: 0.5
+  - downstream: GUID-33db902e-8f2a-4084-b4a7-4f8848eb6f00
+    downstream_title: Link sites using a link resource and YAML
+    score: 0.5
+- upstream: refdog/resources/listener.md
+  upstream_title: Listener resource
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+    downstream_title: Link sites using a link resource
+    score: 0.25
+  - downstream: GUID-546ba121-9848-4dc6-a191-92fae410ef1a
+    downstream_title: Resource naming conventions
+    score: 0.25
+  - downstream: GUID-071e60de-72ba-45d1-959e-b6c90af39c4e
+    downstream_title: Create a Kubernetes listener using the CLI
+    score: 0.2
+- upstream: refdog/resources/multi-key-listener.md
+  upstream_title: MultiKeyListener resource
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+    downstream_title: Link sites using a link resource
+    score: 0.25
+  - downstream: GUID-546ba121-9848-4dc6-a191-92fae410ef1a
+    downstream_title: Resource naming conventions
+    score: 0.25
+  - downstream: GUID-0ebf06b2-8a24-48d2-935e-3b2d24b35421
+    downstream_title: Link sites using a link resource and the CLI
+    score: 0.2
+- upstream: refdog/resources/router-access.md
+  upstream_title: RouterAccess resource
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+    downstream_title: Link sites using a link resource
+    score: 0.25
+  - downstream: GUID-546ba121-9848-4dc6-a191-92fae410ef1a
+    downstream_title: Resource naming conventions
+    score: 0.25
+  - downstream: GUID-0ebf06b2-8a24-48d2-935e-3b2d24b35421
+    downstream_title: Link sites using a link resource and the CLI
+    score: 0.2
+- upstream: refdog/resources/site.md
+  upstream_title: Site resource
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+    downstream_title: Link sites using a link resource
+    score: 0.25
+  - downstream: GUID-546ba121-9848-4dc6-a191-92fae410ef1a
+    downstream_title: Resource naming conventions
+    score: 0.25
+  - downstream: GUID-4fdd2743-d935-4cca-b836-cafdfde9de88
+    downstream_title: Create a link to a listening site
+    score: 0.2
+- upstream: refdog/topics/application-tls.md
+  upstream_title: Application TLS
+  source_category: reference
+  near_misses:
+  - downstream: GUID-34baeb84-9557-47d7-b6c6-f8ff25db99b1
+    downstream_title: Application networks
+    score: 0.333
+  - downstream: GUID-b69071e4-44c5-4112-ae7b-620e84f570c5
+    downstream_title: TLS certificate requirements
+    score: 0.25
+  - downstream: GUID-51a0d3e6-d65c-4ac4-bed2-537c79409eca
+    downstream_title: Expose workloads to the application network
+    score: 0.2
+- upstream: refdog/topics/attached-connectors.md
+  upstream_title: Attached connectors
+  source_category: reference
+  near_misses: []
+- upstream: refdog/topics/components.md
+  upstream_title: Components
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4e074547-0635-423f-95ed-7a7dd4e93cd9
+    downstream_title: Install Red Hat Service Interconnect components
+    score: 0.167
+  - downstream: GUID-40890b8f-66ec-448e-b6b1-07a2843441a3
+    downstream_title: Upgrade Red Hat Service Interconnect components
+    score: 0.167
+- upstream: refdog/topics/controller-configuration.md
+  upstream_title: Controller configuration
+  source_category: reference
+  near_misses:
+  - downstream: GUID-b33508be-66ab-4bd3-acd6-d299c1240ab4
+    downstream_title: Service configuration parameters
+    score: 0.25
+  - downstream: GUID-bc6a1e3f-0416-4756-8778-1cd8ad74beb5
+    downstream_title: Install the CRDs and controller by using YAML
+    score: 0.2
+  - downstream: GUID-7481d9d1-b9a2-4881-923f-cdbcb385d3e0
+    downstream_title: Troubleshoot the Dynamic System Controller
+    score: 0.2
+- upstream: refdog/topics/debug-dumps.md
+  upstream_title: Debug dumps
+  source_category: reference
+  near_misses:
+  - downstream: GUID-25b2b2e2-43f9-4506-b53b-b41d48fd575b
+    downstream_title: Create a Skupper debug tar file
+    score: 0.167
+- upstream: refdog/topics/high-availability.md
+  upstream_title: High availability
+  source_category: reference
+  near_misses:
+  - downstream: GUID-5598fe4d-8883-4838-b011-9230c935031d
+    downstream_title: Ensure high availability and continuity
+    score: 0.5
+  - downstream: GUID-9d92e00c-4314-40da-a7bb-1bae6875f963
+    downstream_title: Create a high availability site using YAML
+    score: 0.4
+  - downstream: GUID-4c2ade08-9b92-4fa2-86f3-cc35af655ccf
+    downstream_title: Create a high availability site using the CLI on Kubernetes
+    score: 0.333
+- upstream: refdog/topics/index.md
+  upstream_title: Topics
+  source_category: reference
+  near_misses: []
+- upstream: refdog/topics/individual-pod-services.md
+  upstream_title: Individual pod services
+  source_category: reference
+  near_misses:
+  - downstream: GUID-ec1ba38d-fc2d-4e81-b8a1-7c2f2e344d9d
+    downstream_title: Expose services
+    score: 0.25
+  - downstream: GUID-53a3af4d-a81a-4bcf-893a-a7ab968fb67f
+    downstream_title: Expose services on the application network using the CLI on Kubernetes
+    score: 0.125
+  - downstream: GUID-d5d2ff74-ae8f-4ddc-a1dc-0142e1492667
+    downstream_title: Expose services on the application network using YAML on Kubernetes
+    score: 0.125
+- upstream: refdog/topics/large-networks.md
+  upstream_title: Large networks
+  source_category: reference
+  near_misses:
+  - downstream: GUID-34baeb84-9557-47d7-b6c6-f8ff25db99b1
+    downstream_title: Application networks
+    score: 0.333
+- upstream: refdog/topics/load-balancing.md
+  upstream_title: Load balancing
+  source_category: reference
+  near_misses:
+  - downstream: GUID-275d0146-6bf4-4705-a50a-8fa51c9c2582
+    downstream_title: Configure traffic routing and load balancing
+    score: 0.4
+- upstream: refdog/topics/resource-settings.md
+  upstream_title: Resource settings
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+    downstream_title: Link sites using a link resource
+    score: 0.25
+  - downstream: GUID-546ba121-9848-4dc6-a191-92fae410ef1a
+    downstream_title: Resource naming conventions
+    score: 0.25
+  - downstream: GUID-8e1d69e0-b12e-4e7e-b1c8-55dc644303c3
+    downstream_title: Container image settings
+    score: 0.25
+- upstream: refdog/topics/resource-status.md
+  upstream_title: Resource status
+  source_category: reference
+  near_misses:
+  - downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+    downstream_title: Link sites using a link resource
+    score: 0.25
+  - downstream: GUID-546ba121-9848-4dc6-a191-92fae410ef1a
+    downstream_title: Resource naming conventions
+    score: 0.25
+  - downstream: GUID-0ebf06b2-8a24-48d2-935e-3b2d24b35421
+    downstream_title: Link sites using a link resource and the CLI
+    score: 0.2
+- upstream: refdog/topics/router-tls.md
+  upstream_title: Router TLS
+  source_category: reference
+  near_misses:
+  - downstream: GUID-5acc26fd-ee9d-4e1a-8d2a-eca3aa417765
+    downstream_title: Router connection settings
+    score: 0.25
+  - downstream: GUID-b69071e4-44c5-4112-ae7b-620e84f570c5
+    downstream_title: TLS certificate requirements
+    score: 0.25
+- upstream: refdog/topics/service-exposure.md
+  upstream_title: Service exposure
+  source_category: reference
+  near_misses:
+  - downstream: GUID-0bf8d494-79a6-4f50-9639-315d73057b3d
+    downstream_title: Service Interconnect
+    score: 0.333
+  - downstream: GUID-d542214f-440d-46cf-ba35-2be2df1d5189
+    downstream_title: What is Service Interconnect?
+    score: 0.25
+  - downstream: GUID-2e820e5a-43c4-4976-9632-1dc5fece0eba
+    downstream_title: Service Interconnect routers
+    score: 0.25
+- upstream: refdog/topics/site-configuration.md
+  upstream_title: Site configuration
+  source_category: reference
+  near_misses:
+  - downstream: GUID-b33508be-66ab-4bd3-acd6-d299c1240ab4
+    downstream_title: Service configuration parameters
+    score: 0.25
+  - downstream: GUID-4fdd2743-d935-4cca-b836-cafdfde9de88
+    downstream_title: Create a link to a listening site
+    score: 0.2
+  - downstream: GUID-4ce860a1-eff2-4ad4-bd23-7e0b4e235f76
+    downstream_title: Provision and deploy site bundles
+    score: 0.2
+- upstream: refdog/topics/site-linking.md
+  upstream_title: Site linking
+  source_category: reference
+  near_misses:
+  - downstream: GUID-e1de80d6-afdd-4b47-b5a2-ef191a216383
+    downstream_title: Linking approaches
+    score: 0.333
+  - downstream: GUID-4fdd2743-d935-4cca-b836-cafdfde9de88
+    downstream_title: Create a link to a listening site
+    score: 0.2
+  - downstream: GUID-4ce860a1-eff2-4ad4-bd23-7e0b4e235f76
+    downstream_title: Provision and deploy site bundles
+    score: 0.2
+- upstream: refdog/topics/skupper-overview.md
+  upstream_title: Skupper overview
+  source_category: reference
+  near_misses:
+  - downstream: GUID-8245adc6-2ed1-4a0e-a89e-f415dce4c680
+    downstream_title: Using the Skupper console
+    score: 0.333
+  - downstream: GUID-8784b06c-6030-4774-8173-feb608d8314f
+    downstream_title: Check the Skupper CLI
+    score: 0.25
+  - downstream: GUID-23d1e94b-59ab-4237-8e43-886d4f5d8860
+    downstream_title: Custom certificates and the Skupper CLI
+    score: 0.2
+- upstream: refdog/topics/system-namespaces.md
+  upstream_title: System namespaces
+  source_category: reference
+  near_misses:
+  - downstream: GUID-0c069875-10ca-4181-92fa-2d67c21d4914
+    downstream_title: Establish system connectivity
+    score: 0.25
+  - downstream: GUID-c482d0cb-1647-4f34-a383-457bb27d2ee2
+    downstream_title: Local system installation options
+    score: 0.2
+  - downstream: GUID-8ec873f9-70dd-4481-9b64-845e3d800ee4
+    downstream_title: Register your system for package access
+    score: 0.2
+- upstream: refdog/topics/system-tls-credentials.md
+  upstream_title: System TLS credentials
+  source_category: reference
+  near_misses:
+  - downstream: GUID-0c069875-10ca-4181-92fa-2d67c21d4914
+    downstream_title: Establish system connectivity
+    score: 0.2
+  - downstream: GUID-b69071e4-44c5-4112-ae7b-620e84f570c5
+    downstream_title: TLS certificate requirements
+    score: 0.2
+  - downstream: GUID-c482d0cb-1647-4f34-a383-457bb27d2ee2
+    downstream_title: Local system installation options
+    score: 0.167
+tier3_unmatched_downstream: []
+downstream_only:
+- downstream: GUID-d436d396-c93e-4b07-91cd-cbfe2eda3034
+  title: Generate access tokens or link resources
+  nav_section: configure
+  reason: jtbd prefix
+- downstream: GUID-4fdd2743-d935-4cca-b836-cafdfde9de88
+  title: Create a link to a listening site
+  nav_section: configure
+  reason: jtbd prefix
+- downstream: GUID-a47b2d87-23e5-4cfa-95a9-a720641062ee
+  title: Link sites across environments
+  nav_section: configure
+  reason: jtbd prefix
+- downstream: GUID-51a0d3e6-d65c-4ac4-bed2-537c79409eca
+  title: Expose workloads to the application network
+  nav_section: configure
+  reason: jtbd prefix
+- downstream: GUID-275d0146-6bf4-4705-a50a-8fa51c9c2582
+  title: Configure traffic routing and load balancing
+  nav_section: configure
+  reason: jtbd prefix
+- downstream: GUID-42452c6e-8f46-4435-968c-5bdf505536d4
+  title: Expose and route workloads
+  nav_section: configure
+  reason: jtbd prefix
+- downstream: GUID-71744477-9da4-4e0c-b73a-865d34d6b813
+  title: Evaluate platform compatibility and use cases
+  nav_section: discover
+  reason: jtbd prefix
+- downstream: GUID-a7f6b273-ad9b-43cb-983f-19379a38d6d3
+  title: Install the controller and CLI on Kubernetes or Linux hosts
+  nav_section: install
+  reason: jtbd prefix
+- downstream: GUID-d5fabdc8-d4ae-4052-9656-bb4292458bda
+  title: Install the Network Observer
+  nav_section: install
+  reason: jtbd prefix
+- downstream: GUID-4e074547-0635-423f-95ed-7a7dd4e93cd9
+  title: Install Red Hat Service Interconnect components
+  nav_section: install
+  reason: jtbd prefix
+- downstream: GUID-5ab1423c-eb4b-4229-99ab-a3324df1721b
+  title: Red Hat Service Interconnect PDF Reference
+  nav_section: pdfs
+  reason: pdfs section
+- downstream: GUID-40890b8f-66ec-448e-b6b1-07a2843441a3
+  title: Upgrade Red Hat Service Interconnect components
+  nav_section: upgrade
+  reason: jtbd prefix
+- downstream: GUID-95dff592-6489-4ba7-b0b9-dce87da4e23d
+  title: Fixed issues
+  nav_section: whats-new
+  reason: whats-new section
+- downstream: GUID-53c63ef9-8e17-4607-9611-425a8b9807cf
+  title: Data to collect for a support case
+  nav_section: whats-new
+  reason: whats-new section
+- downstream: GUID-741090ec-471b-4e63-9261-f169000616b5
+  title: Red Hat Service Interconnect release notes
+  nav_section: whats-new
+  reason: jtbd prefix
+- downstream: GUID-7235b6fb-c77a-4d2b-bf4a-a01c9be0d50d
+  title: Known issues
+  nav_section: whats-new
+  reason: whats-new section
+- downstream: GUID-7a522ec9-f6fe-4468-83cd-50729d20968c
+  title: Long term support
+  nav_section: whats-new
+  reason: whats-new section
+- downstream: GUID-e2321e05-4f7d-4824-85a6-e529a087ec4c
+  title: New and changed features
+  nav_section: whats-new
+  reason: whats-new section
+- downstream: GUID-bc8dec83-5b0c-487f-878d-a0b52eae24dd
+  title: Technology Preview features
+  nav_section: whats-new
+  reason: whats-new section

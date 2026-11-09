@@ -1,0 +1,2199 @@
+upstream_topics:
+- id: index.md
+  path: index.md
+  title: Skupper documentation
+  source_category: guide
+- id: console/configuration.md#observer-config
+  path: console/configuration.md
+  title: Look up Network Observer configuration options
+  source_category: guide
+  anchor: observer-config
+  content_type: ASSEMBLY
+- id: console/configuration.md#observer-external-access
+  path: console/configuration.md
+  title: Console access parameters
+  source_category: guide
+  anchor: observer-external-access
+  content_type: REFERENCE
+- id: console/configuration.md#observer-authentication
+  path: console/configuration.md
+  title: Authentication options
+  source_category: guide
+  anchor: observer-authentication
+  content_type: REFERENCE
+- id: console/configuration.md#observer-tls
+  path: console/configuration.md
+  title: TLS certificate requirements
+  source_category: guide
+  anchor: observer-tls
+  content_type: REFERENCE
+- id: console/configuration.md#observer-router
+  path: console/configuration.md
+  title: Router connection settings
+  source_category: guide
+  anchor: observer-router
+  content_type: REFERENCE
+- id: console/configuration.md#observer-tuning
+  path: console/configuration.md
+  title: Runtime behavior properties
+  source_category: guide
+  anchor: observer-tuning
+  content_type: REFERENCE
+- id: console/configuration.md#observer-prometheus
+  path: console/configuration.md
+  title: Prometheus parameters
+  source_category: guide
+  anchor: observer-prometheus
+  content_type: REFERENCE
+- id: console/configuration.md#observer-persistence
+  path: console/configuration.md
+  title: Configure persistent storage
+  source_category: guide
+  anchor: observer-persistence
+  content_type: TASK
+- id: console/configuration.md#observer-resources
+  path: console/configuration.md
+  title: Resource request and limit values
+  source_category: guide
+  anchor: observer-resources
+  content_type: REFERENCE
+- id: console/configuration.md#observer-images
+  path: console/configuration.md
+  title: Container image settings
+  source_category: guide
+  anchor: observer-images
+  content_type: REFERENCE
+- id: console/configuration.md#observer-labels
+  path: console/configuration.md
+  title: Supported labels and annotations
+  source_category: guide
+  anchor: observer-labels
+  content_type: REFERENCE
+- id: console/configuration.md#observer-service
+  path: console/configuration.md
+  title: Service configuration parameters
+  source_category: guide
+  anchor: observer-service
+  content_type: REFERENCE
+- id: console/configuration.md#observer-security
+  path: console/configuration.md
+  title: Security context constraints
+  source_category: guide
+  anchor: observer-security
+  content_type: REFERENCE
+- id: console/configuration.md#observer-advanced
+  path: console/configuration.md
+  title: Resource naming conventions
+  source_category: guide
+  anchor: observer-advanced
+  content_type: REFERENCE
+- id: console/configuration.md#observer-metrics
+  path: console/configuration.md
+  title: Metrics endpoint reference
+  source_category: guide
+  anchor: observer-metrics
+  content_type: REFERENCE
+- id: console/configuration.md#observer-validation
+  path: console/configuration.md
+  title: Troubleshooting reference
+  source_category: guide
+  anchor: observer-validation
+  content_type: REFERENCE
+- id: console/index.md#console
+  path: console/index.md
+  title: Maintain network health and service reachability
+  source_category: guide
+  anchor: console
+  content_type: ASSEMBLY
+- id: console/index.md#console-quickstart
+  path: console/index.md
+  title: Get started with Skupper network console
+  source_category: guide
+  anchor: console-quickstart
+  content_type: CONCEPT
+- id: console/index.md#console-advanced
+  path: console/index.md
+  title: Advanced Configuration
+  source_category: guide
+  anchor: console-advanced
+  content_type: CONCEPT
+- id: console/index.md#console-config-examples
+  path: console/index.md
+  title: Configuration Examples
+  source_category: guide
+  anchor: console-config-examples
+  content_type: REFERENCE
+- id: console/index.md#console-validation
+  path: console/index.md
+  title: Validation and Troubleshooting
+  source_category: guide
+  anchor: console-validation
+  content_type: REFERENCE
+- id: console/index.md#console-upgrade
+  path: console/index.md
+  title: Upgrade and Rollback
+  source_category: guide
+  anchor: console-upgrade
+  content_type: TASK
+- id: console/index.md#console-uninstall
+  path: console/index.md
+  title: Uninstallation
+  source_category: guide
+  anchor: console-uninstall
+  content_type: TASK
+- id: console/index.md#console-exploring
+  path: console/index.md
+  title: Explore the Network console
+  source_category: guide
+  anchor: console-exploring
+  content_type: REFERENCE
+- id: install/cli.md#installing-cli
+  path: install/cli.md
+  title: Install the Skupper CLI
+  source_category: guide
+  anchor: installing-cli
+  content_type: TASK
+- id: install/index.md#kube-installing-controller
+  path: install/index.md
+  title: Install the Skupper controller
+  source_category: guide
+  anchor: kube-installing-controller
+  content_type: ASSEMBLY
+- id: install/index.md#kube-installing-controller-yaml
+  path: install/index.md
+  title: Install the Skupper controller using YAML
+  source_category: guide
+  anchor: kube-installing-controller-yaml
+  content_type: TASK
+- id: install/index.md#kube-installing-controller-helm
+  path: install/index.md
+  title: Install the Skupper controller using Helm charts
+  source_category: guide
+  anchor: kube-installing-controller-helm
+  content_type: TASK
+- id: install/upgrade.md#skupper-upgrading-sites
+  path: install/upgrade.md
+  title: Upgrade sites
+  source_category: guide
+  anchor: skupper-upgrading-sites
+  content_type: TASK
+- id: install/upgrade.md#skupper-upgrading-local-sites
+  path: install/upgrade.md
+  title: Upgrade local sites
+  source_category: guide
+  anchor: skupper-upgrading-local-sites
+  content_type: TASK
+- id: install/upgrade.md#skupper-upgrading-local-controller
+  path: install/upgrade.md
+  title: Upgrade the Skupper controller
+  source_category: guide
+  anchor: skupper-upgrading-local-controller
+  content_type: TASK
+- id: kube-cli/index.md#kube-cli
+  path: kube-cli/index.md
+  title: Skupper CLI on Kubernetes
+  source_category: guide
+  anchor: kube-cli
+  content_type: REFERENCE
+- id: kube-cli/service-exposure.md#kube-exposing-services-cli
+  path: kube-cli/service-exposure.md
+  title: Expose services on the application network using the CLI on Kubernetes
+  source_category: guide
+  anchor: kube-exposing-services-cli
+  content_type: ASSEMBLY
+- id: kube-cli/service-exposure.md#kube-creating-connector-cli
+  path: kube-cli/service-exposure.md
+  title: Create a Kubernetes connector using the CLI
+  source_category: guide
+  anchor: kube-creating-connector-cli
+  content_type: TASK
+- id: kube-cli/service-exposure.md#kube-creating-listener-cli
+  path: kube-cli/service-exposure.md
+  title: Create a Kubernetes listener using the CLI
+  source_category: guide
+  anchor: kube-creating-listener-cli
+  content_type: TASK
+- id: kube-cli/site-configuration.md#kube-creating-site-cli
+  path: kube-cli/site-configuration.md
+  title: Create a site on Kubernetes using the CLI
+  source_category: guide
+  anchor: kube-creating-site-cli
+  content_type: ASSEMBLY
+- id: kube-cli/site-configuration.md#kube-checking-cli
+  path: kube-cli/site-configuration.md
+  title: Check the Skupper CLI
+  source_category: guide
+  anchor: kube-checking-cli
+  content_type: TASK
+- id: kube-cli/site-configuration.md#kube-creating-simple-site-cli
+  path: kube-cli/site-configuration.md
+  title: Create a simple site using the CLI on Kubernetes
+  source_category: guide
+  anchor: kube-creating-simple-site-cli
+  content_type: TASK
+- id: kube-cli/site-configuration.md#kube-ha-cli
+  path: kube-cli/site-configuration.md
+  title: Create a high availability site using the CLI on Kubernetes
+  source_category: guide
+  anchor: kube-ha-cli
+  content_type: TASK
+- id: kube-cli/site-configuration.md#kube-deleting-site-cli
+  path: kube-cli/site-configuration.md
+  title: Delete a site using the CLI on Kubernetes
+  source_category: guide
+  anchor: kube-deleting-site-cli
+  content_type: TASK
+- id: kube-cli/site-linking.md#kube-linking-cli
+  path: kube-cli/site-linking.md
+  title: Link sites on Kubernetes using the CLI
+  source_category: guide
+  anchor: kube-linking-cli
+  content_type: ASSEMBLY
+- id: kube-cli/site-linking.md#kube-token-cli
+  path: kube-cli/site-linking.md
+  title: Link sites using a token
+  source_category: guide
+  anchor: kube-token-cli
+  content_type: TASK
+- id: kube-cli/site-linking.md#kube-link-cli
+  path: kube-cli/site-linking.md
+  title: Link sites using a `link` resource
+  source_category: guide
+  anchor: kube-link-cli
+  content_type: TASK
+- id: kube-cli/site-linking.md#kube-proxy-cli
+  path: kube-cli/site-linking.md
+  title: Link sites through an HTTP proxy
+  source_category: guide
+  anchor: kube-proxy-cli
+  content_type: TASK
+- id: kube-cli/site-linking.md#kube-custom-certs-cli
+  path: kube-cli/site-linking.md
+  title: Custom certificates and the Skupper CLI
+  source_category: guide
+  anchor: kube-custom-certs-cli
+  content_type: CONCEPT
+- id: kube-cli/site-linking.md#kube-link-cost-cli
+  path: kube-cli/site-linking.md
+  title: Specify link cost using the CLI
+  source_category: guide
+  anchor: kube-link-cost-cli
+  content_type: TASK
+- id: kube-yaml/custom-certs.md#kube-yaml-custom-certs
+  path: kube-yaml/custom-certs.md
+  title: Secure inter-site communication with custom certificates
+  source_category: guide
+  anchor: kube-yaml-custom-certs
+  content_type: ASSEMBLY
+- id: kube-yaml/custom-certs.md#kube-router-access-custom-certs-yaml
+  path: kube-yaml/custom-certs.md
+  title: Link sites using a custom `RouterAccess`, and custom certificates
+  source_category: guide
+  anchor: kube-router-access-custom-certs-yaml
+  content_type: TASK
+- id: kube-yaml/custom-certs.md#kube-link-custom-certs-yaml
+  path: kube-yaml/custom-certs.md
+  title: Link sites using `Link` resources and custom certificates
+  source_category: guide
+  anchor: kube-link-custom-certs-yaml
+  content_type: TASK
+- id: kube-yaml/custom-labels.md#kube-custom-labels
+  path: kube-yaml/custom-labels.md
+  title: Propagate custom labels and annotations using YAML
+  source_category: guide
+  anchor: kube-custom-labels
+  content_type: ASSEMBLY
+- id: kube-yaml/custom-labels.md#kube-creating-label-template
+  path: kube-yaml/custom-labels.md
+  title: Create a label template using YAML
+  source_category: guide
+  anchor: kube-creating-label-template
+  content_type: TASK
+- id: kube-yaml/custom-labels.md#kube-label-template-scope
+  path: kube-yaml/custom-labels.md
+  title: Control label template scope
+  source_category: guide
+  anchor: kube-label-template-scope
+  content_type: TASK
+- id: kube-yaml/custom-labels.md#kube-filtering-label-template
+  path: kube-yaml/custom-labels.md
+  title: Filter label templates by resource type
+  source_category: guide
+  anchor: kube-filtering-label-template
+  content_type: TASK
+- id: kube-yaml/custom-labels.md#kube-excluding-keys
+  path: kube-yaml/custom-labels.md
+  title: Exclude specific keys from propagation
+  source_category: guide
+  anchor: kube-excluding-keys
+  content_type: TASK
+- id: kube-yaml/custom-labels.md#kube-multiple-label-templates
+  path: kube-yaml/custom-labels.md
+  title: Use multiple label templates
+  source_category: guide
+  anchor: kube-multiple-label-templates
+  content_type: CONCEPT
+- id: kube-yaml/custom-labels.md#kube-label-template-lifecycle
+  path: kube-yaml/custom-labels.md
+  title: Manage label template lifecycle
+  source_category: guide
+  anchor: kube-label-template-lifecycle
+  content_type: CONCEPT
+- id: kube-yaml/custom-labels.md#kube-label-template-reference
+  path: kube-yaml/custom-labels.md
+  title: Label template reference
+  source_category: guide
+  anchor: kube-label-template-reference
+  content_type: REFERENCE
+- id: kube-yaml/index.md#kube-yaml
+  path: kube-yaml/index.md
+  title: YAML on Kubernetes
+  source_category: guide
+  anchor: kube-yaml
+  content_type: REFERENCE
+- id: kube-yaml/service-exposure.md#kube-exposing-services-yaml
+  path: kube-yaml/service-exposure.md
+  title: Expose services on the application network using YAML on Kubernetes
+  source_category: guide
+  anchor: kube-exposing-services-yaml
+  content_type: ASSEMBLY
+- id: kube-yaml/service-exposure.md#kube-creating-connector-yaml
+  path: kube-yaml/service-exposure.md
+  title: Create a Kubernetes connector using YAML
+  source_category: guide
+  anchor: kube-creating-connector-yaml
+  content_type: TASK
+- id: kube-yaml/service-exposure.md#kube-creating-listener-yaml
+  path: kube-yaml/service-exposure.md
+  title: Create a Kubernetes listener using YAML
+  source_category: guide
+  anchor: kube-creating-listener-yaml
+  content_type: TASK
+- id: kube-yaml/service-exposure.md#kube-creating-multikeylistener-yaml
+  path: kube-yaml/service-exposure.md
+  title: Create a Kubernetes multi-key listener using YAML
+  source_category: guide
+  anchor: kube-creating-multikeylistener-yaml
+  content_type: TASK
+- id: kube-yaml/service-exposure.md#kube-creating-attachedconnector-yaml
+  path: kube-yaml/service-exposure.md
+  title: Create a connector for a different namespace using YAML
+  source_category: guide
+  anchor: kube-creating-attachedconnector-yaml
+  content_type: TASK
+- id: kube-yaml/site-configuration.md#kube-creating-site-yaml
+  path: kube-yaml/site-configuration.md
+  title: Create a site on Kubernetes using YAML
+  source_category: guide
+  anchor: kube-creating-site-yaml
+  content_type: ASSEMBLY
+- id: kube-yaml/site-configuration.md#kube-creating-simple-site-yaml
+  path: kube-yaml/site-configuration.md
+  title: Create a simple site on Kubernetes using YAML
+  source_category: guide
+  anchor: kube-creating-simple-site-yaml
+  content_type: TASK
+- id: kube-yaml/site-configuration.md#kube-ha-yaml
+  path: kube-yaml/site-configuration.md
+  title: Create a high availability site using YAML
+  source_category: guide
+  anchor: kube-ha-yaml
+  content_type: TASK
+- id: kube-yaml/site-configuration.md#kube-site-resources-yaml
+  path: kube-yaml/site-configuration.md
+  title: Set site resources using YAML
+  source_category: guide
+  anchor: kube-site-resources-yaml
+  content_type: TASK
+- id: kube-yaml/site-linking.md#kube-yaml-site-linking
+  path: kube-yaml/site-linking.md
+  title: Link sites on Kubernetes using YAML
+  source_category: guide
+  anchor: kube-yaml-site-linking
+  content_type: ASSEMBLY
+- id: kube-yaml/site-linking.md#kube-access-yaml
+  path: kube-yaml/site-linking.md
+  title: Link sites using `AccessGrant` and `AccessToken` resources
+  source_category: guide
+  anchor: kube-access-yaml
+  content_type: TASK
+- id: kube-yaml/site-linking.md#kube-link-cost-yaml
+  path: kube-yaml/site-linking.md
+  title: Specify link cost using YAML
+  source_category: guide
+  anchor: kube-link-cost-yaml
+  content_type: TASK
+- id: kube-yaml/site-linking.md#kube-yaml-custom-certs-info
+  path: kube-yaml/site-linking.md
+  title: Custom certificates and YAML
+  source_category: guide
+  anchor: kube-yaml-custom-certs-info
+  content_type: CONCEPT
+- id: overview/connectivity.md#overview-connectivity
+  path: overview/connectivity.md
+  title: Establish system connectivity
+  source_category: guide
+  anchor: overview-connectivity
+  content_type: CONCEPT
+- id: overview/index.md#skupper-overview
+  path: overview/index.md
+  title: What is Skupper?
+  source_category: guide
+  anchor: skupper-overview
+  content_type: ASSEMBLY
+- id: overview/index.md#application-networks
+  path: overview/index.md
+  title: Application networks
+  source_category: guide
+  anchor: application-networks
+  content_type: CONCEPT
+- id: overview/index.md#skupper-routers
+  path: overview/index.md
+  title: Skupper routers
+  source_category: guide
+  anchor: skupper-routers
+  content_type: CONCEPT
+- id: overview/index.md#skupper
+  path: overview/index.md
+  title: Skupper
+  source_category: guide
+  anchor: skupper
+  content_type: CONCEPT
+- id: overview/load-balancing.md#overview-load-balancing
+  path: overview/load-balancing.md
+  title: Ensure high availability and continuity
+  source_category: guide
+  anchor: overview-load-balancing
+  content_type: CONCEPT
+- id: overview/migrating.md#migrating
+  path: overview/migrating.md
+  title: Migrate from Skupper v1
+  source_category: guide
+  anchor: migrating
+  content_type: REFERENCE
+- id: overview/migrating.md#migrating-sites
+  path: overview/migrating.md
+  title: Create sites
+  source_category: guide
+  anchor: migrating-sites
+  content_type: REFERENCE
+- id: overview/migrating.md#migrating-links
+  path: overview/migrating.md
+  title: Link sites
+  source_category: guide
+  anchor: migrating-links
+  content_type: REFERENCE
+- id: overview/migrating.md#migrating-services
+  path: overview/migrating.md
+  title: Expose services
+  source_category: guide
+  anchor: migrating-services
+  content_type: REFERENCE
+- id: overview/resources.md#kube-resources
+  path: overview/resources.md
+  title: Look up Custom Resource specifications and CLI commands
+  source_category: guide
+  anchor: kube-resources
+  content_type: REFERENCE
+- id: overview/routing.md#skupper-routing
+  path: overview/routing.md
+  title: Directing network traffic
+  source_category: guide
+  anchor: skupper-routing
+  content_type: CONCEPT
+- id: overview/security.md#skupper-security
+  path: overview/security.md
+  title: Secure systems and data
+  source_category: guide
+  anchor: skupper-security
+  content_type: CONCEPT
+- id: system-cli/index.md#system-cli
+  path: system-cli/index.md
+  title: Skupper CLI on local systems
+  source_category: guide
+  anchor: system-cli
+  content_type: REFERENCE
+- id: system-cli/service-exposure.md#system-exposing-services-cli
+  path: system-cli/service-exposure.md
+  title: Expose services on the application network using the CLI on local systems
+  source_category: guide
+  anchor: system-exposing-services-cli
+  content_type: ASSEMBLY
+- id: system-cli/service-exposure.md#system-creating-connector-cli
+  path: system-cli/service-exposure.md
+  title: Create a local system connector using the CLI
+  source_category: guide
+  anchor: system-creating-connector-cli
+  content_type: TASK
+- id: system-cli/service-exposure.md#system-creating-listener-cli
+  path: system-cli/service-exposure.md
+  title: Create a local system listener using the CLI
+  source_category: guide
+  anchor: system-creating-listener-cli
+  content_type: TASK
+- id: system-cli/site-configuration.md#system-creating-site-cli
+  path: system-cli/site-configuration.md
+  title: Create a site on a local system using the CLI
+  source_category: guide
+  anchor: system-creating-site-cli
+  content_type: ASSEMBLY
+- id: system-cli/site-configuration.md#system-checking-cli
+  path: system-cli/site-configuration.md
+  title: Check the Skupper CLI and environment
+  source_category: guide
+  anchor: system-checking-cli
+  content_type: TASK
+- id: system-cli/site-configuration.md#system-creating-simple-site-cli
+  path: system-cli/site-configuration.md
+  title: Create a simple site using the CLI on local systems
+  source_category: guide
+  anchor: system-creating-simple-site-cli
+  content_type: TASK
+- id: system-cli/site-configuration.md#system-deleting-site-cli
+  path: system-cli/site-configuration.md
+  title: Delete a site using the CLI on local systems
+  source_category: guide
+  anchor: system-deleting-site-cli
+  content_type: TASK
+- id: system-cli/site-configuration.md#system-creating-site-bundle
+  path: system-cli/site-configuration.md
+  title: Provision and deploy site bundles
+  source_category: guide
+  anchor: system-creating-site-bundle
+  content_type: TASK
+- id: system-cli/site-linking.md#system-linking-cli
+  path: system-cli/site-linking.md
+  title: Link sites on local systems using the CLI
+  source_category: guide
+  anchor: system-linking-cli
+  content_type: ASSEMBLY
+- id: system-cli/site-linking.md#system-token-cli
+  path: system-cli/site-linking.md
+  title: Link to Kubernetes sites using a token
+  source_category: guide
+  anchor: system-token-cli
+  content_type: TASK
+- id: system-cli/site-linking.md#system-link-cli
+  path: system-cli/site-linking.md
+  title: Link sites using a `link` resource and the CLI
+  source_category: guide
+  anchor: system-link-cli
+  content_type: TASK
+- id: system-yaml/index.md#system-yaml
+  path: system-yaml/index.md
+  title: YAML on local systems
+  source_category: guide
+  anchor: system-yaml
+  content_type: REFERENCE
+- id: system-yaml/service-exposure.md#system-yaml-service-exposure
+  path: system-yaml/service-exposure.md
+  title: Expose services on the application network using YAML on local systems
+  source_category: guide
+  anchor: system-yaml-service-exposure
+  content_type: ASSEMBLY
+- id: system-yaml/service-exposure.md#system-creating-connector-yaml
+  path: system-yaml/service-exposure.md
+  title: Create a local system connector using YAML
+  source_category: guide
+  anchor: system-creating-connector-yaml
+  content_type: TASK
+- id: system-yaml/service-exposure.md#system-creating-listener-yaml
+  path: system-yaml/service-exposure.md
+  title: Create a local system listener using YAML
+  source_category: guide
+  anchor: system-creating-listener-yaml
+  content_type: TASK
+- id: system-yaml/service-exposure.md#system-creating-multikeylistener-yaml
+  path: system-yaml/service-exposure.md
+  title: Create a local system multi-key listener using YAML
+  source_category: guide
+  anchor: system-creating-multikeylistener-yaml
+  content_type: TASK
+- id: system-yaml/site-configuration.md#system-yaml-site-configuration
+  path: system-yaml/site-configuration.md
+  title: Create a site on local systems using YAML
+  source_category: guide
+  anchor: system-yaml-site-configuration
+  content_type: ASSEMBLY
+- id: system-yaml/site-configuration.md#system-creating-simple-site-yaml
+  path: system-yaml/site-configuration.md
+  title: Create a simple site on local systems using YAML
+  source_category: guide
+  anchor: system-creating-simple-site-yaml
+  content_type: TASK
+- id: system-yaml/site-linking.md#system-yaml-site-linking
+  path: system-yaml/site-linking.md
+  title: Link sites on local systems using YAML
+  source_category: guide
+  anchor: system-yaml-site-linking
+  content_type: ASSEMBLY
+- id: system-yaml/site-linking.md#system-link-yaml
+  path: system-yaml/site-linking.md
+  title: Link sites using a `link` resource and YAML
+  source_category: guide
+  anchor: system-link-yaml
+  content_type: TASK
+- id: troubleshooting/index.md#troubleshooting
+  path: troubleshooting/index.md
+  title: Troubleshoot link failures and resolve routing issues
+  source_category: guide
+  anchor: troubleshooting
+  content_type: ASSEMBLY
+- id: troubleshooting/index.md#checking-sites
+  path: troubleshooting/index.md
+  title: Check sites
+  source_category: guide
+  anchor: checking-sites
+  content_type: TASK
+- id: troubleshooting/index.md#checking-links
+  path: troubleshooting/index.md
+  title: Check links
+  source_category: guide
+  anchor: checking-links
+  content_type: TASK
+- id: troubleshooting/index.md#debug-dump
+  path: troubleshooting/index.md
+  title: Create a Skupper debug tar file
+  source_category: guide
+  anchor: debug-dump
+  content_type: TASK
+- id: troubleshooting/index.md#dynamic-system-controller
+  path: troubleshooting/index.md
+  title: Troubleshoot the Dynamic System Controller
+  source_category: guide
+  anchor: dynamic-system-controller
+  content_type: TASK
+- id: refdog/index.md
+  path: refdog/index.md
+  title: Refdog
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/index.md
+  path: refdog/commands/index.md
+  title: Skupper CLI commands
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/version.md
+  path: refdog/commands/version.md
+  title: Version command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/connector/create.md
+  path: refdog/commands/connector/create.md
+  title: Connector create command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/connector/delete.md
+  path: refdog/commands/connector/delete.md
+  title: Connector delete command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/connector/generate.md
+  path: refdog/commands/connector/generate.md
+  title: Connector generate command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/connector/index.md
+  path: refdog/commands/connector/index.md
+  title: Connector command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/connector/status.md
+  path: refdog/commands/connector/status.md
+  title: Connector status command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/connector/update.md
+  path: refdog/commands/connector/update.md
+  title: Connector update command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/debug/check.md
+  path: refdog/commands/debug/check.md
+  title: Debug check command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/debug/dump.md
+  path: refdog/commands/debug/dump.md
+  title: Debug dump command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/debug/index.md
+  path: refdog/commands/debug/index.md
+  title: Debug command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/link/delete.md
+  path: refdog/commands/link/delete.md
+  title: Link delete command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/link/generate.md
+  path: refdog/commands/link/generate.md
+  title: Link generate command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/link/index.md
+  path: refdog/commands/link/index.md
+  title: Link command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/link/status.md
+  path: refdog/commands/link/status.md
+  title: Link status command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/link/update.md
+  path: refdog/commands/link/update.md
+  title: Link update command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/listener/create.md
+  path: refdog/commands/listener/create.md
+  title: Listener create command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/listener/delete.md
+  path: refdog/commands/listener/delete.md
+  title: Listener delete command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/listener/generate.md
+  path: refdog/commands/listener/generate.md
+  title: Listener generate command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/listener/index.md
+  path: refdog/commands/listener/index.md
+  title: Listener command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/listener/status.md
+  path: refdog/commands/listener/status.md
+  title: Listener status command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/listener/update.md
+  path: refdog/commands/listener/update.md
+  title: Listener update command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/site/create.md
+  path: refdog/commands/site/create.md
+  title: Site create command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/site/delete.md
+  path: refdog/commands/site/delete.md
+  title: Site delete command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/site/generate.md
+  path: refdog/commands/site/generate.md
+  title: Site generate command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/site/index.md
+  path: refdog/commands/site/index.md
+  title: Site command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/site/reload.md
+  path: refdog/commands/site/reload.md
+  title: Site reload command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/site/start.md
+  path: refdog/commands/site/start.md
+  title: Site start command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/site/status.md
+  path: refdog/commands/site/status.md
+  title: Site status command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/site/stop.md
+  path: refdog/commands/site/stop.md
+  title: Site stop command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/site/update.md
+  path: refdog/commands/site/update.md
+  title: Site update command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/system/apply.md
+  path: refdog/commands/system/apply.md
+  title: System apply command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/system/delete.md
+  path: refdog/commands/system/delete.md
+  title: System delete command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/system/generate-bundle.md
+  path: refdog/commands/system/generate-bundle.md
+  title: System generate-bundle command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/system/index.md
+  path: refdog/commands/system/index.md
+  title: System command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/system/install.md
+  path: refdog/commands/system/install.md
+  title: System install command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/system/reload.md
+  path: refdog/commands/system/reload.md
+  title: System reload command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/system/start.md
+  path: refdog/commands/system/start.md
+  title: System start command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/system/stop.md
+  path: refdog/commands/system/stop.md
+  title: System stop command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/system/uninstall.md
+  path: refdog/commands/system/uninstall.md
+  title: System uninstall command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/token/index.md
+  path: refdog/commands/token/index.md
+  title: Token command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/token/issue.md
+  path: refdog/commands/token/issue.md
+  title: Token issue command
+  source_category: reference
+  status: needs_work
+- id: refdog/commands/token/redeem.md
+  path: refdog/commands/token/redeem.md
+  title: Token redeem command
+  source_category: reference
+  status: needs_work
+- id: refdog/concepts/access-token.md
+  path: refdog/concepts/access-token.md
+  title: Access token concept
+  source_category: reference
+  status: needs_work
+- id: refdog/concepts/application.md
+  path: refdog/concepts/application.md
+  title: Application concept
+  source_category: reference
+  status: needs_work
+- id: refdog/concepts/component.md
+  path: refdog/concepts/component.md
+  title: Component concept
+  source_category: reference
+  status: needs_work
+- id: refdog/concepts/connector.md
+  path: refdog/concepts/connector.md
+  title: Connector concept
+  source_category: reference
+  status: needs_work
+- id: refdog/concepts/index.md
+  path: refdog/concepts/index.md
+  title: Skupper concepts
+  source_category: reference
+  status: needs_work
+- id: refdog/concepts/link.md
+  path: refdog/concepts/link.md
+  title: Link concept
+  source_category: reference
+  status: needs_work
+- id: refdog/concepts/listener.md
+  path: refdog/concepts/listener.md
+  title: Listener concept
+  source_category: reference
+  status: needs_work
+- id: refdog/concepts/multi-key-listener.md
+  path: refdog/concepts/multi-key-listener.md
+  title: Multi-key-listener concept
+  source_category: reference
+  status: needs_work
+- id: refdog/concepts/network.md
+  path: refdog/concepts/network.md
+  title: Network concept
+  source_category: reference
+  status: needs_work
+- id: refdog/concepts/platform.md
+  path: refdog/concepts/platform.md
+  title: Platform concept
+  source_category: reference
+  status: needs_work
+- id: refdog/concepts/routing-key.md
+  path: refdog/concepts/routing-key.md
+  title: Routing key concept
+  source_category: reference
+  status: needs_work
+- id: refdog/concepts/site.md
+  path: refdog/concepts/site.md
+  title: Site concept
+  source_category: reference
+  status: needs_work
+- id: refdog/concepts/workload.md
+  path: refdog/concepts/workload.md
+  title: Workload concept
+  source_category: reference
+  status: needs_work
+- id: refdog/resources/access-grant.md
+  path: refdog/resources/access-grant.md
+  title: AccessGrant resource
+  source_category: reference
+  status: needs_work
+- id: refdog/resources/access-token.md
+  path: refdog/resources/access-token.md
+  title: AccessToken resource
+  source_category: reference
+  status: needs_work
+- id: refdog/resources/attached-connector-binding.md
+  path: refdog/resources/attached-connector-binding.md
+  title: AttachedConnectorBinding resource
+  source_category: reference
+  status: needs_work
+- id: refdog/resources/attached-connector.md
+  path: refdog/resources/attached-connector.md
+  title: AttachedConnector resource
+  source_category: reference
+  status: needs_work
+- id: refdog/resources/connector.md
+  path: refdog/resources/connector.md
+  title: Connector resource
+  source_category: reference
+  status: needs_work
+- id: refdog/resources/index.md
+  path: refdog/resources/index.md
+  title: Skupper API resources
+  source_category: reference
+  status: needs_work
+- id: refdog/resources/link.md
+  path: refdog/resources/link.md
+  title: Link resource
+  source_category: reference
+  status: needs_work
+- id: refdog/resources/listener.md
+  path: refdog/resources/listener.md
+  title: Listener resource
+  source_category: reference
+  status: needs_work
+- id: refdog/resources/multi-key-listener.md
+  path: refdog/resources/multi-key-listener.md
+  title: MultiKeyListener resource
+  source_category: reference
+  status: needs_work
+- id: refdog/resources/router-access.md
+  path: refdog/resources/router-access.md
+  title: RouterAccess resource
+  source_category: reference
+  status: needs_work
+- id: refdog/resources/site.md
+  path: refdog/resources/site.md
+  title: Site resource
+  source_category: reference
+  status: needs_work
+- id: refdog/topics/application-tls.md
+  path: refdog/topics/application-tls.md
+  title: Application TLS
+  source_category: reference
+  status: needs_work
+- id: refdog/topics/attached-connectors.md
+  path: refdog/topics/attached-connectors.md
+  title: Attached connectors
+  source_category: reference
+  status: needs_work
+- id: refdog/topics/components.md
+  path: refdog/topics/components.md
+  title: Components
+  source_category: reference
+  status: needs_work
+- id: refdog/topics/controller-configuration.md
+  path: refdog/topics/controller-configuration.md
+  title: Controller configuration
+  source_category: reference
+  status: needs_work
+- id: refdog/topics/debug-dumps.md
+  path: refdog/topics/debug-dumps.md
+  title: Debug dumps
+  source_category: reference
+  status: needs_work
+- id: refdog/topics/high-availability.md
+  path: refdog/topics/high-availability.md
+  title: High availability
+  source_category: reference
+  status: needs_work
+- id: refdog/topics/index.md
+  path: refdog/topics/index.md
+  title: Topics
+  source_category: reference
+  status: needs_work
+- id: refdog/topics/individual-pod-services.md
+  path: refdog/topics/individual-pod-services.md
+  title: Individual pod services
+  source_category: reference
+  status: needs_work
+- id: refdog/topics/large-networks.md
+  path: refdog/topics/large-networks.md
+  title: Large networks
+  source_category: reference
+  status: needs_work
+- id: refdog/topics/load-balancing.md
+  path: refdog/topics/load-balancing.md
+  title: Load balancing
+  source_category: reference
+  status: needs_work
+- id: refdog/topics/resource-settings.md
+  path: refdog/topics/resource-settings.md
+  title: Resource settings
+  source_category: reference
+  status: needs_work
+- id: refdog/topics/resource-status.md
+  path: refdog/topics/resource-status.md
+  title: Resource status
+  source_category: reference
+  status: needs_work
+- id: refdog/topics/router-tls.md
+  path: refdog/topics/router-tls.md
+  title: Router TLS
+  source_category: reference
+  status: needs_work
+- id: refdog/topics/service-exposure.md
+  path: refdog/topics/service-exposure.md
+  title: Service exposure
+  source_category: reference
+  status: needs_work
+- id: refdog/topics/site-configuration.md
+  path: refdog/topics/site-configuration.md
+  title: Site configuration
+  source_category: reference
+  status: needs_work
+- id: refdog/topics/site-linking.md
+  path: refdog/topics/site-linking.md
+  title: Site linking
+  source_category: reference
+  status: needs_work
+- id: refdog/topics/skupper-overview.md
+  path: refdog/topics/skupper-overview.md
+  title: Skupper overview
+  source_category: reference
+  status: needs_work
+- id: refdog/topics/system-namespaces.md
+  path: refdog/topics/system-namespaces.md
+  title: System namespaces
+  source_category: reference
+  status: needs_work
+- id: refdog/topics/system-tls-credentials.md
+  path: refdog/topics/system-tls-credentials.md
+  title: System TLS credentials
+  source_category: reference
+  status: needs_work
+downstream_topics:
+- id: GUID-d436d396-c93e-4b07-91cd-cbfe2eda3034
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/jtbd-4-1-generate-access-tokens.dita
+  title: Generate access tokens or link resources
+  dita_type: concept
+  nav_section: configure
+- id: GUID-4fdd2743-d935-4cca-b836-cafdfde9de88
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/jtbd-4-2-create-link.dita
+  title: Create a link to a listening site
+  dita_type: concept
+  nav_section: configure
+- id: GUID-a47b2d87-23e5-4cfa-95a9-a720641062ee
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/jtbd-4-link-sites.dita
+  title: Link sites across environments
+  dita_type: concept
+  nav_section: configure
+- id: GUID-51a0d3e6-d65c-4ac4-bed2-537c79409eca
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/jtbd-5-1-expose-workloads.dita
+  title: Expose workloads to the application network
+  dita_type: concept
+  nav_section: configure
+- id: GUID-275d0146-6bf4-4705-a50a-8fa51c9c2582
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/jtbd-5-2-configure-routing.dita
+  title: Configure traffic routing and load balancing
+  dita_type: concept
+  nav_section: configure
+- id: GUID-42452c6e-8f46-4435-968c-5bdf505536d4
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/jtbd-5-expose-route-workloads.dita
+  title: Expose and route workloads
+  dita_type: concept
+  nav_section: configure
+- id: GUID-53a3af4d-a81a-4bcf-893a-a7ab968fb67f
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/kube-cli-assembly-kube-exposing-services-cli.dita
+  title: Expose services on the application network using the CLI on Kubernetes
+  dita_type: concept
+  nav_section: configure
+- id: GUID-78ed7994-0388-4d17-a3e7-bad83d8c404b
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/kube-cli-assembly-kube-linking-cli.dita
+  title: Link sites on Kubernetes using the CLI
+  dita_type: concept
+  nav_section: configure
+- id: GUID-3e008924-e0a3-4c7d-b492-d123fcd9b5ab
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/kube-cli-kube-create-connector-cli.dita
+  title: Create a Kubernetes connector using the CLI
+  dita_type: task
+  nav_section: configure
+- id: GUID-071e60de-72ba-45d1-959e-b6c90af39c4e
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/kube-cli-kube-create-listener-cli.dita
+  title: Create a Kubernetes listener using the CLI
+  dita_type: task
+  nav_section: configure
+- id: GUID-23d1e94b-59ab-4237-8e43-886d4f5d8860
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/kube-cli-kube-custom-certs-cli.dita
+  title: Custom certificates and the Skupper CLI
+  dita_type: concept
+  nav_section: configure
+- id: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/kube-cli-kube-link-cli.dita
+  title: Link sites using a link resource
+  dita_type: task
+  nav_section: configure
+- id: GUID-e2393ed2-0aca-43de-a555-4968ea008ad7
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/kube-cli-kube-link-cost-cli.dita
+  title: Specify link cost using the CLI
+  dita_type: task
+  nav_section: configure
+- id: GUID-0263b8ee-6d1f-40ee-bb28-4adf1361d591
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/kube-cli-kube-proxy-cli.dita
+  title: Link sites through an HTTP proxy
+  dita_type: task
+  nav_section: configure
+- id: GUID-975da09c-2f9f-4eff-8951-c8c9e92a6462
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/kube-cli-kube-token-cli.dita
+  title: Link sites using a token
+  dita_type: task
+  nav_section: configure
+- id: GUID-d5d2ff74-ae8f-4ddc-a1dc-0142e1492667
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/kube-yaml-assembly-kube-exposing-services-yaml.dita
+  title: Expose services on the application network using YAML on Kubernetes
+  dita_type: concept
+  nav_section: configure
+- id: GUID-604a6416-adf3-499e-aa3c-5df21df7e71b
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/kube-yaml-assembly-kube-yaml-site-linking.dita
+  title: Link sites on Kubernetes using YAML
+  dita_type: concept
+  nav_section: configure
+- id: GUID-2844dfd2-f273-41e5-bcc5-431e96844bc3
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/kube-yaml-kube-access-yaml.dita
+  title: Link sites using AccessGrant and AccessToken resources
+  dita_type: task
+  nav_section: configure
+- id: GUID-ad768ddd-de9a-464e-9cb9-05e6d9c49b42
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/kube-yaml-kube-create-attachedconnector-yaml.dita
+  title: Create a connector for a different namespace using YAML
+  dita_type: task
+  nav_section: configure
+- id: GUID-4cf143f6-6ca7-4f68-84b8-1828f4920026
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/kube-yaml-kube-create-connector-yaml.dita
+  title: Create a Kubernetes connector using YAML
+  dita_type: task
+  nav_section: configure
+- id: GUID-441972f6-1877-4764-8cbb-81f0ea36e0a4
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/kube-yaml-kube-create-listener-yaml.dita
+  title: Create a Kubernetes listener using YAML
+  dita_type: task
+  nav_section: configure
+- id: GUID-cffc467c-6c48-4a23-9e0c-7239c7bad6df
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/kube-yaml-kube-create-multikeylistener-yaml.dita
+  title: Create a Kubernetes multi-key listener using YAML
+  dita_type: task
+  nav_section: configure
+- id: GUID-bb85f960-fab0-4c7a-bf00-177d4e13f9e0
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/kube-yaml-kube-link-cost-yaml.dita
+  title: Specify link cost using YAML
+  dita_type: task
+  nav_section: configure
+- id: GUID-f33ff515-89f0-4abe-8bf7-5820f35119b7
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/kube-yaml-kube-yaml-custom-certs-info.dita
+  title: Custom certificates and YAML
+  dita_type: concept
+  nav_section: configure
+- id: GUID-0c463f15-8d68-4c5f-8562-89d22523f765
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/system-cli-assembly-system-exposing-services-cli.dita
+  title: Expose services on the application network using the CLI on local systems
+  dita_type: concept
+  nav_section: configure
+- id: GUID-9740c6b3-d876-4a3c-911a-ddc73f7728d6
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/system-cli-assembly-system-linking-cli.dita
+  title: Link sites on local systems using the CLI
+  dita_type: concept
+  nav_section: configure
+- id: GUID-61f9dff6-507e-46cc-b0e7-c976264f86ad
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/system-cli-system-create-connector-cli.dita
+  title: Create a local system connector using the CLI
+  dita_type: task
+  nav_section: configure
+- id: GUID-cfc17d3c-af0c-4cc3-8575-894ad480a3d4
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/system-cli-system-create-listener-cli.dita
+  title: Create a local system listener using the CLI
+  dita_type: task
+  nav_section: configure
+- id: GUID-0ebf06b2-8a24-48d2-935e-3b2d24b35421
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/system-cli-system-link-cli.dita
+  title: Link sites using a link resource and the CLI
+  dita_type: task
+  nav_section: configure
+- id: GUID-2200f574-97e9-4d92-8b14-4e8a450b6f50
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/system-cli-system-token-cli.dita
+  title: Link to Kubernetes sites using a token
+  dita_type: task
+  nav_section: configure
+- id: GUID-0c6efe7a-ea13-4504-859a-07fb67fcf508
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/system-yaml-assembly-system-yaml-service-exposure.dita
+  title: Expose services on the application network using YAML on local systems
+  dita_type: concept
+  nav_section: configure
+- id: GUID-c1766ac9-fff8-434b-9cec-cc4d4b69c809
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/system-yaml-assembly-system-yaml-site-linking.dita
+  title: Link sites on local systems using YAML
+  dita_type: concept
+  nav_section: configure
+- id: GUID-05149fa1-cdf4-4463-b277-4ca3816d53d1
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/system-yaml-system-create-connector-yaml.dita
+  title: Create a local system connector using YAML
+  dita_type: task
+  nav_section: configure
+- id: GUID-018c55d7-7083-4b3b-ae63-4c65c0ad2f17
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/system-yaml-system-create-listener-yaml.dita
+  title: Create a local system listener using YAML
+  dita_type: task
+  nav_section: configure
+- id: GUID-0764b9a9-146c-4c95-a2ae-9c01bf5d8e2a
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/system-yaml-system-create-multikeylistener-yaml.dita
+  title: Create a local system multi-key listener using YAML
+  dita_type: task
+  nav_section: configure
+- id: GUID-33db902e-8f2a-4084-b4a7-4f8848eb6f00
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/configure/system-yaml-system-link-yaml.dita
+  title: Link sites using a link resource and YAML
+  dita_type: task
+  nav_section: configure
+- id: GUID-9d00e970-52a4-463e-bb7f-f50199c4a57d
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/deploy/jtbd-3-2-create-sites.dita
+  title: Create sites
+  dita_type: concept
+  nav_section: deploy
+- id: GUID-4ce860a1-eff2-4ad4-bd23-7e0b4e235f76
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/deploy/jtbd-9-site-bundles.dita
+  title: Provision and deploy site bundles
+  dita_type: task
+  nav_section: deploy
+- id: GUID-ed4b59e9-27a3-4ff6-bcb4-2944e1c0f303
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/deploy/kube-cli-assembly-kube-creating-site-cli.dita
+  title: Create a site on Kubernetes using the CLI
+  dita_type: concept
+  nav_section: deploy
+- id: GUID-8784b06c-6030-4774-8173-feb608d8314f
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/deploy/kube-cli-kube-check-cli.dita
+  title: Check the Skupper CLI
+  dita_type: task
+  nav_section: deploy
+- id: GUID-285fdcbd-65af-4327-b9d1-8c5430dd30db
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/deploy/kube-cli-kube-create-simple-site-cli.dita
+  title: Create a simple site using the CLI on Kubernetes
+  dita_type: task
+  nav_section: deploy
+- id: GUID-73ef287e-c27d-49b0-943c-02dfabea27cd
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/deploy/kube-cli-kube-deleting-site-cli.dita
+  title: Delete a site using the CLI on Kubernetes
+  dita_type: task
+  nav_section: deploy
+- id: GUID-4c2ade08-9b92-4fa2-86f3-cc35af655ccf
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/deploy/kube-cli-kube-ha-cli.dita
+  title: Create a high availability site using the CLI on Kubernetes
+  dita_type: task
+  nav_section: deploy
+- id: GUID-b41834cd-1594-4c66-bf38-345aac402c42
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/deploy/kube-yaml-assembly-kube-creating-site-yaml.dita
+  title: Create a site on Kubernetes using YAML
+  dita_type: concept
+  nav_section: deploy
+- id: GUID-2993f3ac-0972-41e6-824b-99f1b19178a4
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/deploy/kube-yaml-kube-create-simple-site-yaml.dita
+  title: Create a simple site on Kubernetes using YAML
+  dita_type: task
+  nav_section: deploy
+- id: GUID-9d92e00c-4314-40da-a7bb-1bae6875f963
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/deploy/kube-yaml-kube-ha-yaml.dita
+  title: Create a high availability site using YAML
+  dita_type: task
+  nav_section: deploy
+- id: GUID-1a7656fd-0b39-460f-a9fe-7cca28a5c5eb
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/deploy/kube-yaml-kube-site-resources-yaml.dita
+  title: Set site resources using YAML
+  dita_type: task
+  nav_section: deploy
+- id: GUID-979ae33c-e9c4-4360-960a-9268a2f6aaf7
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/deploy/system-cli-assembly-system-creating-site-cli.dita
+  title: Create a site on a local system using the CLI
+  dita_type: concept
+  nav_section: deploy
+- id: GUID-7fc37113-c3a3-42e8-ae80-27e5e1767604
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/deploy/system-cli-system-check-cli.dita
+  title: Check the Skupper CLI and environment
+  dita_type: task
+  nav_section: deploy
+- id: GUID-6518c893-3a21-4e2a-a808-a3b193fcc12e
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/deploy/system-cli-system-create-simple-site-cli.dita
+  title: Create a simple site using the CLI on local systems
+  dita_type: task
+  nav_section: deploy
+- id: GUID-207454fa-e57f-46fe-ad4c-030dacfd1f82
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/deploy/system-cli-system-creating-site-bundle.dita
+  title: Provision and deploy site bundles
+  dita_type: task
+  nav_section: deploy
+- id: GUID-5a943426-a22a-4077-ad09-e9eb0660e95b
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/deploy/system-cli-system-deleting-site-cli.dita
+  title: Delete a site using the CLI on local systems
+  dita_type: task
+  nav_section: deploy
+- id: GUID-95e81c14-c89e-4268-a064-4b56adf29845
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/deploy/system-yaml-assembly-system-yaml-site-configuration.dita
+  title: Create a site on local systems using YAML
+  dita_type: concept
+  nav_section: deploy
+- id: GUID-b317233a-f0c8-4194-b941-39dcba2eeeac
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/deploy/system-yaml-system-create-simple-site-yaml.dita
+  title: Create a simple site on local systems using YAML
+  dita_type: task
+  nav_section: deploy
+- id: GUID-71744477-9da4-4e0c-b73a-865d34d6b813
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/discover/jtbd-2-evaluate-platforms.dita
+  title: Evaluate platform compatibility and use cases
+  dita_type: concept
+  nav_section: discover
+- id: GUID-db64baa9-c35e-4d9a-bd94-5a3e2722a461
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/discover/key-features.dita
+  title: Evaluating Core Capabilities
+  dita_type: reference
+  nav_section: discover
+- id: GUID-34baeb84-9557-47d7-b6c6-f8ff25db99b1
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/discover/overview-application-networks.dita
+  title: Application networks
+  dita_type: concept
+  nav_section: discover
+- id: GUID-5598fe4d-8883-4838-b011-9230c935031d
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/discover/overview-assembly-overview-load-balancing.dita
+  title: Ensure high availability and continuity
+  dita_type: concept
+  nav_section: discover
+- id: GUID-d542214f-440d-46cf-ba35-2be2df1d5189
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/discover/overview-assembly-skupper-overview.dita
+  title: What is Service Interconnect?
+  dita_type: concept
+  nav_section: discover
+- id: GUID-0c069875-10ca-4181-92fa-2d67c21d4914
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/discover/overview-overview-connectivity.dita
+  title: Establish system connectivity
+  dita_type: concept
+  nav_section: discover
+- id: GUID-2e820e5a-43c4-4976-9632-1dc5fece0eba
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/discover/overview-skupper-routers.dita
+  title: Service Interconnect routers
+  dita_type: concept
+  nav_section: discover
+- id: GUID-2ed5d995-f83a-497f-8c91-ec9227757465
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/discover/overview-skupper-routing.dita
+  title: Directing network traffic
+  dita_type: concept
+  nav_section: discover
+- id: GUID-21a9c97a-a021-4182-b043-4ef728c26aab
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/discover/overview-skupper-security.dita
+  title: Secure systems and data
+  dita_type: concept
+  nav_section: discover
+- id: GUID-0bf8d494-79a6-4f50-9639-315d73057b3d
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/discover/overview-skupper.dita
+  title: Service Interconnect
+  dita_type: concept
+  nav_section: discover
+- id: GUID-d689c796-d358-4e19-a77a-9bcde086cd07
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/discover/standards.dita
+  title: Supported standards and protocols
+  dita_type: reference
+  nav_section: discover
+- id: GUID-652b72df-dbdc-4d5d-ab2f-0a3ac2b33a74
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/discover/supported-configs.dita
+  title: Verifying Interoperability and Compliance
+  dita_type: reference
+  nav_section: discover
+- id: GUID-53ccd47a-bf59-47e2-a557-bef40a2685bc
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/install/access-your-account.dita
+  title: Access your Red Hat account
+  dita_type: task
+  nav_section: install
+- id: GUID-f59f2a6f-862e-476d-93d5-57d5ea791d67
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/install/activate-a-subscription.dita
+  title: Activate your subscription
+  dita_type: task
+  nav_section: install
+- id: GUID-c1b7c944-0a94-4812-bbd3-bfd4ea6e864e
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/install/download-skupper-cli.dita
+  title: Download binaries
+  dita_type: task
+  nav_section: install
+- id: GUID-e6077f01-4967-41f1-9245-2b8c9b1e8051
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/install/install-network-observer-yaml.dita
+  title: Install the Network Observer
+  dita_type: task
+  nav_section: install
+- id: GUID-26b25200-c087-4cd6-9501-9345a072d4d5
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/install/install-no-operator-using-cli.dita
+  title: Install the Red Hat Service Interconnect Network Observer Operator for all namespaces by using the CLI
+  dita_type: task
+  nav_section: install
+- id: GUID-aa5ed8e2-4a2d-440b-91cb-c1ffca303441
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/install/install-no-operator-using-olm.dita
+  title: Install the Red Hat Service Interconnect Network Observer Operator by using the OpenShift web console
+  dita_type: task
+  nav_section: install
+- id: GUID-a38da9da-c70d-45f3-b6f7-4a83e3b55c82
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/install/install-skupper-cli-rpm.dita
+  title: Install the CLI from an RPM package
+  dita_type: task
+  nav_section: install
+- id: GUID-0cf80b23-b143-4e24-9776-6fb218ee3ee5
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/install/install-skupper-operator-using-cli.dita
+  title: Install the Red Hat Service Interconnect Operator for all namespaces by using the CLI
+  dita_type: task
+  nav_section: install
+- id: GUID-04f23280-4518-481e-b44d-1405cbd039f1
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/install/install-skupper-operator-using-olm.dita
+  title: Install the Red Hat Service Interconnect Operator by using the OpenShift web console
+  dita_type: task
+  nav_section: install
+- id: GUID-bc6a1e3f-0416-4756-8778-1cd8ad74beb5
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/install/install-yaml.dita
+  title: Install the CRDs and controller by using YAML
+  dita_type: task
+  nav_section: install
+- id: GUID-b069d3e4-f7d6-4410-9c06-e63cef65270d
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/install/installing-k8s.dita
+  title: Kubernetes installation options
+  dita_type: concept
+  nav_section: install
+- id: GUID-c482d0cb-1647-4f34-a383-457bb27d2ee2
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/install/installing-local-systems.dita
+  title: Local system installation options
+  dita_type: concept
+  nav_section: install
+- id: GUID-57f56da4-4ea8-4757-b4c9-b51d50bc95df
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/install/installing-skupper-cli.dita
+  title: Install the CLI
+  dita_type: concept
+  nav_section: install
+- id: GUID-a7f6b273-ad9b-43cb-983f-19379a38d6d3
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/install/jtbd-3-1-install-controller-cli.dita
+  title: Install the controller and CLI on Kubernetes or Linux hosts
+  dita_type: concept
+  nav_section: install
+- id: GUID-d5fabdc8-d4ae-4052-9656-bb4292458bda
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/install/jtbd-3-3-install-network-observer.dita
+  title: Install the Network Observer
+  dita_type: concept
+  nav_section: install
+- id: GUID-4e074547-0635-423f-95ed-7a7dd4e93cd9
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/install/jtbd-3-install-components.dita
+  title: Install Red Hat Service Interconnect components
+  dita_type: concept
+  nav_section: install
+- id: GUID-4233ad1f-8acc-4105-9d9e-9c90d8f1b748
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/install/local-system-controller.dita
+  title: Installing the controller on local system sites
+  dita_type: task
+  nav_section: install
+- id: GUID-8ec873f9-70dd-4481-9b64-845e3d800ee4
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/install/register-your-system.dita
+  title: Register your system for package access
+  dita_type: task
+  nav_section: install
+- id: GUID-eee47559-5c5b-44f1-bd10-74c3b2504229
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/install/using-your-subscription.dita
+  title: Activate your subscription and download the product
+  dita_type: concept
+  nav_section: install
+- id: GUID-d0281735-5965-4262-8f78-7c920299ff85
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/observe/console-assembly-observer-config.dita
+  title: Look up Network Observer configuration options
+  dita_type: concept
+  nav_section: observe
+- id: GUID-5234e3a0-7605-4026-9a92-b6caf0de0269
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/observe/console-configuring-observer.dita
+  title: Configuring the Network observer
+  dita_type: task
+  nav_section: observe
+- id: GUID-546ba121-9848-4dc6-a191-92fae410ef1a
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/observe/console-observer-advanced.dita
+  title: Resource naming conventions
+  dita_type: reference
+  nav_section: observe
+- id: GUID-d0cc4cb7-45c3-42d5-8f59-dd7a3d85aa7e
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/observe/console-observer-authentication.dita
+  title: Authentication options
+  dita_type: reference
+  nav_section: observe
+- id: GUID-a3aa44f1-a785-4ac2-a07a-e0d3fcec8946
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/observe/console-observer-external-access.dita
+  title: Console access parameters
+  dita_type: reference
+  nav_section: observe
+- id: GUID-8e1d69e0-b12e-4e7e-b1c8-55dc644303c3
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/observe/console-observer-images.dita
+  title: Container image settings
+  dita_type: reference
+  nav_section: observe
+- id: GUID-76eb1c93-6ab8-4f3e-ab73-6b2c5cfc647b
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/observe/console-observer-labels.dita
+  title: Supported labels and annotations
+  dita_type: reference
+  nav_section: observe
+- id: GUID-b6ec038f-e96e-4537-8f81-540c2f4de72b
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/observe/console-observer-metrics.dita
+  title: Metrics endpoint reference
+  dita_type: reference
+  nav_section: observe
+- id: GUID-fc0022c1-d98c-420b-bb11-750721cf7405
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/observe/console-observer-persistence.dita
+  title: Configure persistent storage
+  dita_type: task
+  nav_section: observe
+- id: GUID-2d30e64d-1cbc-4c69-8721-07529138ac0d
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/observe/console-observer-prometheus.dita
+  title: Prometheus parameters
+  dita_type: reference
+  nav_section: observe
+- id: GUID-e88033a6-b2f4-4431-8ede-d7d50fac86ea
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/observe/console-observer-resources.dita
+  title: Resource request and limit values
+  dita_type: reference
+  nav_section: observe
+- id: GUID-5acc26fd-ee9d-4e1a-8d2a-eca3aa417765
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/observe/console-observer-router.dita
+  title: Router connection settings
+  dita_type: reference
+  nav_section: observe
+- id: GUID-72519652-13f3-4fb6-a744-013479db3c75
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/observe/console-observer-security.dita
+  title: Security context constraints
+  dita_type: reference
+  nav_section: observe
+- id: GUID-b33508be-66ab-4bd3-acd6-d299c1240ab4
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/observe/console-observer-service.dita
+  title: Service configuration parameters
+  dita_type: reference
+  nav_section: observe
+- id: GUID-b69071e4-44c5-4112-ae7b-620e84f570c5
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/observe/console-observer-tls.dita
+  title: TLS certificate requirements
+  dita_type: reference
+  nav_section: observe
+- id: GUID-6c402f68-6c47-4555-a7e2-fafe0bc78653
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/observe/console-observer-tuning.dita
+  title: Runtime behavior properties
+  dita_type: reference
+  nav_section: observe
+- id: GUID-bb960625-b272-4ffd-9311-f7181c52bb22
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/observe/console-observer-validation.dita
+  title: Troubleshooting reference
+  dita_type: reference
+  nav_section: observe
+- id: GUID-8245adc6-2ed1-4a0e-a89e-f415dce4c680
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/observe/console-using-console.dita
+  title: Using the Skupper console
+  dita_type: task
+  nav_section: observe
+- id: GUID-7b3d0a7d-aeb7-4b9d-8bfb-c61b256235ce
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/observe/jtbd-6-maintain-network-health.dita
+  title: Maintain network health and service reachability
+  dita_type: concept
+  nav_section: observe
+- id: GUID-74cd63b4-6dcd-4469-afef-099a40a22e77
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/observe/use-console.dita
+  title: Use Service Interconnect console to monitor application network
+  dita_type: concept
+  nav_section: observe
+- id: GUID-5ab1423c-eb4b-4229-99ab-a3324df1721b
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/pdfs/red-hat-service-interconnect-pdf-reference.dita
+  title: Red Hat Service Interconnect PDF Reference
+  dita_type: reference
+  nav_section: pdfs
+- id: GUID-07c261ef-153b-4396-ba46-7e309d92f5cc
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/plan/custom-certificates.dita
+  title: Custom certificates
+  dita_type: concept
+  nav_section: plan
+- id: GUID-c2a6127e-73c3-49f0-946e-e70cbe63748f
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/plan/deployment-planning.dita
+  title: Red Hat Service Interconnect deployment planning
+  dita_type: concept
+  nav_section: plan
+- id: GUID-c3597655-518d-4a7b-a0bb-9f97ce90b5e2
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/plan/feature-support-by-management-method.dita
+  title: Feature by management method
+  dita_type: reference
+  nav_section: plan
+- id: GUID-df90e85e-bc1b-4c0c-8aa4-f2562469a2ac
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/plan/feature-support-by-platform.dita
+  title: Feature support by platform
+  dita_type: reference
+  nav_section: plan
+- id: GUID-e1de80d6-afdd-4b47-b5a2-ef191a216383
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/plan/linking-approaches.dita
+  title: Linking approaches
+  dita_type: concept
+  nav_section: plan
+- id: GUID-96159b59-c8ca-44f1-b135-f9f0fa5febb8
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/plan/management-methods.dita
+  title: YAML and CLI management methods
+  dita_type: concept
+  nav_section: plan
+- id: GUID-a07af37a-5a70-423b-8987-3ea78badb3e8
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/plan/platform-options.dita
+  title: Platform options
+  dita_type: concept
+  nav_section: plan
+- id: GUID-925affc8-e4c1-4aed-9dce-14aad17e61af
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/reference/jtbd-10-reference.dita
+  title: Look up Custom Resource specifications and CLI commands
+  dita_type: concept
+  nav_section: reference
+- id: GUID-31012bda-4a82-491d-9db5-9f28f0eb4934
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/secure/jtbd-4-3-custom-certificates.dita
+  title: Secure inter-site communication with custom certificates
+  dita_type: concept
+  nav_section: secure
+- id: GUID-b4ce7a86-1343-4d04-8012-cd416274b96e
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/secure/kube-yaml-kube-link-custom-certs-yaml.dita
+  title: Link sites using Link resources and custom certificates
+  dita_type: task
+  nav_section: secure
+- id: GUID-5211a63b-25f6-4f72-b9d6-874c6fa67b1b
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/secure/kube-yaml-kube-router-access-custom-certs-yaml.dita
+  title: Link sites using a custom RouterAccess, and custom certificates
+  dita_type: task
+  nav_section: secure
+- id: GUID-0f18f77d-d4bf-4c46-bb52-599ff8460bd9
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/troubleshoot/jtbd-7-troubleshoot.dita
+  title: Troubleshoot link failures and resolve routing issues
+  dita_type: concept
+  nav_section: troubleshoot
+- id: GUID-ebdf9ff1-b113-4ee4-bcc5-982015c84662
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/troubleshoot/troubleshooting-check-links.dita
+  title: Check links
+  dita_type: task
+  nav_section: troubleshoot
+- id: GUID-ec9b250c-639c-489f-8aec-788b5f68d836
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/troubleshoot/troubleshooting-check-sites.dita
+  title: Check sites
+  dita_type: task
+  nav_section: troubleshoot
+- id: GUID-25b2b2e2-43f9-4506-b53b-b41d48fd575b
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/troubleshoot/troubleshooting-debug-dump.dita
+  title: Create a Skupper debug tar file
+  dita_type: task
+  nav_section: troubleshoot
+- id: GUID-7481d9d1-b9a2-4881-923f-cdbcb385d3e0
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/troubleshoot/troubleshooting-dynamic-system-controller.dita
+  title: Troubleshoot the Dynamic System Controller
+  dita_type: task
+  nav_section: troubleshoot
+- id: GUID-40890b8f-66ec-448e-b6b1-07a2843441a3
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/upgrade/jtbd-8-upgrade.dita
+  title: Upgrade Red Hat Service Interconnect components
+  dita_type: concept
+  nav_section: upgrade
+- id: GUID-c840a6dd-b310-4ba3-8dc4-2fdb431e68fd
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/upgrade/overview-assembly-migrating.dita
+  title: Migrate from Service Interconnect v1
+  dita_type: concept
+  nav_section: upgrade
+- id: GUID-6e892524-12eb-44db-9366-77ae828936ad
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/upgrade/overview-migrating-links.dita
+  title: Link sites
+  dita_type: reference
+  nav_section: upgrade
+- id: GUID-ec1ba38d-fc2d-4e81-b8a1-7c2f2e344d9d
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/upgrade/overview-migrating-services.dita
+  title: Expose services
+  dita_type: reference
+  nav_section: upgrade
+- id: GUID-71b6009d-a407-44cb-91c4-893da82ebb62
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/upgrade/overview-migrating-sites.dita
+  title: Create sites
+  dita_type: reference
+  nav_section: upgrade
+- id: GUID-d6e215b9-8526-4272-bd30-25ee9d8fe784
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/upgrade/upgrade-cli-sites.dita
+  title: Upgrade the CLI and local system sites
+  dita_type: task
+  nav_section: upgrade
+- id: GUID-94de5db7-3042-4179-bf6c-c1b328a62459
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/upgrade/upgrade-operator-sites.dita
+  title: Upgrade the Red Hat Service Interconnect Operator and Kubernetes sites
+  dita_type: task
+  nav_section: upgrade
+- id: GUID-e4a94578-0664-40ef-a53b-f4fa3566c8c1
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/upgrade/upgrading-sites.dita
+  title: Upgrade Red Hat Service Interconnect sites
+  dita_type: concept
+  nav_section: upgrade
+- id: GUID-95dff592-6489-4ba7-b0b9-dce87da4e23d
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/whats-new/fixed-issues.dita
+  title: Fixed issues
+  dita_type: reference
+  nav_section: whats-new
+- id: GUID-53c63ef9-8e17-4607-9611-425a8b9807cf
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/whats-new/gathering-data.dita
+  title: Data to collect for a support case
+  dita_type: reference
+  nav_section: whats-new
+- id: GUID-741090ec-471b-4e63-9261-f169000616b5
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/whats-new/jtbd-1-release-notes.dita
+  title: Red Hat Service Interconnect release notes
+  dita_type: concept
+  nav_section: whats-new
+- id: GUID-7235b6fb-c77a-4d2b-bf4a-a01c9be0d50d
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/whats-new/known-issues.dita
+  title: Known issues
+  dita_type: reference
+  nav_section: whats-new
+- id: GUID-7a522ec9-f6fe-4468-83cd-50729d20968c
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/whats-new/long-term-support.dita
+  title: Long term support
+  dita_type: reference
+  nav_section: whats-new
+- id: GUID-e2321e05-4f7d-4824-85a6-e529a087ec4c
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/whats-new/new-and-changed-features.dita
+  title: New and changed features
+  dita_type: reference
+  nav_section: whats-new
+- id: GUID-bc8dec83-5b0c-487f-878d-a0b52eae24dd
+  dam_path: /content/dam/ccs-docs/service-interconnect/2/2-2/whats-new/technology-preview-features.dita
+  title: Technology Preview features
+  dita_type: reference
+  nav_section: whats-new
+mappings:
+- upstream: kube-cli/service-exposure.md#kube-exposing-services-cli
+  downstream: GUID-53a3af4d-a81a-4bcf-893a-a7ab968fb67f
+  derivation_type: direct_port
+- upstream: kube-cli/site-linking.md#kube-linking-cli
+  downstream: GUID-78ed7994-0388-4d17-a3e7-bad83d8c404b
+  derivation_type: direct_port
+- upstream: kube-cli/service-exposure.md#kube-creating-connector-cli
+  downstream: GUID-3e008924-e0a3-4c7d-b492-d123fcd9b5ab
+  derivation_type: direct_port
+- upstream: kube-cli/service-exposure.md#kube-creating-listener-cli
+  downstream: GUID-071e60de-72ba-45d1-959e-b6c90af39c4e
+  derivation_type: direct_port
+- upstream: kube-cli/site-linking.md#kube-custom-certs-cli
+  downstream: GUID-23d1e94b-59ab-4237-8e43-886d4f5d8860
+  derivation_type: direct_port
+- upstream: kube-cli/site-linking.md#kube-link-cli
+  downstream: GUID-4773f9c7-ec9e-47bd-9cb3-fd2469f319c7
+  derivation_type: direct_port
+- upstream: kube-cli/site-linking.md#kube-link-cost-cli
+  downstream: GUID-e2393ed2-0aca-43de-a555-4968ea008ad7
+  derivation_type: direct_port
+- upstream: kube-cli/site-linking.md#kube-proxy-cli
+  downstream: GUID-0263b8ee-6d1f-40ee-bb28-4adf1361d591
+  derivation_type: direct_port
+- upstream: kube-cli/site-linking.md#kube-token-cli
+  downstream: GUID-975da09c-2f9f-4eff-8951-c8c9e92a6462
+  derivation_type: direct_port
+- upstream: kube-yaml/service-exposure.md#kube-exposing-services-yaml
+  downstream: GUID-d5d2ff74-ae8f-4ddc-a1dc-0142e1492667
+  derivation_type: direct_port
+- upstream: kube-yaml/site-linking.md#kube-yaml-site-linking
+  downstream: GUID-604a6416-adf3-499e-aa3c-5df21df7e71b
+  derivation_type: direct_port
+- upstream: kube-yaml/site-linking.md#kube-access-yaml
+  downstream: GUID-2844dfd2-f273-41e5-bcc5-431e96844bc3
+  derivation_type: direct_port
+- upstream: kube-yaml/service-exposure.md#kube-creating-attachedconnector-yaml
+  downstream: GUID-ad768ddd-de9a-464e-9cb9-05e6d9c49b42
+  derivation_type: direct_port
+- upstream: kube-yaml/service-exposure.md#kube-creating-connector-yaml
+  downstream: GUID-4cf143f6-6ca7-4f68-84b8-1828f4920026
+  derivation_type: direct_port
+- upstream: kube-yaml/service-exposure.md#kube-creating-listener-yaml
+  downstream: GUID-441972f6-1877-4764-8cbb-81f0ea36e0a4
+  derivation_type: direct_port
+- upstream: kube-yaml/service-exposure.md#kube-creating-multikeylistener-yaml
+  downstream: GUID-cffc467c-6c48-4a23-9e0c-7239c7bad6df
+  derivation_type: direct_port
+- upstream: kube-yaml/site-linking.md#kube-link-cost-yaml
+  downstream: GUID-bb85f960-fab0-4c7a-bf00-177d4e13f9e0
+  derivation_type: direct_port
+- upstream: kube-yaml/site-linking.md#kube-yaml-custom-certs-info
+  downstream: GUID-f33ff515-89f0-4abe-8bf7-5820f35119b7
+  derivation_type: direct_port
+- upstream: system-cli/service-exposure.md#system-exposing-services-cli
+  downstream: GUID-0c463f15-8d68-4c5f-8562-89d22523f765
+  derivation_type: direct_port
+- upstream: system-cli/site-linking.md#system-linking-cli
+  downstream: GUID-9740c6b3-d876-4a3c-911a-ddc73f7728d6
+  derivation_type: direct_port
+- upstream: system-cli/service-exposure.md#system-creating-connector-cli
+  downstream: GUID-61f9dff6-507e-46cc-b0e7-c976264f86ad
+  derivation_type: direct_port
+- upstream: system-cli/service-exposure.md#system-creating-listener-cli
+  downstream: GUID-cfc17d3c-af0c-4cc3-8575-894ad480a3d4
+  derivation_type: direct_port
+- upstream: system-cli/site-linking.md#system-link-cli
+  downstream: GUID-0ebf06b2-8a24-48d2-935e-3b2d24b35421
+  derivation_type: direct_port
+- upstream: system-cli/site-linking.md#system-token-cli
+  downstream: GUID-2200f574-97e9-4d92-8b14-4e8a450b6f50
+  derivation_type: direct_port
+- upstream: system-yaml/service-exposure.md#system-yaml-service-exposure
+  downstream: GUID-0c6efe7a-ea13-4504-859a-07fb67fcf508
+  derivation_type: direct_port
+- upstream: system-yaml/site-linking.md#system-yaml-site-linking
+  downstream: GUID-c1766ac9-fff8-434b-9cec-cc4d4b69c809
+  derivation_type: direct_port
+- upstream: system-yaml/service-exposure.md#system-creating-connector-yaml
+  downstream: GUID-05149fa1-cdf4-4463-b277-4ca3816d53d1
+  derivation_type: direct_port
+- upstream: system-yaml/service-exposure.md#system-creating-listener-yaml
+  downstream: GUID-018c55d7-7083-4b3b-ae63-4c65c0ad2f17
+  derivation_type: direct_port
+- upstream: system-yaml/service-exposure.md#system-creating-multikeylistener-yaml
+  downstream: GUID-0764b9a9-146c-4c95-a2ae-9c01bf5d8e2a
+  derivation_type: direct_port
+- upstream: system-yaml/site-linking.md#system-link-yaml
+  downstream: GUID-33db902e-8f2a-4084-b4a7-4f8848eb6f00
+  derivation_type: direct_port
+- upstream: kube-cli/site-configuration.md#kube-creating-site-cli
+  downstream: GUID-ed4b59e9-27a3-4ff6-bcb4-2944e1c0f303
+  derivation_type: direct_port
+- upstream: kube-cli/site-configuration.md#kube-checking-cli
+  downstream: GUID-8784b06c-6030-4774-8173-feb608d8314f
+  derivation_type: direct_port
+- upstream: kube-cli/site-configuration.md#kube-creating-simple-site-cli
+  downstream: GUID-285fdcbd-65af-4327-b9d1-8c5430dd30db
+  derivation_type: direct_port
+- upstream: kube-cli/site-configuration.md#kube-deleting-site-cli
+  downstream: GUID-73ef287e-c27d-49b0-943c-02dfabea27cd
+  derivation_type: direct_port
+- upstream: kube-cli/site-configuration.md#kube-ha-cli
+  downstream: GUID-4c2ade08-9b92-4fa2-86f3-cc35af655ccf
+  derivation_type: direct_port
+- upstream: kube-yaml/site-configuration.md#kube-creating-site-yaml
+  downstream: GUID-b41834cd-1594-4c66-bf38-345aac402c42
+  derivation_type: direct_port
+- upstream: kube-yaml/site-configuration.md#kube-creating-simple-site-yaml
+  downstream: GUID-2993f3ac-0972-41e6-824b-99f1b19178a4
+  derivation_type: direct_port
+- upstream: kube-yaml/site-configuration.md#kube-ha-yaml
+  downstream: GUID-9d92e00c-4314-40da-a7bb-1bae6875f963
+  derivation_type: direct_port
+- upstream: kube-yaml/site-configuration.md#kube-site-resources-yaml
+  downstream: GUID-1a7656fd-0b39-460f-a9fe-7cca28a5c5eb
+  derivation_type: direct_port
+- upstream: system-cli/site-configuration.md#system-creating-site-cli
+  downstream: GUID-979ae33c-e9c4-4360-960a-9268a2f6aaf7
+  derivation_type: direct_port
+- upstream: system-cli/site-configuration.md#system-checking-cli
+  downstream: GUID-7fc37113-c3a3-42e8-ae80-27e5e1767604
+  derivation_type: direct_port
+- upstream: system-cli/site-configuration.md#system-creating-simple-site-cli
+  downstream: GUID-6518c893-3a21-4e2a-a808-a3b193fcc12e
+  derivation_type: direct_port
+- upstream: system-cli/site-configuration.md#system-creating-site-bundle
+  downstream: GUID-207454fa-e57f-46fe-ad4c-030dacfd1f82
+  derivation_type: direct_port
+- upstream: system-cli/site-configuration.md#system-deleting-site-cli
+  downstream: GUID-5a943426-a22a-4077-ad09-e9eb0660e95b
+  derivation_type: direct_port
+- upstream: system-yaml/site-configuration.md#system-yaml-site-configuration
+  downstream: GUID-95e81c14-c89e-4268-a064-4b56adf29845
+  derivation_type: direct_port
+- upstream: system-yaml/site-configuration.md#system-creating-simple-site-yaml
+  downstream: GUID-b317233a-f0c8-4194-b941-39dcba2eeeac
+  derivation_type: direct_port
+- upstream: overview/index.md#application-networks
+  downstream: GUID-34baeb84-9557-47d7-b6c6-f8ff25db99b1
+  derivation_type: direct_port
+- upstream: overview/load-balancing.md#overview-load-balancing
+  downstream: GUID-5598fe4d-8883-4838-b011-9230c935031d
+  derivation_type: direct_port
+- upstream: overview/index.md#skupper-overview
+  downstream: GUID-d542214f-440d-46cf-ba35-2be2df1d5189
+  derivation_type: direct_port
+- upstream: overview/connectivity.md#overview-connectivity
+  downstream: GUID-0c069875-10ca-4181-92fa-2d67c21d4914
+  derivation_type: direct_port
+- upstream: overview/index.md#skupper-routers
+  downstream: GUID-2e820e5a-43c4-4976-9632-1dc5fece0eba
+  derivation_type: direct_port
+- upstream: overview/routing.md#skupper-routing
+  downstream: GUID-2ed5d995-f83a-497f-8c91-ec9227757465
+  derivation_type: direct_port
+- upstream: overview/security.md#skupper-security
+  downstream: GUID-21a9c97a-a021-4182-b043-4ef728c26aab
+  derivation_type: direct_port
+- upstream: console/configuration.md#observer-config
+  downstream: GUID-d0281735-5965-4262-8f78-7c920299ff85
+  derivation_type: restructured
+- upstream: console/configuration.md#observer-config
+  downstream: GUID-5234e3a0-7605-4026-9a92-b6caf0de0269
+  derivation_type: restructured
+- upstream: console/configuration.md#observer-advanced
+  downstream: GUID-546ba121-9848-4dc6-a191-92fae410ef1a
+  derivation_type: direct_port
+- upstream: console/configuration.md#observer-authentication
+  downstream: GUID-d0cc4cb7-45c3-42d5-8f59-dd7a3d85aa7e
+  derivation_type: direct_port
+- upstream: console/configuration.md#observer-external-access
+  downstream: GUID-a3aa44f1-a785-4ac2-a07a-e0d3fcec8946
+  derivation_type: direct_port
+- upstream: console/configuration.md#observer-images
+  downstream: GUID-8e1d69e0-b12e-4e7e-b1c8-55dc644303c3
+  derivation_type: direct_port
+- upstream: console/configuration.md#observer-labels
+  downstream: GUID-76eb1c93-6ab8-4f3e-ab73-6b2c5cfc647b
+  derivation_type: direct_port
+- upstream: console/configuration.md#observer-metrics
+  downstream: GUID-b6ec038f-e96e-4537-8f81-540c2f4de72b
+  derivation_type: direct_port
+- upstream: console/configuration.md#observer-persistence
+  downstream: GUID-fc0022c1-d98c-420b-bb11-750721cf7405
+  derivation_type: direct_port
+- upstream: console/configuration.md#observer-prometheus
+  downstream: GUID-2d30e64d-1cbc-4c69-8721-07529138ac0d
+  derivation_type: direct_port
+- upstream: console/configuration.md#observer-resources
+  downstream: GUID-e88033a6-b2f4-4431-8ede-d7d50fac86ea
+  derivation_type: direct_port
+- upstream: console/configuration.md#observer-router
+  downstream: GUID-5acc26fd-ee9d-4e1a-8d2a-eca3aa417765
+  derivation_type: direct_port
+- upstream: console/configuration.md#observer-security
+  downstream: GUID-72519652-13f3-4fb6-a744-013479db3c75
+  derivation_type: direct_port
+- upstream: console/configuration.md#observer-service
+  downstream: GUID-b33508be-66ab-4bd3-acd6-d299c1240ab4
+  derivation_type: direct_port
+- upstream: console/configuration.md#observer-tls
+  downstream: GUID-b69071e4-44c5-4112-ae7b-620e84f570c5
+  derivation_type: direct_port
+- upstream: console/configuration.md#observer-tuning
+  downstream: GUID-6c402f68-6c47-4555-a7e2-fafe0bc78653
+  derivation_type: direct_port
+- upstream: console/configuration.md#observer-validation
+  downstream: GUID-bb960625-b272-4ffd-9311-f7181c52bb22
+  derivation_type: direct_port
+- upstream: console/index.md#console-quickstart
+  downstream: GUID-8245adc6-2ed1-4a0e-a89e-f415dce4c680
+  derivation_type: direct_port
+- upstream: kube-yaml/custom-certs.md#kube-link-custom-certs-yaml
+  downstream: GUID-b4ce7a86-1343-4d04-8012-cd416274b96e
+  derivation_type: direct_port
+- upstream: kube-yaml/custom-certs.md#kube-router-access-custom-certs-yaml
+  downstream: GUID-5211a63b-25f6-4f72-b9d6-874c6fa67b1b
+  derivation_type: direct_port
+- upstream: troubleshooting/index.md#checking-links
+  downstream: GUID-ebdf9ff1-b113-4ee4-bcc5-982015c84662
+  derivation_type: direct_port
+- upstream: troubleshooting/index.md#checking-sites
+  downstream: GUID-ec9b250c-639c-489f-8aec-788b5f68d836
+  derivation_type: direct_port
+- upstream: troubleshooting/index.md#debug-dump
+  downstream: GUID-25b2b2e2-43f9-4506-b53b-b41d48fd575b
+  derivation_type: direct_port
+- upstream: troubleshooting/index.md#dynamic-system-controller
+  downstream: GUID-7481d9d1-b9a2-4881-923f-cdbcb385d3e0
+  derivation_type: direct_port
+- upstream: overview/migrating.md#migrating
+  downstream: GUID-c840a6dd-b310-4ba3-8dc4-2fdb431e68fd
+  derivation_type: direct_port
+- upstream: overview/migrating.md#migrating-links
+  downstream: GUID-6e892524-12eb-44db-9366-77ae828936ad
+  derivation_type: direct_port
+- upstream: overview/migrating.md#migrating-services
+  downstream: GUID-ec1ba38d-fc2d-4e81-b8a1-7c2f2e344d9d
+  derivation_type: direct_port
+- upstream: overview/migrating.md#migrating-sites
+  downstream: GUID-71b6009d-a407-44cb-91c4-893da82ebb62
+  derivation_type: direct_port
+- upstream: install/index.md#kube-installing-controller-yaml
+  downstream: GUID-bc6a1e3f-0416-4756-8778-1cd8ad74beb5
+  derivation_type: direct_port
+- upstream: install/cli.md#installing-cli
+  downstream: GUID-57f56da4-4ea8-4757-b4c9-b51d50bc95df
+  derivation_type: direct_port
+- upstream: console/index.md#console
+  downstream: GUID-7b3d0a7d-aeb7-4b9d-8bfb-c61b256235ce
+  derivation_type: direct_port
+- upstream: overview/resources.md#kube-resources
+  downstream: GUID-925affc8-e4c1-4aed-9dce-14aad17e61af
+  derivation_type: direct_port
+- upstream: kube-yaml/custom-certs.md#kube-yaml-custom-certs
+  downstream: GUID-31012bda-4a82-491d-9db5-9f28f0eb4934
+  derivation_type: direct_port
+- upstream: troubleshooting/index.md#troubleshooting
+  downstream: GUID-0f18f77d-d4bf-4c46-bb52-599ff8460bd9
+  derivation_type: direct_port
+- upstream: install/upgrade.md#skupper-upgrading-local-sites
+  downstream: GUID-d6e215b9-8526-4272-bd30-25ee9d8fe784
+  derivation_type: direct_port
+- upstream: install/upgrade.md#skupper-upgrading-sites
+  downstream: GUID-d6e215b9-8526-4272-bd30-25ee9d8fe784
+  derivation_type: rewritten
+- upstream: install/upgrade.md#skupper-upgrading-sites
+  downstream: GUID-e4a94578-0664-40ef-a53b-f4fa3566c8c1
+  derivation_type: rewritten
+- upstream: refdog/topics/site-linking.md
+  downstream: GUID-e1de80d6-afdd-4b47-b5a2-ef191a216383
+  derivation_type: rewritten
+- upstream: console/index.md#console-exploring
+  downstream: GUID-74cd63b4-6dcd-4469-afef-099a40a22e77
+  derivation_type: rewritten
+- upstream: index.md
+  derivation_type: upstream_only
+- upstream: console/index.md#console-advanced
+  derivation_type: upstream_only
+- upstream: console/index.md#console-config-examples
+  derivation_type: upstream_only
+- upstream: console/index.md#console-validation
+  derivation_type: upstream_only
+- upstream: console/index.md#console-upgrade
+  derivation_type: upstream_only
+- upstream: console/index.md#console-uninstall
+  derivation_type: upstream_only
+- upstream: install/index.md#kube-installing-controller
+  derivation_type: upstream_only
+- upstream: install/index.md#kube-installing-controller-helm
+  derivation_type: upstream_only
+- upstream: install/upgrade.md#skupper-upgrading-local-controller
+  derivation_type: upstream_only
+- upstream: kube-cli/index.md#kube-cli
+  derivation_type: upstream_only
+- upstream: kube-yaml/custom-labels.md#kube-custom-labels
+  derivation_type: upstream_only
+- upstream: kube-yaml/custom-labels.md#kube-creating-label-template
+  derivation_type: upstream_only
+- upstream: kube-yaml/custom-labels.md#kube-label-template-scope
+  derivation_type: upstream_only
+- upstream: kube-yaml/custom-labels.md#kube-filtering-label-template
+  derivation_type: upstream_only
+- upstream: kube-yaml/custom-labels.md#kube-excluding-keys
+  derivation_type: upstream_only
+- upstream: kube-yaml/custom-labels.md#kube-multiple-label-templates
+  derivation_type: upstream_only
+- upstream: kube-yaml/custom-labels.md#kube-label-template-lifecycle
+  derivation_type: upstream_only
+- upstream: kube-yaml/custom-labels.md#kube-label-template-reference
+  derivation_type: upstream_only
+- upstream: kube-yaml/index.md#kube-yaml
+  derivation_type: upstream_only
+- upstream: overview/index.md#skupper
+  derivation_type: upstream_only
+- upstream: system-cli/index.md#system-cli
+  derivation_type: upstream_only
+- upstream: system-yaml/index.md#system-yaml
+  derivation_type: upstream_only
+- downstream: GUID-d436d396-c93e-4b07-91cd-cbfe2eda3034
+  derivation_type: downstream_only
+- downstream: GUID-4fdd2743-d935-4cca-b836-cafdfde9de88
+  derivation_type: downstream_only
+- downstream: GUID-a47b2d87-23e5-4cfa-95a9-a720641062ee
+  derivation_type: downstream_only
+- downstream: GUID-51a0d3e6-d65c-4ac4-bed2-537c79409eca
+  derivation_type: downstream_only
+- downstream: GUID-275d0146-6bf4-4705-a50a-8fa51c9c2582
+  derivation_type: downstream_only
+- downstream: GUID-42452c6e-8f46-4435-968c-5bdf505536d4
+  derivation_type: downstream_only
+- downstream: GUID-9d00e970-52a4-463e-bb7f-f50199c4a57d
+  derivation_type: downstream_only
+- downstream: GUID-4ce860a1-eff2-4ad4-bd23-7e0b4e235f76
+  derivation_type: downstream_only
+- downstream: GUID-71744477-9da4-4e0c-b73a-865d34d6b813
+  derivation_type: downstream_only
+- downstream: GUID-db64baa9-c35e-4d9a-bd94-5a3e2722a461
+  derivation_type: downstream_only
+- downstream: GUID-0bf8d494-79a6-4f50-9639-315d73057b3d
+  derivation_type: downstream_only
+- downstream: GUID-d689c796-d358-4e19-a77a-9bcde086cd07
+  derivation_type: downstream_only
+- downstream: GUID-652b72df-dbdc-4d5d-ab2f-0a3ac2b33a74
+  derivation_type: downstream_only
+- downstream: GUID-53ccd47a-bf59-47e2-a557-bef40a2685bc
+  derivation_type: downstream_only
+- downstream: GUID-f59f2a6f-862e-476d-93d5-57d5ea791d67
+  derivation_type: downstream_only
+- downstream: GUID-c1b7c944-0a94-4812-bbd3-bfd4ea6e864e
+  derivation_type: downstream_only
+- downstream: GUID-e6077f01-4967-41f1-9245-2b8c9b1e8051
+  derivation_type: downstream_only
+- downstream: GUID-26b25200-c087-4cd6-9501-9345a072d4d5
+  derivation_type: downstream_only
+- downstream: GUID-aa5ed8e2-4a2d-440b-91cb-c1ffca303441
+  derivation_type: downstream_only
+- downstream: GUID-a38da9da-c70d-45f3-b6f7-4a83e3b55c82
+  derivation_type: downstream_only
+- downstream: GUID-0cf80b23-b143-4e24-9776-6fb218ee3ee5
+  derivation_type: downstream_only
+- downstream: GUID-04f23280-4518-481e-b44d-1405cbd039f1
+  derivation_type: downstream_only
+- downstream: GUID-b069d3e4-f7d6-4410-9c06-e63cef65270d
+  derivation_type: downstream_only
+- downstream: GUID-c482d0cb-1647-4f34-a383-457bb27d2ee2
+  derivation_type: downstream_only
+- downstream: GUID-a7f6b273-ad9b-43cb-983f-19379a38d6d3
+  derivation_type: downstream_only
+- downstream: GUID-d5fabdc8-d4ae-4052-9656-bb4292458bda
+  derivation_type: downstream_only
+- downstream: GUID-4e074547-0635-423f-95ed-7a7dd4e93cd9
+  derivation_type: downstream_only
+- downstream: GUID-4233ad1f-8acc-4105-9d9e-9c90d8f1b748
+  derivation_type: downstream_only
+- downstream: GUID-8ec873f9-70dd-4481-9b64-845e3d800ee4
+  derivation_type: downstream_only
+- downstream: GUID-eee47559-5c5b-44f1-bd10-74c3b2504229
+  derivation_type: downstream_only
+- downstream: GUID-5ab1423c-eb4b-4229-99ab-a3324df1721b
+  derivation_type: downstream_only
+- downstream: GUID-07c261ef-153b-4396-ba46-7e309d92f5cc
+  derivation_type: downstream_only
+- downstream: GUID-c2a6127e-73c3-49f0-946e-e70cbe63748f
+  derivation_type: downstream_only
+- downstream: GUID-c3597655-518d-4a7b-a0bb-9f97ce90b5e2
+  derivation_type: downstream_only
+- downstream: GUID-df90e85e-bc1b-4c0c-8aa4-f2562469a2ac
+  derivation_type: downstream_only
+- downstream: GUID-96159b59-c8ca-44f1-b135-f9f0fa5febb8
+  derivation_type: downstream_only
+- downstream: GUID-a07af37a-5a70-423b-8987-3ea78badb3e8
+  derivation_type: downstream_only
+- downstream: GUID-40890b8f-66ec-448e-b6b1-07a2843441a3
+  derivation_type: downstream_only
+- downstream: GUID-94de5db7-3042-4179-bf6c-c1b328a62459
+  derivation_type: downstream_only
+- downstream: GUID-95dff592-6489-4ba7-b0b9-dce87da4e23d
+  derivation_type: downstream_only
+- downstream: GUID-53c63ef9-8e17-4607-9611-425a8b9807cf
+  derivation_type: downstream_only
+- downstream: GUID-741090ec-471b-4e63-9261-f169000616b5
+  derivation_type: downstream_only
+- downstream: GUID-7235b6fb-c77a-4d2b-bf4a-a01c9be0d50d
+  derivation_type: downstream_only
+- downstream: GUID-7a522ec9-f6fe-4468-83cd-50729d20968c
+  derivation_type: downstream_only
+- downstream: GUID-e2321e05-4f7d-4824-85a6-e529a087ec4c
+  derivation_type: downstream_only
+- downstream: GUID-bc8dec83-5b0c-487f-878d-a0b52eae24dd
+  derivation_type: downstream_only
